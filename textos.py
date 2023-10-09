@@ -1275,4 +1275,62 @@ def T281():
     return """Com um golpe da sua espada de fé, você corta a cabeça da Jibóia. Você desenrola o corpo gigantesco, libertando a Mulher-elfo, e tenta ressuscitá-la. Os olhos dela se abrem um pouco, mas não há esperança. Ela olha para você e sorri, depois murmura: “Obrigada. Sei que é tarde demais para mim, mas lhe direi o que já pude aprender. A saída está adiante, mas você precisa de gemas para destrancar a última porta. Uma delas é um diamante, mas não sei quais são as outras. Pena, não encontrei um diamante, mas aconselho-o a procurar um. Boa sorte.” Os olhos dela se fecham, e ela tomba no chão frio. Você a olha entristecido enquanto ela solta o último suspiro. Sabendo que ela não se importaria, retira-lhe os dois punhais e examina a mochila de couro que trazia. Dentro, você acha um pedaço de pão ázimo, um espelho e um amuleto de osso com a forma de um macaco. Se você quiser comer o pão, vá para 399. Se preferir pegar apenas o espelho e o amuleto e retornar ao túnel para dirigir-se ao norte, volte para 192."""
 
 
+def T282():
+    return """O túnel logo termina em uma encruzilhada. Parado lá sozinho e sem saber para que lado ir está um de seus rivais. É um dos Bárbaros. Você o chama, mas ele não responde; apenas olha fria e fixamente para você, segurando a acha com firmeza. Você anda até ele e pergunta para que lado está indo. Ele grunhe sua resposta, dizendo que está indo para o oeste, e, se quiser, você pode ir com ele. Se você quiser seguir para o oeste com o Bárbaro, volte para 22. Se preferir recusar a oferta e seguir para o leste sozinho, vá para 388."""
+
+def T283():
+    return """Você precisa se espremer e entrar fundo na fenda para se esconder completamente. Dessa posição desajeitada, você não consegue ver o dono dos pés que se arrastam, passando lentamente. Um minuto depois, tudo está quieto de novo, por isso você se esgueira de volta para o túnel e prossegue para o oeste. Volte para 109."""
+
+def T284():
+    return """Você bebeu uma poção encontrada em um livro de couro preto? Se você tiver bebido, vá para 398. Se não, volte para 57."""
+
+def T285():
+    return """Você cai pesadamente de costas, mas, felizmente, sua mochila suaviza o impacto. Você perde 1 ponto de HABILIDADE e 2 pontos de ENERGIA. A escuridão é quase total no fundo do poço, e você se arrasta, tateando. Repentinamente, sua mão toca alguma coisa fria, dura e lisa. O objeto é pequeno e redondo, mas você não consegue imaginar o que pode ser. Você o põe na mochila, esperando saber o que é quando sair do poço. Você continua a engatinhar e, adiante, topa com a parede do poço. É lisa demais para ser escalada, e você tem que escavar apoios nela com a espada. Isso toma muito tempo, mas, finalmente, você chega à boca do poço e sai dele pelo lado leste. Imediatamente, verifica a mochila, e descobre que o objeto encontrado é uma esfera de rubi vermelho vivo. Você fica absolutamente deslumbrado e se dirige para o leste com excelente disposição, assobiando suavemente. Volte para 237."""
+
+def T286():
+    return """Foi obviamente um erro ter largado suas armas, mas, pelo menos, agora você pode se apossar das do Ninja morto. Você escolhe uma das facas compridas e a longa espada curva. O fio da lâmina de aço é excepcionalmente duro, e você não consegue deixar de admirar-lhe a beleza terrificante. Acrescente 4 pontos de HABILIDADE e vá para 320."""
+
+def T287():
+    return """Você só tem tempo de ouvir o Gnomo dizer: “Uma coroa e dois crânios”, antes que um raio branco de energia parta da fechadura e atinja-lhe o peito, derrubando-o sem sentidos. Jogue um dado, some 1 ao resultado e subtraia o total da sua ENERGIA. Se você ainda estiver vivo, recupera os sentidos e ouve o Gnomo lhe dizer que tente de novo. Você sabe que colocou uma gema na ranhura certa, mas qual delas? Você suspira e tenta uma nova combinação.\n\nA	B	C\nEsmeralda	Diamante	Safira	Volte para 16\nDiamante	Safira	Esmeralda	Vá para 392\nSafira	Esmeralda	Diamante	Volte para 177\nEsmeralda	Safira	Diamante	Fique em 287\nDiamante	Esmeralda	Safira	Volte para 132\nSafira	Diamante	Esmeralda	Volte para 249"""
+
+def T288():
+    return """Você olha para a esquerda e vê Throm de pé sobre o Troll da Caverna que ele liquidou. O sangue que escorre do corte profundo que tem no ombro não parece preocupá-lo. Vocês revistam os corpos dos Trolls da Caverna, mas não encontram nada além de um anel de osso em um cordão de couro no pescoço de um deles. O anel tem um símbolo entalhado. Throm o reconhece e explica que deve ter pertencido a druidas do norte; trata-se de um antigo e poderoso talismã, capaz de aumentar-lhe os poderes, se seu corpo puder aceitá-lo. Throm recusa-se a tocá-lo, e aconselha que você também não o faça. Se você quiser pôr o anel, volte para 64. Se preferir continuar para o leste com Throm, volte para 221."""
+
+
+def T289():
+    return """A cobertura de pano sobe para o topo da gaiola, e nela, para seu horror, você vê o rosto de uma mulher velha, cujo cabelo é uma massa de serpentes que silvam. É a terrível MEDUSA! Teste sua Sorte. Se você tiver sorte, volte para 216. Se não tiver sorte, volte para 19."""
+
+def T290():
+    return """Jogue dois dados. Se o total for oito, volte para 152. Se o total for qualquer número diferente de oito, volte para 121."""
+
+def T291():
+    return """O túnel continua para o norte por uma longa distância, antes de fazer uma curva fechada para a direita. Ao virá-la, você chega a um beco sem saída. Somente a entrada de um escorrega de madeira na parede oferece alguma esperança de continuidade no caminho. Você resolve se arriscar e sobe no escorrega. Desliza suavemente e aterrissa sobre as costas num aposento. Volte para 90."""
+
+def T292():
+    return """Uma porta se torna visível na parede do lado esquerdo do túnel. Você escuta cuidadosamente junto à porta, mas não ouve nada. A porta não está trancada, e a maçaneta gira facilmente. Se você quiser abrir a porta, volte para 93. Se preferir prosseguir pelo túnel, volte para 230."""
+
+def T293():
+    return """Seguindo os três pares de pegadas molhadas pela passagem oeste do túnel, você logo chega a uma encruzilhada. Se quiser continuar para o oeste, seguindo dois pares de pegadas, volte para 137. Se quiser se dirigir para o norte, seguindo o terceiro par de pegadas, vá para 387."""
+
+def T294():
+    return """Você puxa o punhal do cinto com a mão livre e golpeia a língua da Besta Sangrenta. A fera urra de dor e rola para a frente, tanto quanto consegue, para tentar abocanhá-lo com as mandíbulas ensanguentadas. Do chão, você tem que lutar contra a fera como punhal. Reduza sua HABILIDADE em 2 pontos durante este combate, pois não está lutando com sua espada.\n\nBESTA SANGRENTA HABILIDADE 12 ENERGIA 10\n\nTão logo você vença sua primeira Série de Ataque, Teste sua Sorte. Se você tiver sorte, volte para 97. Se não tiver sorte, volte para 21."""
+
+def T295():
+    return """Correndo na direção da passagem em arco, você tropeça numa pedra e perde o equilíbrio. Você cai estatelado no chão, e, antes que tenha tempo de levantar-se, uma estalactite despenca, rasgando-lhe a perna com a ponta aguçada. Você perde 5 pontos de ENERGIA. Se ainda estiver vivo, volte para 206."""
+
+def T296():
+    return """Você percebe que adiante o túnel faz uma curva e depois continua para o norte. Alertado pelo som de vozes esganiçadas que sussurram e riem baixo, você pára antes da curva. Se quiser desembainhar a espada e olhar depois da curva, volte para 49. Se preferir caminhar de volta para a encruzilhada e seguir para o norte, volte para 241."""
+
+def T297():
+    return """A perda de suas posses, obtidas com tanta dificuldade, está se tornando um problema. Você perde 1 ponto de SORTE. Sem mesmo parar para agradecer, Erva o empurra para fora do quarto por uma porta na parede leste. Ei-lo parado no fim de um outro túnel. Vá para 305."""
+
+def T298():
+    return """Há uma mochila encostada na parede do túnel. Você se pergunta se ela pertenceria a um de seus rivais. Se você quiser olhar dentro da mochila, vá para 304. Se preferir continuar para o norte, volte para 279."""
+
+def T299():
+    return """A porta abre para uma grande câmara, onde você se choca ao ver que um de seus rivais obviamente encontrou morte súbita ao ser perfurado. É um dos Bárbaros, e ele está empalado em vários espigões de ferro bem longos, presos a uma tábua projetada de dentro do chão. O piso está coberto de lixo e detritos, escondendo um arame no qual ele deve ter pisado, disparando assim o mecanismo da tábua com espigões. Numa alcova na parede do outro lado, você pode ver uma taça de prata sobre uma pequena mesa de madeira. Você:\n\nIrá até o Bárbaro para revistá-lo? Volte para 126\nCaminhará na direção da alcova? Volte para 41\nFechará a porta e continuará para o oeste? Volte para 83"""
+
+def T300():
+    return """Você golpeia o espelho com a espada, com toda sua força, mas isso de nada adianta: o espelho não quebra, e o Demônio do Espelho continua a avançar. Se você quiser tentar partir o espelho de novo, volte para 141. Se, em vez disso, preferir atacar o Demônio do Espelho, vá para 327."""
+
 print(T249())
