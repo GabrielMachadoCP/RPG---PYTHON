@@ -10,11 +10,4 @@ def fichaValores() :
         energia = random.randint(1,6) + random.randint(1,6) + 12
         sorte = random.randint(1,6) + 6
 
-        ficha = {
-                "Habilidade" : habilidade,
-                "Energia" : energia,
-                "Sorte" : sorte,
-                "Provisões" : 10
-                }
-
-        return ficha
+        return habilidade, energia, sorte
