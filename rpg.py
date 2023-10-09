@@ -175,15 +175,20 @@ print("Bem-vindo ao Calabouço da Morte")
 print("=" * 50)
 print("SUA FICHA\n")
 
+#Recuperando valores para a ficha com a função
 habilidade, energia, sorte = ficha.fichaValores()
 
 ficha = {
         "Habilidade" : habilidade,
         "Energia" : energia,
         "Sorte" : sorte,
-        "Provisões" : 10
+        "Provisoes" : 10
         }
 
+print(f"Habilidade: {ficha['Habilidade']}")
+print(f"Energia: {ficha['Energia']}")
+print(f"Sorte: {ficha['Sorte']}")
+print(f"Provisões: {ficha['Provisoes']}")
 print("=" * 50)
 
 #Começando a condição de looping
