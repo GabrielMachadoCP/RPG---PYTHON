@@ -13,7 +13,7 @@ def T1() :
 
 
 def T2() :
-    return """O Escorpião consegue prendêlo nas garras por tempop suficiente para mover a cauda segmentada para frente, por sobre a cabeça, e cravar em você o ferrão venenoso. O efeito é fatal, e você desava no chão da Arena da Morte, imaginando se Throm conseguirá vencer."""
+    return "O Escorpião consegue prendêlo nas garras por tempop suficiente para mover a cauda segmentada para frente, por sobre a cabeça, e cravar em você o ferrão venenoso. O efeito é fatal, e você desava no chão da Arena da Morte, imaginando se Throm conseguirá vencer."
 
 
 def T3() :

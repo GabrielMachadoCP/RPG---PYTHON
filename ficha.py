@@ -9,5 +9,5 @@ def fichaValores() :
         habilidade = random.randint(1,6) + 6
         energia = random.randint(1,6) + random.randint(1,6) + 12
         sorte = random.randint(1,6) + 6
-
+        
         return habilidade, energia, sorte
