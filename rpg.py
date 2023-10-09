@@ -174,7 +174,8 @@ print("Bem-vindo ao Calabouço da Morte")
 #Mostrando a ficha
 print("=" * 50)
 print("SUA FICHA\n")
-habilidade, energia, sorte = fichaValores()
+
+habilidade, energia, sorte = ficha.fichaValores()
 
 ficha = {
         "Habilidade" : habilidade,
@@ -183,8 +184,6 @@ ficha = {
         "Provisões" : 10
         }
 
-for i in ficha.fichaValores() :
-    print(i)
 print("=" * 50)
 
 #Começando a condição de looping
