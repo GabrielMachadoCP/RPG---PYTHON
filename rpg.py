@@ -5,7 +5,6 @@
 
 #Imports
 import random
-
 import ficha
 import textos
 
@@ -168,6 +167,9 @@ inimigos = {
     }
 }
 
+#Itens
+pecas_de_ouro = 0
+
 #Apresentação
 print("Bem-vindo ao Calabouço da Morte")
 
@@ -192,10 +194,16 @@ print(f"Provisões: {ficha['Provisoes']}")
 print("=" * 50)
 
 #Começando a condição de looping
-# while energia != 0 or energia > 0 :
-
-#Condição inicial:
-#Quer abrir a caixa? Sim(270) e Não (66)
-
-#66
-#Quer ir para Oeste ou Leste? Leste(119) e Oeste (293)
+print(textos.T1())
+resposta = input().lower()
+if resposta == "sim":
+    #ganha duas peças de ouro
+    pecas_de_ouro + 2
+    print(textos.T66())
+    resposta = input().lower()
+    if resposta == "sim":
+        print(textos.T293())
+    elif resposta == "não":
+        print(textos.T119())
+elif resposta == "não":
+    print(textos.T66())
