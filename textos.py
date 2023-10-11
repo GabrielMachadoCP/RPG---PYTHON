@@ -41,7 +41,7 @@ def T8() :
 
 
 def T9() :
-    return """\nOs Hobgoblins não têm nada que lhe seja útil, por isso você resolve abrir o saco no chão. Dentro, acha uma moringa de barro arrolhada. Você a desarrolha e cheira o líquido que contém. O odor é penetrante e acre. Se quiser beber um pouco do líquido, vá para 158. Se quiser mergulhar um pedaço de pano nele, vá para 375.\n"""
+    return """\nOs Hobgoblins não têm nada que lhe seja útil, por isso você resolve abrir o saco no chão. Dentro, acha uma moringa de barro arrolhada. Você a desarrolha e cheira o líquido que contém. O odor é penetrante e acre. quer beber um pouco do líquido?\n"""
 
 
 def T10() :
@@ -169,7 +169,7 @@ def T36() :
 
 
 def T37() :
-    return """\nA passagem se alarga em uma ampla caverna, mais escura, mas muito mais seca. As pegadas desaparecem gradualmente à sua frente. Há um grande ídolo no centro da caverna, com cerca de seis metros de altura. Os olhos da estátua são jóias, cada uma do tamanho do seu punho. Duas criaturas empalhadas, com aparência de pássaros, encontram-se de pé em cada lado do ídolo. Se você quiser subir no ídolo para pegar as jóias, vá para 351. Se preferir atravessar a caverna para o túnel na parede do outro lado, vá para 239.\n"""
+    return """\nA passagem se alarga em uma ampla caverna, mais escura, mas muito mais seca. As pegadas desaparecem gradualmente à sua frente. Há um grande ídolo no centro da caverna, com cerca de seis metros de altura. Os olhos da estátua são jóias, cada uma do tamanho do seu punho. Duas criaturas empalhadas, com aparência de pássaros, encontram-se de pé em cada lado do ídolo. Quer pegar as joias?\n"""
 
 
 def T38() :
@@ -479,7 +479,7 @@ def T109():
 
 
 def T110():
-    return "\nO túnel logo faz uma outra curva fechada para a direita. Seguindo para o leste, você chega a uma estranha obstrução: uma linha de 12 postes de madeira atravessados no túnel. Eles estão fixos às paredes a cerca de meio metro do chão, com um espaço de um metro entre eles. Se você quiser caminhar entre os postes, volte para 58. Se preferir subir pelos postes e passar por sobre a obstrução, vá para 223.\n"
+    return "\nO túnel logo faz uma outra curva fechada para a direita. Seguindo para o leste, você chega a uma estranha obstrução: uma linha de 12 postes de madeira atravessados no túnel. Eles estão fixos às paredes a cerca de meio metro do chão, com um espaço de um metro entre eles. (1) Caminhar entre os postes. (2) Subir pelos postes e passar por sobre a obstrução.\n"
 
 
 def T111():
@@ -631,7 +631,7 @@ def T136():
 
 
 def T137():
-    return """\nCaminhando pelo túnel, você se surpreende com um grande sino de ferro pendurado no teto. Se quiser tocar o sino, vá para 220. Se preferir contorná-lo e prosseguir para o oeste, vá para 362.\n"""
+    return """\nCaminhando pelo túnel, você se surpreende com um grande sino de ferro pendurado no teto. Quer tocar o sino?\n"""
 
 
 def T138():
@@ -1279,7 +1279,7 @@ def T292():
     return """\nUma porta se torna visível na parede do lado esquerdo do túnel. Você escuta cuidadosamente junto à porta, mas não ouve nada. A porta não está trancada, e a maçaneta gira facilmente. Se você quiser abrir a porta, volte para 93. Se preferir prosseguir pelo túnel, volte para 230.\n"""
 
 def T293():
-    return """\nSeguindo os três pares de pegadas molhadas pela passagem oeste do túnel, você logo chega a uma encruzilhada. Se quiser continuar para o oeste, seguindo dois pares de pegadas, volte para 137. Se quiser se dirigir para o norte, seguindo o terceiro par de pegadas, vá para 387.\n"""
+    return """\nSeguindo os três pares de pegadas molhadas pela passagem oeste do túnel, você logo chega a uma encruzilhada. Quer continuar indo a Oeste?\n"""
 
 def T294():
     return """\nVocê puxa o punhal do cinto com a mão livre e golpeia a língua da Besta Sangrenta. A fera urra de dor e rola para a frente, tanto quanto consegue, para tentar abocanhá-lo com as mandíbulas ensanguentadas. Do chão, você tem que lutar contra a fera como punhal. Reduza sua HABILIDADE em 2 pontos durante este combate, pois não está lutando com sua espada.\n\nBESTA SANGRENTA HABILIDADE 12 ENERGIA 10\n\nTão logo você vença sua primeira Série de Ataque, Teste sua Sorte. Se você tiver sorte, volte para 97. Se não tiver sorte, volte para 21.\n"""
@@ -1443,7 +1443,7 @@ def T345():
     return "\nVocê está prestes a entrar no aposento quando a Poção de Detecção de Cilada começa a fazer efeito, e você é dominado por uma terrível premonição. Há uma armadilha mortal neste aposento. Você resolve não entrar e continua para o norte pelo túnel. Volte para 252.\n"
 
 def T346():
-    return "\nVocê tira a bota do pé e se esforça para estendê-la até o sino e travar-lhe a vibração. Aos poucos, o sino vai parando de vibrar, e a dor no seu corpo diminui gradualmente. Você consegue se levantar, mas não afasta a bota do sino até que ele esteja completamente imóvel. Você calça a bota e continua a jornada para o oeste. Vá para 362.\n"
+    return "\nVocê tira a bota do pé e se esforça para estendê-la até o sino e travar-lhe a vibração. Aos poucos, o sino vai parando de vibrar, e a dor no seu corpo diminui gradualmente. Você consegue se levantar, mas não afasta a bota do sino até que ele esteja completamente imóvel. Você calça a bota e continua a jornada para o oeste.\n"
 
 def T347():
     return "\nO Anão sacode a cabeça, dizendo: 'Só músculos, sem inteligência, não bastam para conquistar a Prova dos Campeões. Sinto dizer que você fracassou. Você não terá permissão para ir embora, pois poderá revelar os segredos do calabouço para outros. Todavia, você conseguiu muito chegando tão longe, e eu o indicarei para meu servo pelos anos futuros para preparar o calabouço para os novos competidores'.\n"
