@@ -3,18 +3,23 @@
 # Gabriel Pimentel  RM 99880
 # Hellen Assis      RM 98284
 
-# def intro() :
-#     return "Fang era uma cidade pequena e com"
-
-
-def separacao() :
-    print("=" * 50)
+def intro() :
+    return """Fang era uma cidade pequena e comum na província setentrional de Chiang Mai. Situada às margens do rio Kok, constituía-se num ponto de parada conveniente para os comerciantes e passageiros que se deslocavam pelo rio durante a maior parte do ano. Umas poucas barcaças, jangadas e, às vezes, um grande barco a vela podiam ser encontrados no atracadouro de Fang. Mas tudo isso foi há muito tempo, antes da criação da Prova dos Campeões. Agora, uma vez por ano, o rio fica apinhado de barcos, trazendo as pessoas que chegam de centenas de quilômetros ao redor, na esperança de testemunhara quebra de uma antiga tradição em Fang e ver alguém vitorioso na Prova dos Campeões.
+    \nTodo ano, no dia 10 de maio, guerreiros e heróis vêm para Fang, a fim de enfrentar a prova mais importante de suas vidas. A sobrevivência é improvável, todavia muitos correm o risco, pois o prêmio é excelente – uma bolsa de 10 mil Peças de Ouro e a libertação de Chiang Mai. Contudo, tornar-se Campeão não é tarefa simples. Há alguns anos, um poderoso barão de Fang, chamado Sukumvit, resolveu chamar a atenção geral para a sua cidade, criando um campeonato sem igual. Com a ajuda dos habitantes, construiu um labirinto nas profundezas da encosta atrás de Fang, do qual só havia um modo de sair. O labirinto foi povoado com todos os tipos de monstros pavorosos, além de armadilhas e ardis mortais. Sukumvit o havia desenhado com detalhes meticulosos, de modo que quem quer que se dispusesse a enfrentar o desafio teria que usar tanto a inteligência quanto a habilidade com as armas. Quando finalmente ficou certo de que tudo estava pronto, resolveu testar o labirinto. Escolheu 10 de seus melhores guardas e mandou-os, muito bem armados, para o interior do labirinto. Nunca mais foram vistos. A história do infeliz destino dos guardas logo correu mundo.
+    \nEntão, Sukumvit anunciou a primeira Prova dos Campeões. Emissários e editais divulgaram o desafio: 10 mil Peças de Ouro, e a libertação de Chiang Mai, para qualquer pessoa que sobrevivesse aos perigos do labirinto de Fang. No primeiro ano, 17 bravos guerreiros tentaram "A Caminhada", como ficou mais tarde conhecida a prova. Ninguém retornou. Com o passar dos anos, a Prova dos Campeões atraía mais e mais desafiantes e espectadores. Fang prosperou e se preparava com meses de antecedência para o espetáculo que patrocinava a cada mês de maio. Acidade era decorada, contratavam-se músicos, dançarinos, comedores de fogo, ilusionistas e todo tipo de artistas, e se registravam as inscrições de indivíduos esperançosos que pretendiam realizar "A Caminhada". Na última semana de abril, as pessoas de Fang e seus visitantes iniciavam uma desvairada comemoração. Cantavam, bebiam, dançavam e riam até o raiar do dia 12 de maio, quando a cidade se amontoava nos portões do labirinto para ver o primeiro desafiante do ano avançar para enfrentar a Prova dos Campeões.
+    \nTendo visto um dos comunicados de Sukumvit pregado em uma árvore, você resolve que este ano tentará "A Caminhada". Durante os últimos cinco anos, você tem-se sentido atraído, não pelas recompensas, mas pelo simples fato de que ninguém até hoje conseguiu emergir vitorioso do labirinto. Você pretende fazer com que este seja o ano no qual um Campeão será coroado! Reunindo uns poucos pertences, você parte imediatamente. Dois dias de caminhada para o oeste levam-no à costa, onde você entra na maldita Port Blacksand. Sem perder tempo nessa cidade de ladrões, você compra sua passagem em um pequeno barco que veleja em direção ao norte, para a foz do rio Kok; de lá, você sobe o rio de jangada por quatro dias, até finalmente chegar a Fang.
+    \nA Prova começa dentro de três dias, e a cidade está num clima quase histérico de excitação. Você faz sua inscrição e recebe um lenço roxo para amarrar em volta do braço, o qual informa a todos sua condição de candidato. Durante três dias, você goza da melhor hospitalidade de Fang, sendo tratado como um semideus. Durante a longa celebração, quase esquece seu propósito; mas, na noite anterior à Prova, a magnitude da tarefa à sua frente começa a dominar-lhe os pensamentos. Mais tarde, você é levado para um alojamento especial e conduzido a seu quarto. Há uma esplêndida cama de quatro colunas com lençóis de cetim para ajudá-lo a repousar. Mas há pouco tempo para dormir.
+    \nLogo antes da aurora, um toque de clarim o desperta de seus vívidos sonhos povoados de poços flamejantes e aranhas negras gigantescas. Minutos depois alguém bate à porta, e soa uma voz de homem que diz: "Seu desafio começará em breve. Por favor, esteja pronto para partir em 10 minutos." Você sai da cama, caminha até a janela e abre os postigos. Pessoas já se acotovelam nas ruas, deslocando-se silenciosamente na bruma da manhã - espectadores a caminho do labirinto, sem dúvida, esperando garantir bons lugares para observar aos competidores. Você se afasta e caminha até uma mesa de madeira, onde está sua espada de confiança. Apanhando-a, golpeia o ar com um giro poderoso, imaginando que feras sua lâmina afiada poderá ter que enfrentar em breve. Em seguida, abre a porta que dá para o corredor. Um homem pequeno de olhos puxados o saúda, inclinando-se até o chão, quando você sai de seu quarto. "Por favor, siga-me", ele diz. Ele vira para a esquerda e caminha rapidamente na direção das escadas no fim do corredor.
+    \nSaindo do alojamento, ele dispara por alamedas estreitas entre as casas, e você tem que andar depressa para acompanhá-lo. Logo chegam a uma estrada larga de terra batida, ladeada por multidões que vibram. Ao verem seu lenço roxo, eles gritam ainda mais alto e atiram-lhe flores. As sombras compridas lançadas pelas pessoas à sua frente vão diminuindo à medida que o brilhante sol dourado sobe no céu da manhã. Ali, diante da multidão ruidosa e vibrante, você se sente estranhamente solitário, consciente das provações que o esperam. De repente, você sente um puxão na camisa e vê seu pequeno guia acenando freneticamente para que o siga. Adiante, vê a encosta que se ergue e a entrada escura de um túnel que desaparece nas profundezas de seu interior. Ao se aproximar, repara em dois grandes pilares de pedra em cada um dos lados da entrada do túnel. Os pilares estão cobertos de entalhes ornamentados: serpentes que se contorcem, demônios, divindades, cada um deles parecendo gritar uma advertência silenciosa para aqueles que passam.
+    \nVocê vê o próprio Barão Sukumvit de pé na entrada, esperando para cumprimentar os concorrentes da Prova dos Campeões. Você conta cinco outros fazendo fila orgulhosamente, seus lenços roxos visíveis para que todos os notem. Há dois bárbaros de peito nu, vestidos com peles. Eles estão completamente imóveis, as pernas retas e levemente afastadas, os braços esticados para frente, pousados no cabo de suas longas achas de guerra de dois gumes.
+    \nUma mulher-elfo esguia, de cabelos dourados e olhos verdes de felino, ajusta o cinturão de través, cheio de punhais, que lhe envolve a túnica de couro. Dos outros dois homens restantes, um está coberto da cabeça aos pés por uma armadura de chapas de ferro com um elmo emplumado e um escudo que exibe um timbre; o outro está envolto em vestes negras, somente seus olhos escuros aparecendo em meio aos panos pretos que lhe envolvem o rosto. Facas longas, um garrote de fio de aço e outras armas mortais silenciosas pendem-lhe do cinto. Os cinco concorrentes demonstram ter notado sua chegada com movimentos quase imperceptíveis de cabeça, e você se volta para olhar de frente, pela última vez, a multidão exultante. Subitamente, um silêncio cai sobre a multidão, quando o Barão Sukumvit dá um passo adiante, segurando seis varas de bambu. Você tira uma delas da mão estendida e lê a palavra "Quinto". Então, a Prova começa.
+    \nO cavaleiro é o primeiro. Ele saúda a multidão antes de desaparecer no túnel; meia hora depois é seguido pela mulher-elfo. Em seguida, vai um dos bárbaros; depois, o assassino negro. Agora é a sua vez de saudar a multidão. Segurando o lenço roxo bem alto, você enche os pulmões de ar fresco e puro uma última vez antes de se virar para passar entre os pilares de pedra e penetrar no labirinto do poderoso Barão Sukumvit, a fim de enfrentar perigos desconhecidos na "Caminhada" pelo Calabouço da Morte."""
 
 
 def T1() :
-    return """O clamor dos espectadores excitados some gradualmente atrás de você, que se aventura cada vez mais fundo na penumbra do túnel da caverna.
+    return """\nO clamor dos espectadores excitados some gradualmente atrás de você, que se aventura cada vez mais fundo na penumbra do túnel da caverna.
     \nGrandes cristais pendem do teto do túnel a intervalos de 20 metros, irradiando uma luz suave, apenas suficiente para que se veja por onde anda. À medida que seus olhos vão pouco a pouco se acostumando à quase escuridão você começa a ver movimentos à sua volta. Aranhas e besouros sobem e descem pelas paredes entalhadas, desaparecendo em frestas e gretas ao sentir sua aproximação; ratazanas e ratos correm pelo chão à sua frente. Pingos de água caem em pequenas poças com um sinistro som gotejante que ecoa pelo túnel. O ar é frio, úmido e pesado. Depois de caminhar lentamente pelo túnel por uns cinco minutos, você chega a uma mesa de pedra encostada contra a parede à sua esquerda. Nela há seis caixas, uma das quais tem o seu nome pintado na tampa.
-    \nVocê: \n(1)Abre a caixa\n(2)Continua caminhando para o norte"""
+    \nVocê: \n(1)Abre a caixa\n(2)Continua caminhando para o norte\n"""
 
 
 def T2() :
@@ -46,7 +51,7 @@ def T8() :
 
 
 def T9() :
-    return """Os Hobgoblins não têm nada que lhe seja útil, por isso você resolve abrir o saco no chão. Dentro, acha uma moringa de barro arrolhada. Você a desarrolha e cheira o líquido que contém. O odor é penetrante e acre. 
+    return """\nOs Hobgoblins não têm nada que lhe seja útil, por isso você resolve abrir o saco no chão. Dentro, acha uma moringa de barro arrolhada. Você a desarrolha e cheira o líquido que contém. O odor é penetrante e acre. 
     \nVocê: \n(1)Bebe um pouco do líquido\n(2)Mergulha um pedaço de pano nele"""
 
 
@@ -153,7 +158,7 @@ def T31() :
 
 
 def T32() :
-    return """Você logo chega a uma outra encruzilhada no túnel. Um braço leva para o leste, mas as pegadas úmidas que você vem seguindo continuam para o norte, e você resolve continuar na trilha delas."""
+    return """\nVocê logo chega a uma outra encruzilhada no túnel. Um braço leva para o leste, mas as pegadas úmidas que você vem seguindo continuam para o norte, e você resolve continuar na trilha delas."""
 
 
 def T33() :
@@ -161,7 +166,7 @@ def T33() :
 
 
 def T34() :
-    return """Você tenta forçar por baixo da esmeralda com a ponta da espada. Para sua grande surpresa, a esmeralda se despedaça com o contato, soltando um jato de gás venenoso diretamente no seu rosto. O gás o faz desmaiar, e você solta a corda, despenca do ídolo e cai no chão de pedra. Sua aventura termina aqui."""
+    return """\nVocê tenta forçar por baixo da esmeralda com a ponta da espada. Para sua grande surpresa, a esmeralda se despedaça com o contato, soltando um jato de gás venenoso diretamente no seu rosto. O gás o faz desmaiar, e você solta a corda, despenca do ídolo e cai no chão de pedra. Sua aventura termina aqui."""
 
 
 def T35() :
@@ -174,7 +179,7 @@ def T36() :
 
 
 def T37() :
-    return """A passagem se alarga em uma ampla caverna, mais escura, mas muito mais seca. As pegadas desaparecem gradualmente à sua frente. Há um grande ídolo no centro da caverna, com cerca de seis metros de altura. Os olhos da estátua são jóias, cada uma do tamanho do seu punho. Duas criaturas empalhadas, com aparência de pássaros, encontram-se de pé em cada lado do ídolo.
+    return """\nA passagem se alarga em uma ampla caverna, mais escura, mas muito mais seca. As pegadas desaparecem gradualmente à sua frente. Há um grande ídolo no centro da caverna, com cerca de seis metros de altura. Os olhos da estátua são jóias, cada uma do tamanho do seu punho. Duas criaturas empalhadas, com aparência de pássaros, encontram-se de pé em cada lado do ídolo.
     \nVocê: \n(1)Sobe no ídolo para pegar as jóias\n(2)Atravessa a caverna para o túnel na parede do outro lado"""
 
 
@@ -248,7 +253,7 @@ def T53() :
 
 
 def T54() :
-    return "O laço se solta e você consegue tirá-lo do pescoço do ídolo com uma sacudidela. Ele cai ao chão com um ruído alto. Você enrola a corda rapidamente e a coloca na mochila. Sem perder mais tempo na caverna, corre para o túnel na parede norte."
+    return "\nO laço se solta e você consegue tirá-lo do pescoço do ídolo com uma sacudidela. Ele cai ao chão com um ruído alto. Você enrola a corda rapidamente e a coloca na mochila. Sem perder mais tempo na caverna, corre para o túnel na parede norte."
 
 
 def T55() :
@@ -265,7 +270,7 @@ def T57() :
 
 
 def T58() :
-    return "Você caminha lentamente entre os postes, tomando cuidado para não tocar em nenhum deles." #Jogue dois dados. Se o total for igual ou menor que seu índice de HABILIDADE, vá para 80. Se o total for maior que seu índice de HABILIDADE, vá para 246.
+    return "\nVocê caminha lentamente entre os postes, tomando cuidado para não tocar em nenhum deles. Jogue dois dados."
 
 
 def T59() :
@@ -307,7 +312,8 @@ def T65() :
 
 
 def T66() :
-    return "Depois de caminhar pelo túnel por alguns minutos, você chega a uma encruzilhada. Uma seta branca pintada na parede aponta para o oeste. No chão, você vê pegadas molhadas, feitas por aqueles que entraram antes de você. É difícil ter certeza, mas parece que três deles seguiram a direção da seta, enquanto um resolveu ir para o leste. Se você quiser ir para o oeste, vá para 293. Se preferir ir para o leste, vá para 119."
+    return """\nDepois de caminhar pelo túnel por alguns minutos, você chega a uma encruzilhada. Uma seta branca pintada na parede aponta para o oeste. No chão, você vê pegadas molhadas, feitas por aqueles que entraram antes de você. É difícil ter certeza, mas parece que três deles seguiram a direção da seta, enquanto um resolveu ir para o leste.
+    \nVocê: \n(1)Vai para o oeste\n(2)Vai para o leste\n"""
 
 
 def T67() :
@@ -363,7 +369,7 @@ def T79() :
 
 
 def T80() :
-    return "Você vai com calma e consegue passar pelo último poste sem ter tocado em nenhum deles. Corre para o leste, ainda seguindo os dois pares de pegadas. Vá para 313."
+    return "\nVocê vai com calma e consegue passar pelo último poste sem ter tocado em nenhum deles. Corre para o leste, ainda seguindo os dois pares de pegadas."
 
 
 def T81() :
@@ -399,7 +405,7 @@ def T88() :
 
 
 def T89() :
-    return "De volta à solidez do chão da caverna, você tenta sacudir a corda para que saia do pescoço do ídolo. Teste sua Sorte. Se você tiver sorte, volte para 54. Se não tiver sorte, vá para 261."
+    return "\nDe volta à solidez do chão da caverna, você tenta sacudir a corda para que saia do pescoço do ídolo. Teste sua Sorte."
 
 
 def T90() :
@@ -489,7 +495,8 @@ def T109() :
 
 
 def T110() :
-    return "O túnel logo faz uma outra curva fechada para a direita. Seguindo para o leste, você chega a uma estranha obstrução: uma linha de 12 postes de madeira atravessados no túnel. Eles estão fixos às paredes a cerca de meio metro do chão, com um espaço de um metro entre eles. Se você quiser caminhar entre os postes, volte para 58. Se preferir subir pelos postes e passar por sobre a obstrução, vá para 223."
+    return """\nO túnel logo faz uma outra curva fechada para a direita. Seguindo para o leste, você chega a uma estranha obstrução: uma linha de 12 postes de madeira atravessados no túnel. Eles estão fixos às paredes a cerca de meio metro do chão, com um espaço de um metro entre eles.
+    \nVocê: \n(1)Caminha entre os postes\n(2)Sobe pelos postes e passa sobre a obstrução"""
 
 
 def T111() :
@@ -534,10 +541,8 @@ Volte para 60."""
 
 
 def T119() :
-    return """Adiante, você pode ver um grande obstáculo no chão do túnel, embora esteja escuro demais para saber exatamente o que é.
-As pegadas molhadas que você vem seguindo continuam até a obstrução.
-Se você quiser continuar para o leste, volte para 56.
-Se preferir voltar para a encruzilhada e seguir para o oeste, vá para 293."""
+    return """\nAdiante, você pode ver um grande obstáculo no chão do túnel, embora esteja escuro demais para saber exatamente o que é. As pegadas molhadas que você vem seguindo continuam até a obstrução.
+    \nVocê: \n(1)Continua para o leste\n(2)Volta para a encruzilhada e seguir para o oeste"""
 
 
 def T120() :
@@ -610,12 +615,7 @@ def T129() :
     Tentará, de cima da muralha, fisgar O DIABO DO POÇO com o gancho de ferro?	Vá para 167"""
 
 def T130() :
-    return """Os Hobgoblins param de lutar imediatamente. Eles não entendem o que você está dizendo e rosnam agressivamente. Em seguida, desembainham as espadas curtas e avançam para atacá-lo. Lute com um de cada vez.
-                        HABILIDADE      ENERGIA
-    Primeiro HOBGOBLIN  7               5
-    Segundo HOBGOBLIN   6               5
-    
-    Se você vencer, volte para 9."""
+    return """\nOs Hobgoblins param de lutar imediatamente. Eles não entendem o que você está dizendo e rosnam agressivamente. Em seguida, desembainham as espadas curtas e avançam para atacá-lo."""
 
 
 def T131() :
@@ -650,7 +650,8 @@ def T136() :
 
 
 def T137() :
-    return """Caminhando pelo túnel, você se surpreende com um grande sino de ferro pendurado no teto. Se quiser tocar o sino, vá para 220. Se preferir contorná-lo e prosseguir para o oeste, vá para 362."""
+    return """\nCaminhando pelo túnel, você se surpreende com um grande sino de ferro pendurado no teto.
+    \nVocê: \n(1)Tocar o sino\n(2)Contorná-lo e prossegue para o oeste\n"""
 
 
 def T138() :
@@ -723,14 +724,8 @@ def T150() :
     return """Tendo tido a boa idéia de não pôr o seu braço da espada dentro do buraco, os efeitos do tentáculo não são muito graves. Você perde 1 ponto de HABILIDADE. Enfiando novamente o braço no buraco, de lá retira o gancho e a bolsa de couro. Dentro da bolsa, você encontra um minúsculo sino de metal. Guarda suas novas posses na mochila e continua para o norte. Vá para 292."""
 
 
-def T151():
-    return """Quando toca o olho de esmeralda do ídolo, você ouve um rangido abaixo. Ao olhar, fica abismado ao ver os dois pássaros empalhados voando. As asas das criaturas batem aos arrancos, mas logo estão acima de você e parecem prontos para atacar. Lute com um dos GUARDIÃES VOADORES de cada vez, mas reduza sua HABILIDADE em 2 pontos durante este combate, pois a posição restringe-lhe os movimentos.
-
-                                HABILIDADE    ENERGIA
-    Primeiro GUARDIÃOVOADOR     7             8
-    Segundo GUARDIÃO VOADOR     8             8
-
-    Se você vencer, vá para 240."""
+def T151() :
+    return """\nQuando toca o olho de esmeralda do ídolo, você ouve um rangido abaixo. Ao olhar, fica abismado ao ver os dois pássaros empalhados voando. As asas das criaturas batem aos arrancos, mas logo estão acima de você e parecem prontos para atacar. A posição restringe-lhe os movimentos, por isso receberá uma penalidade de -2 em HABILIDADE."""
 
 
 def T152() :
@@ -762,7 +757,7 @@ def T157() :
 
 
 def T158() :
-    return """Você leva a moringa aos lábios e toma um gole. O líquido queima tanto que você larga a moringa e segura a garganta em agonia. Você engoliu ácido! Perde 1 ponto de HABILIDADE e 4 de ENERGIA. Se ainda estiver vivo, vá para 275."""
+    return """\nVocê leva a moringa aos lábios e toma um gole. O líquido queima tanto que você larga a moringa e segura a garganta em agonia. Você engoliu ácido! Perde 1 ponto de HABILIDADE e 4 de ENERGIA."""
 
 
 def T159() :
@@ -884,7 +879,7 @@ def T185() :
 
 
 def T186() :
-    return """Lenta e cuidadosamente, você começa a escalar o ídolo. Quando está prestes a segurar na grande orelha, seu pé escorrega, Teste sua Sorte. Se você tiver sorte, vá para 260. Se não tiver sorte, vá para 358."""
+    return "\nLenta e cuidadosamente, você começa a escalar o ídolo. Quando está prestes a segurar na grande orelha, seu pé escorrega, Teste sua Sorte."
 
 
 def T187() :
@@ -1041,8 +1036,9 @@ def T219():
     return """A dor nos pulmões força-o a subir à tona para respirar. Infelizmente, um dos Trogloditas o vê e grita pelos companheiros. Indefeso, você vê os arqueiros fazerem pontaria, e uma saraivada de flechas cai sobre você com impacto fatal. Seu corpo sem vida desce o rio boiando, penetrando nas profundezas ocultas da montanha."""
 
 
-def T220():
-    return """Um "bong" sombrio soa como um toque de sino fúnebre. Tudo vibra à sua volta, e você aperta os dentes quando sua cabeça também estremece. Todo seu corpo está tremendo, e você cai. Você tirita e tem calafrios, contorcendo-se convulsivamente no chão, à medida que as vibrações se intensificam. Procura desesperadamente uma maneira de parar o sino. Você:\n\n(1) Gritará o mais alto possível?  \n(2) Tentará abafar o sino com sua bota?   """
+def T220() :
+    return """Um "bong" sombrio soa como um toque de sino fúnebre. Tudo vibra à sua volta, e você aperta os dentes quando sua cabeça também estremece. Todo seu corpo está tremendo, e você cai. Você tirita e tem calafrios, contorcendo-se convulsivamente no chão, à medida que as vibrações se intensificam. Procura desesperadamente uma maneira de parar o sino.
+    \nVocê: \n(1)Gritará o mais alto possível\n(2)Tentará abafar o sino com sua bota\n"""
 
 
 def T221():
@@ -1090,8 +1086,8 @@ def T230():
     return "O túnel começa a se alargar e abre para uma imensa caverna, de onde você pode ouvir o som de muitas vozes agudas. Você se aproxima silenciosamente da entrada e espia. Cerca de 20 minúsculos seres, com narizes e orelhas compridos, correm em círculo em volta de uma grande efígie de ouro.\n\nO que você deseja fazer?\n1. Andar até eles para conversar?\n2. Tentar se esgueirar e passar por eles?\n3. Beber a Poção da Réplica (se você a tiver)"
 
 
-def T231():
-    return "Você encontra uma poça atrás dos Hobglobins mortos e toma grandes goles de água fresca o mais rápido possível. Isso neutraliza o ácido e, lentamente, você começa a se recuperar. Ainda com dor, você se levanta e parte para o norte."
+def T231() :
+    return "\nVocê encontra uma poça atrás dos Hobglobins mortos e toma grandes goles de água fresca o mais rápido possível. Isso neutraliza o ácido e, lentamente, você começa a se recuperar. Ainda com dor, você se levanta e parte para o norte."
 
 
 def T232():
@@ -1126,8 +1122,9 @@ def T239():
     return "Não muito adiante, o túnel chega a uma porta fechada à sua esquerda. Colocando o ouvido na porta, você escuta, mas não ouve nada.\n\nO que você deseja fazer?\n1. Abrir a porta\n2. Continuar seguindo para o norte"
 
 
-def T240():
-    return "Você olha para baixo e vê esparramados no chão os corpos inertes dos Guardiães Voadores. Você começa a forçar o olho esquerdo de esmeralda do ídolo com a ponta da espada. Finalmente, ele se solta e cai na sua mão; o peso da pedra o deixa surpreso. Esperando que seja de utilidade mais tarde, você a guarda na mochila. Se quiser agora forçar o olho direito, você pode fazê-lo."
+def T240() :
+    return """\nVocê olha para baixo e vê esparramados no chão os corpos inertes dos Guardiães Voadores. Você começa a forçar o olho esquerdo de esmeralda do ídolo com a ponta da espada. Finalmente, ele se solta e cai na sua mão; o peso da pedra o deixa surpreso. Esperando que seja de utilidade mais tarde, você a guarda na mochila.
+    \nVocê: (1)Força o olho direito\n(2)Desce do ídolo"""
 
 
 def T241():
@@ -1228,8 +1225,10 @@ def T262():
 def T263():
     return "A porta abre para um outro túnel. Caminhando para o oeste, você logo chega a uma porta na parede norte. Quer abrir a porta?"
 
-def T264():
-    return "Adiante, na penumbra, você vê dois HOBGOBLINS se engalfinhando. Há uma bolsa de couro jogada no chão, e parece ser ela a razão da luta. Você:\n\nTentará conversar com eles? Volte para 130\nVai atacá-los com sua espada? Volte para 51\nTentará passar sem ser percebido? Vá para 355"
+def T264() :
+    return """\nAdiante, na penumbra, você vê dois HOBGOBLINS se engalfinhando. Há uma bolsa de couro jogada no chão, e parece ser ela a razão da luta.
+    \nVocê: \n(1)Tentará conversar com eles\n(2)Vai atacá-los com sua espada\n(3)Tentará passar sem ser percebido\n"""
+
 
 def T265():
     return "Você esfrega seu anel mágico e deseja que o Demônio do Espelho seja transportado de volta ao próprio mundo e nunca mais retome. Ainda avançando na sua direção, o ser começa a se esvair e desaparece aos poucos. Por fim, ele some completamente, e você pode continuar sua jornada para o norte. Volte para 122."
@@ -1246,8 +1245,8 @@ def T268():
 def T269():
     return "Você esvazia o conteúdo do vidro na mão e o aplica às suas feridas. Os efeitos curativos são imediatos, e você se sente mais forte a cada momento. Acrescente 3 pontos de ENERGIA. Se você ainda não o fez, poderá comer o arroz e beber a água – vá para 330 – ou sair do salão, levando apenas o diamante com você - volte para 127."
 
-def T270():
-    return "A tampa da caixa sai facilmente. Dentro, você acha duas Peças de Ouro e um bilhete, escrito num pequeno pedaço de pergaminho, endereçado a você. Depois de colocar o ouro no bolso, você lê a mensagem: Muito bem. Pelo menos você tem o bom senso de parar e tirar proveito da ajuda simbólica que lhe é dada. Agora, posso avisá-lo da necessidade de encontrar e usar diversos itens, se espera sair-se bem no meu Calabouço da Morte. Assinado “Sukumvit.” Guardando de cor o aviso do bilhete, você o rasga em pequenos pedaços e continua para o norte pelo túnel. Volte para 66."
+def T270() :
+    return "\nA tampa da caixa sai facilmente. Dentro, você acha duas Peças de Ouro e um bilhete, escrito num pequeno pedaço de pergaminho, endereçado a você. Depois de colocar o ouro no bolso, você lê a mensagem: Muito bem. Pelo menos você tem o bom senso de parar e tirar proveito da ajuda simbólica que lhe é dada. Agora, posso avisá-lo da necessidade de encontrar e usar diversos itens, se espera sair-se bem no meu Calabouço da Morte. Assinado “Sukumvit.” Guardando de cor o aviso do bilhete, você o rasga em pequenos pedaços e continua para o norte pelo túnel."
 
 
 def T271():
@@ -1262,8 +1261,9 @@ def T273():
 def T274():
     return """Você pisa nervosamente na corda, sem se atrever a olhar para baixo. Na metade da travessia, você começa a entrar em pânico e perde o equilíbrio. Jogue dois dados. Se o total for igual ou menor que a sua HABILIDADE, volte para 238. Se o total for maior que sua HABILIDADE, vá para 359."""
 
-def T275():
-    return """Uma fumaça espessa sobe do chão no lugar onde o ácido caiu da moringa quebrada. Você se arrasta desesperadamente, tentando encontrar água potável nas poças rasas do túnel gotejante. Teste sua Sorte. Se você tiver sorte, volte para 231. Se não tiver sorte, vá para 309."""
+def T275() :
+    return """\nUma fumaça espessa sobe do chão no lugar onde o ácido caiu da moringa quebrada. Você se arrasta desesperadamente, tentando encontrar água potável nas poças rasas do túnel gotejante. Teste sua Sorte."""
+
 
 def T276():
     return """Ao tentar arrombar a porta com uma pancada de ombro, você ouve as vozes esganiçadas dos Trogloditas que vêm descendo o túnel. Você está encurralado e desembainha a espada. Os Trogloditas se aproximam, os arcos prontos, e uma saraivada de flechas o atinge com impacto fatal. Seu corpo desaba sem vida nas profundezas do Calabouço da Morte."""
@@ -1319,8 +1319,10 @@ def T291():
 def T292():
     return """Uma porta se torna visível na parede do lado esquerdo do túnel. Você escuta cuidadosamente junto à porta, mas não ouve nada. A porta não está trancada, e a maçaneta gira facilmente. Se você quiser abrir a porta, volte para 93. Se preferir prosseguir pelo túnel, volte para 230."""
 
-def T293():
-    return """Seguindo os três pares de pegadas molhadas pela passagem oeste do túnel, você logo chega a uma encruzilhada. Se quiser continuar para o oeste, seguindo dois pares de pegadas, volte para 137. Se quiser se dirigir para o norte, seguindo o terceiro par de pegadas, vá para 387."""
+def T293() :
+    return """Seguindo os três pares de pegadas molhadas pela passagem oeste do túnel, você logo chega a uma encruzilhada.
+    \nVocê: \n(1)Continua para o oeste, seguindo dois pares de pegadas\n(2)Se dirige para o norte, seguindo o terceiro par de pegadas\n"""
+
 
 def T294():
     return """Você puxa o punhal do cinto com a mão livre e golpeia a língua da Besta Sangrenta. A fera urra de dor e rola para a frente, tanto quanto consegue, para tentar abocanhá-lo com as mandíbulas ensanguentadas. Do chão, você tem que lutar contra a fera como punhal. Reduza sua HABILIDADE em 2 pontos durante este combate, pois não está lutando com sua espada.\n\nBESTA SANGRENTA HABILIDADE 12 ENERGIA 10\n\nTão logo você vença sua primeira Série de Ataque, Teste sua Sorte. Se você tiver sorte, volte para 97. Se não tiver sorte, volte para 21."""
@@ -1342,4 +1344,336 @@ def T299():
 
 def T300():
     return """Você golpeia o espelho com a espada, com toda sua força, mas isso de nada adianta: o espelho não quebra, e o Demônio do Espelho continua a avançar. Se você quiser tentar partir o espelho de novo, volte para 141. Se, em vez disso, preferir atacar o Demônio do Espelho, vá para 327."""
+
+
+
+    return """\nO cano está úmido e cheio de limo, mas você segue engatinhando na escuridão abafada, escorregando e deslizando no caminho. Subitamente, sua mão toca em algo duro e quadrado; parece ser de madeira. Ao sacudi-la, a coisa chacoalha, e você conclui que deve estar segurando uma caixa. Se quiser engatinhar de volta e sair do cano para examinar o achado, volte para 162. Se preferir seguir em frente pelo cano, levando a caixa para examinar mais tarde, volte para 4.\n"""
+
+def T302():
+    return """\nDepois de cerca de 20 minutos, o Anão reaparece na sacada. Ele lhe grita: “Bem, eu realmente tenho um problema muito interessante nas mãos. Prepare-se para lutar contra seu próximo adversário.” A porta de madeira se ergue mais uma vez, e você se admira ao ver um rosto conhecido. É Throm! Ele está muito machucado e tem cortes pelo corpo todo, e não parece reconhecê-lo. Está claramente delirante enquanto cambaleia para frente com a acha erguida para atacá-lo. O Anão ri e lhe diz: “A naja o mordeu, mas ele tema força de um touro e conseguiu resistir, ao contrário da maioria dos homens. Agora você deve lutar com ele, para decidir finalmente qual dos dois continuará na Prova dos Campeões.” Você grita com o Anão, revoltado, denunciando a crueldade de um confronto desses. Ele simplesmente ri, e você não tem alternativas e não se defender do ataque do pobre Throm.\n\nTHROM HABILIDADE 10 ENERGIA 12\n\nApesar dos ferimentos, Throm é imensamente forte. Se você vencer, vá para 379.\n"""
+
+def T303():
+    return """\nCom sua mão livre, você busca a moringa na mochila. Desarrolhando-a com os dentes, derrama o ácido sobre a porta, que é na realidade a forma fluida de um IMITADOR. Um jato de fumaça sobe dela, com um alto som sibilante, enquanto o ácido começa a queimar o Imitador. Ela derrete rapidamente, e você consegue afastar-se sem se ferir. Não tendo outra alternativa, você, um tanto apreensivo, gira a maçaneta da outra porta. Volte para 262.\n"""
+
+def T304():
+    return """\nHá uma única Peça de Ouro no fundo da mochila. Quando você tenta pegá-la, sente um leve movimento que faz cócegas nas costas, da sua mão. Você retira a mão lentamente, tentando controlar o pânico crescente, e fica horrorizado ao ver uma ARANHA VIÚVA NEGRA. Antes que possa afastá-la, ela crava as presas venenosas profundamente no seu pulso. Você perde 6 pontos de ENERGIA. Se ainda estiver vivo, volte para 20.\n"""
+
+def T305():
+    return """\nO túnel termina em um lance de degraus de pedra. Do chão, abaixo, vêm latidos de cães. Você tem um osso velho? Se tiver, volte para 253. Se não tiver, volte para 148.\n"""
+
+
+def T306():
+    return """\nAntes que você possa dar um passo na direção dos Leprechauns, um deles joga uma poeira cintilante em você, que é imediatamente congelado no lugar, incapaz de mover um músculo. Você vê, indefeso, os Leprechauns revirarem sua mochila, fugindo com todas as suas posses e deixando a mochila vazia. Você perde 2 pontos de SORTE. Cerca de uma hora depois, o efeito congelante da poeira se desfaz, e as sensações retornam a seu corpo. Furioso com a perda, você ruma para o norte, determinado a se vingar. Volte para 29.\n"""
+
+def T307():
+    return """\nO armário contém uma marreta de madeira e 10 espigões de ferro, os quais você põe na mochila enquanto decide qual porta abrir. Se quiser abrir a porta do oeste, volte para 263. Se preferir abrir a porta do norte, volte para 136.\n"""
+
+def T308():
+    return """\nA Medusa berra quando você entra na gaiola, mantendo os olhos firmemente fechados e desferindo golpes furiosos de um lado para o outro com a espada. Você sente a lâmina penetrar profundamente na fera e ouve um baque alto quando ela desaba pesadamente no chão. Você abre os olhos de novo e se arrepia com a visão da Medusa prostrada. O manto dela está preso por um grande broche constituído por uma única gema grande; é uma granada. Você a arranca, põe no bolso e sai do aposento, rumo ao norte. Vá para 316.\n"""
+
+def T309():
+    return """\nVocê cambaleia desnorteado em busca de uma poça de água, mas não encontra. O ácido queima com uma dor lancinante bem fundo na sua garganta. Você perde 3 pontos de ENERGIA. Se ainda estiver vivo, Teste sua Sorte. Se você tiver sorte, volte para 231. Se não tiver sorte, volte para 193.\n"""
+
+def T310():
+    return """\nVocê chega à parede do outro lado da câmara e vê duas portas. Se quiser abrir a portada esquerda, vá para 339. Se quiser abrir a porta da direita, volte para 262.\n"""
+
+def T311():
+    return """\nDepois de muito relutar, o Bárbaro concorda com sua alternativa. Vocês dois tomam distância e saltam por sobre o poço. Aterrissando em segurança do outro lado, você continua descendo pelo túnel. O Bárbaro, que vai na frente, subitamente tropeça em uma pedra, que se inclina para frente e dispara o mecanismo de um rochedo preso precariamente ao teto. O rochedo despenca sobre ele, derrubando-o e esmagando-lhe o crânio. Você terá que continuar sua jornada sozinho. Vá para 325.\n"""
+
+def T312():
+    return """\nO disco, afiado como uma navalha, passa assobiando pela sua cabeça e crava-se profundamente em um dos pilares. Você se vira e põe-se em guarda para enfrentar o assassino, que avança com a espada longa desembainhada.\n\nNINJA	HABILIDADE 11	ENERGIA 9\n\nSe você vencer, volte para 232.\n"""
+
+def T313() :
+    return "\nO túnel termina em uma encruzilhada. As pegadas que você vem seguindo viram para o norte, e você resolve manter-se na trilha delas."
+
+
+def T314():
+    return """\nSua espada corta a maçaneta e, separada do corpo de origem, a membrana murcha e cai ao chão. Não tendo outra alternativa, você gira, um tanto apreensivo, a maçaneta da outra porta. Volte para 262.\n"""
+
+def T315():
+    return """\nO túnel dá uma guinada brusca para a esquerda e chega ao fim em uma parede alta, na qual há uma porta. Você ouve um rugido feroz vindo do outro lado da porta e tenta imaginar quão gigantesca seria a fera capaz de tamanho ruído. Se você tiver um rolo de corda e um gancho de ferro, volte para 129. Se não tiver esses objetos, volte para 245."""
+
+def T316():
+    return """\nO túnel continua por uma boa distância antes de chegar a um cruzamento. Se você quiser se dirigir para o oeste pelo novo túnel, volte para 296. Se preferir continuar para o norte, volte para 241.\n"""
+
+def T317():
+    return """\nTateando nos lados do buraco perfurado com sua espada, você abre caminho cegamente pelo lodo viscoso. Você segue as curvas e reviravoltas do orifício por um tempo que parece ser uma eternidade e começa a imaginar onde poderia levar. De repente, você ouve o ruído de alguma coisa se arrastando à frente. Você fica gelado de medo, seus olhos tentando desesperadamente rasgar a escuridão impenetrável. Antes que você se dê conta do que está acontecendo, seu pescoço é abocanhado pelas fortíssimas mandíbulas de outro Verme da Rocha. E o companheiro daquele que você matou, o qual foi atraído pelo cheiro de sangue na sua espada. Ele aperta mais forte. Seu pescoço estala como um ramo seco. Sua aventura termina aqui.\n"""
+
+def T318():
+    return """\nDepois de cruzar a ponte, você atravessa a caverna correndo. Finalmente, vê um túnel na parede do outro lado, pelo qual você entra a toda. O túnel termina numa pesada porta de madeira, e ela está trancada. Se você tiver uma chave de ferro, volte para 86. Se não tiver uma chave, volte para 276.\n"""
+
+def T319():
+    return """\nA armadura e a espada pesam mais do que você pensa. No ar, você toma consciência, com horror, de que não vai conseguir chegar ao outro lado do poço. Você se choca contra o lado do poço, uns dois metros abaixo da borda, e despenca de cabeça para o fundo. Volte para 285.\n"""
+
+def T320():
+    return """\nVocê resolve revistar o Ninja e, em meio às vestes dele, encontra um saco de pano. Dentro, há um frasco de água, um pouco de arroz enrolado em folha de palmeira, um vidro de unguento e um lindo diamante. Você:\n\nComerá o arroz e beberá a água?	Vá para 330\nEsfregará um pouco do unguento nos seus ferimentos?	Volte para 269\nPegará apenas o diamante e sairá do salão?	Volte para 127\n"""
+
+def T321():
+    return """\nVocê puxa o cordão e o pano sobe pelos lados da gaiola. A voz da mulher insiste para que você seja rápido, dizendo que o aposento está preparado para uma cilada, de forma que o piso desabará em um minuto por causa do seu peso extra. Se você ainda quiser ajudá-la, volte para 289. Se preferir sair do aposento e se dirigir para o norte pelo túnel, Volte para 316.\n"""
+
+def T322():
+    return """\nVocê passa pela cadeira de madeira e logo retorna ao cruzamento, virando à direita para o oeste. Volte para 43.\n"""
+
+def T323():
+    return """\nDepois de amarrar a corda em torno da rocha, você desce devagar para o fundo do poço. Throm recupera a corda dele, soltando-a da rocha com uma sacudidela, e vocês partem juntos pelo novo túnel. Volte para 194.\n"""
+
+def T324():
+    return """\nVocê falou com o servo aleijado dos Juízes da Prova? Se falou, volte para 256. Se não, volte para 79.\n"""
+
+def T325():
+    return """\nVocê se levanta e segue túnel abaixo. De repente, vê a luz do dia no fim do túnel. Enquanto corre na direção da visão mais bela que teve diante de si desde muito tempo, um céu claro e azul, árvores verdes, você sonha com o alegre cenário de pessoas vibrando. Mas não há recepção de herói da parte das pessoas à sua volta. Estão todas mortas. Você está dentro de uma câmara fria repleta de cadáveres e esqueletos com armaduras. A saída para a vitória era apenas uma ilusão. Somente os despojos de aventureiros do passado são reais. Profundamente deprimido, você caminha de volta para o túnel, mas se choca com uma barreira invisível. Você está aprisionado neste sinistro local, fadado a terminar seus dias na câmara dos mortos.\n"""
+
+def T326():
+    return """\nAdiante, o túnel faz uma curva fechada para a esquerda. Ao dobra-la, você quase bate de frente em dois ORCAS de aspecto feroz, armados de maças com pontas de ferro e usando armaduras de couro. Você está totalmente despreparado, e, enquanto desembainha a espada, um deles desfere-lhe um golpe de maça. Jogue um dado. Se você obtiver 1 ou 2, volte para 91. Se obtiver 3 ou 4, volte para 189. Se obtiver 5 ou 6, vá para 380.\n"""
+
+def T327():
+    return """\nExclusivamente voltado para agarrar-lhe o braço, o Demônio do Espelho não tenta defender- se.\n\nDEMÔNIO DO ESPELHO    HABILIDADE 10    ENERGIA 10\n\nSe, durante uma Série de Ataque, a Força de Ataque do Demônio do Espelho for maior que a sua, volte para 8. Se você conseguir derrotar o Demônio do Espelho sem que ele ganhe qualquer Série de Ataque, volte para 92.\n"""
+
+def T328():
+    return """\nVocê olha em torno do quarto de Erva. Ao ver o retrato de um outro Troll pendurado na parede, pergunta a ela se são parentes. Imediatamente, o humor e a expressão dela mudam. Ela afrouxa o aperto sobre você e sorri, dizendo: “Ah, sim. Este é meu amado e querido irmão Barriga Azeda. Ele tem-se saído muito bem lá no sul, em Port Blacksand. Está agora na Guarda Imperial, na tropa de elite de Lord Azzur. Estou muito orgulhosa dele.” Erva fica olhando para a pintura e continua a tecer elogios ao irmão. Se você quiser se esgueirar para fora do quarto, pela porta na parede do leste, volte para 125. Se preferir continuar a conversa, volte para 99.\n"""
+
+def T329():
+    return """\nVocê caminha até o espelho e se diverte com a imagem distorcida. Sua cabeça parece tão grande quanto uma abóbora, o rosto, muito estranho... Sem qualquer sinal prévio, uma dor terrível martela-lhe a cabeça; você tenta desviar o olhar do espelho, mas não consegue. Alguma força do mal mantém seus olhos pregados ao próprio reflexo. Você segura a cabeça com as mãos e, horrorizado, se dá conta de que ela está se expandindo. Você não pode mais suportar a dor, e tomba sem sentidos para nunca mais acordar.\n"""
+
+def T330():
+    return """\nAs rações do Ninja são modestas mas bem-vindas. Acrescente 1 ponto de ENERGIA. Se você ainda não o fez, poderá esfregar um pouco do unguento nos seus ferimentos - volte para 269 - ou sair do salão, levando só o diamante - volte para 127.\n"""
+
+def T331():
+    return """\nTocar o pergaminho tem precisamente o efeito que você temia. O esqueleto dá um impulso para frente e, levantando-se da cadeira numa série de movimentos aos arrancos, ergue a espada para golpeá-lo. Esquivando-se para o lado, você desembainha a sua espada para se defender.\n\nGUERREIRO-ESQUELETO    HABILIDADE 8    ENERGIA 6\n\nSe você vencer, volte para 71.\n"""
+
+def T332():
+    return """\nSua gema cai na poça com um 'plop' surdo. Enquanto espera que alguma coisa aconteça, você começa a se sentir fraco. O gás que emana da poça é tóxico, e você tomba inconsciente. Teste sua Sorte. Se você tiver sorte, volte para 53. Se não tiver sorte, volte para 272.\n"""
+
+def T333():
+    return """\nVocê ouve passos e, de repente, a porta do alçapão é jogada para trás. Por alguns segundos, você é cegado pela intensa luz que vem do aposento de cima, e não vê o Goblin desferir um golpe de lança, nem ouve o riso sádico quando a ponta rasga seu pescoço. Sua aventura termina aqui, nos degraus de pedra do túnel.\n"""
+
+def T334():
+    return """\nVocê tenta se livrar da língua com as mãos nuas, mas não consegue. Lentamente, você é arrastado para a poça, onde, depois de decomposto pelo lodo, seu corpo será devorado pela pavorosa Besta Sangrenta.\n"""
+
+def T335():
+    return """\nAinda correndo o mais rápido que pode, você mergulha no rio. Teste sua Sorte. Se você tiver sorte, volte para 67. Se não tiver sorte, volte para 101.\n"""
+
+def T336():
+    return """\nA munhequeira foi feita e amaldiçoada por uma Bruxa. Ela torna suas reações mais lentas e embota-lhe os sentidos. Reduza sua HABILIDADE em 4 pontos. Furioso, você chuta a parede do túnel e segue para o norte. Volte para 298.\n"""
+
+def T337():
+    return """\nA água fresca é revigorante, mas provém de uma fonte amaldiçoada por uma Bruxa. Some 1 ponto de ENERGIA, mas desconte 2 pontos de SORTE. Se ainda não o fez, você poderá beber da outra fonte - volte para 173 - ou continuar para o norte - vá para 368.\n"""
+
+def T338():
+    return """\nOs corpos são de dois guardas Orcas. Pelo menos um de seus rivais na Prova dos Campeões ainda deve estar à sua frente. De uma rápida revista aos corpos nada resulta senão um colar de dentes pendurado no pescoço de um dos Orcas. Se você quiser usar o colar, volte para 123. Se preferir partir para o norte sem o colar, volte para 282.\n"""
+
+def T339():
+    return "\nQuando você toca a maçaneta da porta, ela fica mole na sua mão, e, quando tenta tirar a mão, descobre que ela está grudada na maçaneta. Então, um punho gigantesco se forma no meio da porta e projeta-se na sua direção, atingindo-o no estômago. Você perde 1 ponto de ENERGIA. Se tiver uma moringa de ácido, volte para 303. Se não tiver, volte para 236.\n"
+
+
+def T340():
+    return "\nO medo lhe dá uma nova injeção de energia, e, de alguma forma, suas pernas cansadas conseguem mantê-lo à frente do rochedo. Adiante, à direita, você vê a forma bem-vinda de uma porta. Você mergulha de encontro à porta e, por sorte, ela se abre. O rochedo passa estrondoso, e você fica deitado, exausto, no chão de um aposento grande. Vá para 381.\n"
+
+
+def T341():
+    return "\nUm homem aleijado, com cadeias nos pés, arrasta-se na sua direção carregando uma bandeja de madeira cheia de pão e água. Ele parece cansado e desalentado, e tenta passar por você sem demonstrar reação à sua presença. Você:\n\nFalará com ele?	Vá para 367\nPegará pão e água da bandeja dele?	Volte para 38\nOferecerá a ele alguma provisão (se você ainda tiver alguma)?	Volte para 169.\n"
+
+def T342():
+    return "\nSuas reações são lentas por causa do veneno e, embora você tente pular por cima da língua estendida, suas pernas não conseguem erguê-lo o bastante. A língua pegajosa se enrola na sua perna e começa a puxá-lo na direção da poça. Você é arrastado para o chão e não consegue desembainhar a espada. Se você tiver um punhal, volte para 294. Se não tiver um punhal, volte para 334.\n"
+
+def T343():
+    return "\nCom vozes esganiçadas, os Trogloditas explicam as regras da Corrida da Flecha. Eles dispararão uma flecha e você poderá caminhar, sem ser atacado, até o ponto onde ela cair. Porém, você deverá ir descalço, e o chão da caverna, como pode ver, está coberto de pedras pontiagudas. Logo que você chegar à flecha, os Trogloditas começarão a persegui-lo; se o pegarem, você será morto. De repente, um dos Trogloditas dispara uma flecha bem alto no ar. Ela cai a grande distância, e, imediatamente, os Trogloditas forçam-no a caminhar na direção dela. Enquanto você anda devagar na direção da flecha, ouve os gritos excitados dos Trogloditas. Ao chegar à flecha você se volta e vê os Trogloditas agitarem os braços no ar e iniciarem a perseguição. Você corre o mais depressa que pode, os pés sangrando com os cortes sofridos nas pedras pontiagudas. Você perde 1 ponto de ENERGIA. Adiante, um rio subterrâneo, que corre de leste para oeste, cruza a caverna; uma ponte de madeira liga uma margem à outra. Se você quiser atravessar a ponte, volte para 318. Se quiser mergulhar no rio, volte para 47.\n"
+
+def T344():
+    return "\nO túnel faz curvas e reviravoltas, mas continua sempre para o norte. À sua frente, um facho de luz azul desce do teto para o chão. Ele faísca e cintila, e você pode ver imagens de rostos que riem na luz. Se você quiser passar através da luz, volte para 229. Se preferir contornar o facho, volte para 107.\n"
+
+def T345():
+    return "\nVocê está prestes a entrar no aposento quando a Poção de Detecção de Cilada começa a fazer efeito, e você é dominado por uma terrível premonição. Há uma armadilha mortal neste aposento. Você resolve não entrar e continua para o norte pelo túnel. Volte para 252.\n"
+
+def T346() :
+    return "\nVocê tira a bota do pé e se esforça para estendê-la até o sino e travar-lhe a vibração. Aos poucos, o sino vai parando de vibrar, e a dor no seu corpo diminui gradualmente. Você consegue se levantar, mas não afasta a bota do sino até que ele esteja completamente imóvel. Você calça a bota e continua a jornada para o oeste."
+
+
+def T347():
+    return "\nO Anão sacode a cabeça, dizendo: 'Só músculos, sem inteligência, não bastam para conquistar a Prova dos Campeões. Sinto dizer que você fracassou. Você não terá permissão para ir embora, pois poderá revelar os segredos do calabouço para outros. Todavia, você conseguiu muito chegando tão longe, e eu o indicarei para meu servo pelos anos futuros para preparar o calabouço para os novos competidores'.\n"
+
+def T348() :
+    return "\nVocê avança sobre a Besta Sangrenta, tentando evitar a língua que se estende para agarrar-lhe a perna. Jogue dois dados. Se o total for igual ou menor que a sua HABILIDADE, volte para 225. Se o total for maior que a sua HABILIDADE, volte para 159.\n"
+
+def T349() :
+    return "\nVocê desce pela corda para o interior do poço, segurando-se com uma das mãos, enquanto a outra leva a espada desembainhada. O Diabo do Poço é uma das feras mais terríveis que você já viu, e você sabe que esta será uma das lutas mais difíceis da sua vida.\n\nDIABO DO POÇO HABILIDADE 12 ENERGIA 15\n\nSe você vencer, volte para 258.\n"
+
+def T350() :
+    return "\nA Mosca Gigante mergulha na sua direção e agarra-o com quatro patas. Rapidamente ela retorna ao teto da caverna, e você se encontra indefeso pendurado no ar. Súbito, para seu horror, ela o solta. Você despenca de 10 metros de altura, estatelando-se no solo. Jogue um dado e deduza o número de seu índice de ENERGIA. Se ainda estiver vivo, você desembainha a espada; bem a tempo, pois a Mosca Gigante vem descendo para tentar capturá-lo mais uma vez. Volte para 39.\n"
+
+def T351() :
+    return "\nO ídolo é muito liso, e a escalada será difícil. Você tem corda?"
+
+
+def T352() :
+    return "\nVocê ouve o som de rochas sendo trituradas e esmagadas à sua frente. O ruído cresce e, subitamente, você se dá conta de que a parede do seu lado direito começa a desabar. Apavorado, você vê uma enorme e horrorosa criatura, com mandíbulas incrivelmente poderosas, deslizar por um buraco na parede. A enorme boca da criatura mastiga rocha enquanto ela vira a cabeça devagar de um lado para outro, sentindo o ar fresco do túnel. O VERME DA ROCHA parece ser cego, mas dá a impressão de estar ciente de sua presença, talvez sentindo o calor de seu corpo. Ele se arrasta na sua direção com as mandíbulas bem abertas, pronto para o ataque. Se você quiser lutar contra o Verme da Rocha, volte para 254. Se preferir correr de volta pelo túnel para o cruzamento e depois se dirigir para o leste, volte para 68.\n"
+
+def T353():
+    return "\nAntes que você possa sair do caminho, o rochedo se choca contra seu ombro. Você perde 1 ponto de HABILIDADE e 4 pontos de ENERGIA. Se ainda estiver vivo, volte para 325.\n"
+
+def T354():
+    return "\nA pílula faz com que você se sinta como se o mundo inteiro estivesse contra você. E perde 2 pontos de SORTE. O Anão lhe diz que agora você pode passar à segunda fase do teste. Ele apanha uma cesta de vime e lhe diz que ela contém uma serpente. Vira a cesta e a serpente cai no chão. É uma naja, e se ergue no ar, pronta para dar o bote. O Anão lhe diz que pretende testar suas reações. Você deverá agarrar a naja com as mãos nuas, pelo pescoço, evitando as presas mortais. Você se agacha, tensionando os músculos para o momento decisivo. Jogue dois dados. Se o total for igual ou menor que a sua HABILIDADE, volte para 55. Se o total for maior que a sua HABILIDADE, volte para 202.\n"
+
+def T355():
+    return "\nVocê se aproxima silenciosamente por trás dos Hobglobins que lutam e, saltando das sombras, empurra-os contra a parede e foge correndo. Você olha para trás e os vê esparramados no chão. Rindo, você segue depressa para o norte. Volte para 110.\n"
+
+def T356():
+    return "\nHá uma abertura no lado esquerdo da parede do túnel. Você está de pé na entrada de uma caverna grande, quando ouve uma voz de mulher gritando por socorro. Você distingue apenas a forma de uma figura humana que rola pelo chão no fundo da caverna. Se você quiser entrar na caverna, volte para 170. Se preferir continuar para o norte pelo túnel, volte para 192.\n"
+
+def T357():
+    return "\nA Besta Sangrenta chafurda na poça, e o cheiro dos gases venenosos, cujas bolhas sobem à tona e contaminam a atmosfera, provoca ânsias de vômito. Você:\n\nCorrerá contornando a poça da fera, na direção do túnel?	Volte para 255\nJogará uma gema na poça (se você tiver uma)?	Volte para 332\nAtacará a fera com sua espada?	Volte para 180.\n"
+
+def T358():
+    return "\nVocê perde o equilíbrio e despenca de cabeça no chão. Perde 2 pontos de ENERGIA. Você desiste de tentar escalar o ídolo e corre para seguir pelo túnel na parede norte. Volte para 239.\n"
+
+def T359():
+    return "\nVocê cai da corda e despenca de cabeça na fenda. Bate com a cabeça em uma saliência rochosa e morre antes de chegar ao fundo da fenda.\n"
+
+def T360():
+    return "\nDepois de pagar, você sobe na cesta de vime. O velho grita, jogando a cabeça para trás: 'Puxa, Erva!' A corda se retesa, e a cesta se ergue aos solavancos. Enquanto você está sendo içado cada vez mais alto, o velho lhe grita: 'Você vai gostar de Erva, ela é uma ótima garota. Nós a chamamos de Erva Venenosa!' Ele ri descontrolado, e você, um tanto apreensivo, se pergunta quem o está içando. A cesta passa por um buraco no teto, e você se vê em um pequeno quarto, frente a frente com uma mulher TROLL feia e velha. Ela tem o rosto peludo e coberto de verrugas. Com uma enorme mão ela o puxa para fora da cesta, a qual deixa cair lá embaixo. Em seguida, agarra-o pela garganta e lhe diz, numa voz rouca: 'Quero pagamento também!' Você:\n\nOferecerá a ela alguma coisa da sua mochila?	Volte para 297\nTentará convencê-la a não cobrar nada de você?	Volte para 328\nAtacará a mulher com sua espada?	Volte para 211\n"
+
+def T361():
+    return "\nAs mandíbulas do Diabo do Poço dão um bote no amuleto de macaco e o apanham no ar, mas logo se abrem de novo, forçadas pelo amuleto, que se expandiu a ponto de ocupar toda a boca da fera. Enquanto o Diabo do Poço se debate, tentando livrar-se do amuleto, você desce até o fundo para chegar às portas duplas. Desvairado, o Diabo do Poço usa o imenso corpo na tentativa de esmagar você contra a parede. Teste sua Sorte. Se você tiver sorte, volte para 82. Se não tiver sorte, vá para 377.\n"
+
+def T362() :
+    return "\nO túnel dá uma guinada acentuada para a direita e continua para o norte até onde a vista alcança. A distância, você ouve uma tremenda comoção: grunhidos, rosnados, uivos. Você desembainha a espada e parte na direção do tumulto."
+
+
+def T363():
+    return "\nA comida e a bebida são excelentes, e você se sente muito melhor. Acrescente 2 pontos de ENERGIA. Plenamente satisfeito, você senta e espera a volta do Anão. Volte para 302.\n"
+
+def T364():
+    return "\nEnquanto remove o sangue do Mantécora de sua espada, você leva um susto ao ver um homenzinho com um nariz grande saltar detrás de um dos pilares de mármore. Ele veste uma túnica justa, verde, e parece inofensivo, embora você fique desconfiado do modo como ele segura uma bola de vidro opaco com uma luz verde cintilante. 'Meus cumprimentos!', ele diz animadamente. 'Meu nome é Igbut, o Gnomo, e sou o Juiz da Prova para seu teste final. Não é preciso dizer que meus poderes mágicos são grandes, por isso você não deve tentar me atacar. Talvez você tenha sabido, durante a sua jornada, que as gemas desempenham um papel essencial na Prova dos Campeões. A porta de ferro à sua frente é a saída para a vitória, mas só há uma maneira de abri-la. É preciso pôr três gemas no mecanismo da fechadura, numa ordem específica. Cada gema irradia uma energia que acionará o mecanismo – se você as colocar corretamente, é claro. Eu o ajudarei de certa forma, mas primeiro precisamos das gemas certas. Você tem uma esmeralda?'. Se você tiver uma esmeralda, volte para 31. Se não tiver, volte para 3.\n"
+
+def T365():
+    return "\nVocê diz a Throm que matar o Anão não vai adiantar nada, pois vocês jamais acharão a saída da câmara sozinhos. Você argumenta que talvez surja uma chance de enganar o Anão mais tarde, quando tiverem descoberto a saída da câmara, por isso você pretende ir adiante com o teste do Anão. Você diz ao Anão que está pronto, e ele acena para que o siga. Throm deve aguardar a volta dele. Uma porta secreta abre-se na parede da câmara, e você segue o Anão até um pequeno aposento circular. Ele fecha a porta atrás de você e lhe entrega dois dados de osso, mandando que os jogue no chão. Você tira um seis e um dois: total, oito. O Anão pede que você os jogue mais uma vez, mas, agora, deve adivinhar se o total será igual, menor ou maior que oito. Se seu palpite for que será igual, volte para 290. Se achar que será menor que oito, volte para 191. Se optar por maior que oito, volte para 84.\n"
+
+def T366():
+    return "\nA temperatura continua a subir, muito além dos limites de tolerância humanos. Estendido no chão quase derretido do túnel, você não consegue recuperar a consciência. Sua aventura termina aqui.\n"
+
+def T367():
+    return "\nEle o encara desconfiado quando você diz que é um competidor na Prova dos Campeões. Você pergunta a ele o que faz nos túneis, e ele lhe responde, um tanto relutante, que é servo de um dos Juízes da Prova, os controladores das diferentes partes do calabouço designados pelo Barão Sukumvit. Depois de alguma conversa, ele admite que gostaria de fugir, mas ninguém pode sair do calabouço, pois poderia revelar os segredos da construção. Ele espera conseguir sair dali mediante suborno, e, por uma Peça de Ouro, poderá dizer-lhe onde há um tesouro escondido. Se você quiser pagar pela orientação do velho, volte para 244. Se preferir simplesmente desejar-lhe o melhor e continuar para o oeste, volte para 109.\n"
+
+def T368():
+    return "\nVocê vê um par de pernas-de-pau junto à parede do lado esquerdo do túnel. Elas estão firmemente acorrentadas, e num aviso preso a um cadeado lê-se: 'O preço destas pernas-de-pau é uma Peça de Ouro. Coloque a moeda na ranhura para abrir o cadeado.' Se você quiser comprar as pernas-de-pau, volte para 165. Se preferir prosseguir para o norte, volte para 234.\n"
+
+def T369():
+    return "\nO túnel faz uma curva fechada para a direita, continuando para o leste até onde a vista alcança. Throm pára e lhe diz que faça o mesmo. Ele vira a cabeça devagar de um lado para o outro: 'Ouço passos descendo pelo túnel na nossa direção', ele sussurra. 'Desembainhe a espada.' Vocês se agacham para se esconder nas sombras, e bem a tempo: duas figuras armadas se aproximam. Throm salta e brada um grito de guerra. Dois TROLLS DA CAVERNA estão diante de vocês. Throm ataca o primeiro com a acha de guerra, e você corre para ajudá-lo, atacando o segundo Troll da Caverna.\n\nTROLL DA CAVERNA    HABILIDADE 10    ENERGIA 11\n\nSe você vencer, volte para 288.\n"
+
+def T370():
+    return "\nQuando você contorna a poça correndo, a Besta Sangrenta estende a língua comprida mais uma vez. Jogue dois dados. Se o total for igual ou menor que o seu índice de HABILIDADE, volte para 104. Se o total for maior que o seu índice de HABILIDADE, volte para 342.\n"
+
+def T371():
+    return "\nVocê faz pontaria e joga a bola de madeira no crânio. Jogue dois dados. Se o número obtido for igual ou menor que o seu índice de HABILIDADE, volte para 273. Se o número obtido for maior que o seu índice de HABILIDADE, volte para 113.\n"
+
+def T372():
+    return "\nVocê finalmente chega ao corpo do guerreiro, mas, logo que toca na jóia, tanto ela quanto o guerreiro desaparecem como num passe de mágica. A porta bate atrás de você, e segue-se um estrondo agourento acima da sua cabeça. Você olha para o alto e vê o teto baixando. Corre para a porta na tentativa de escapar, mas ela está trancada e não há maçaneta do lado de dentro. O teto vai descendo, e você é obrigado a se deitar no chão, tentando impedir o movimento do teto com as mãos e os pés. Mas o esforço é inútil, e você é esmagado entre os blocos de pedra.\n"
+
+def T373():
+    return "\nVocê sobe pelo rochedo macio, temendo ser absorvido por ele a qualquer momento. É difícil passar por cima da coisa, pois seus membros afundam na casca mole, mas, por fim, você consegue chegar ao outro lado. Aliviado por estar de novo em terreno firme, você se dirige para o leste. Volte para 13.\n"
+
+def T374():
+    return "\nVocê caminha pela caverna, mas não acha nada interessante. Throm o chama lá de trás, dizendo que encontrou um saco de couro sob uma pilha de rochas. Abrindo o saco, Throm ri alto quando um minúsculo camundongo corre entre os dedos dele e foge para uma fresta entre dois rochedos. A súbitas, você ouve o som de rocha rachando: estalactites se desprendem do teto, como resultado da vibração causada pelo riso retumbante de Throm, que ainda ecoa pela caverna. Você berra para que Throm fuja pela passagem em arco, enquanto as estalactites desabam. Teste sua Sorte. Se você tiver sorte, volte para 118. Se não tiver sorte, volte para 295.\n"
+
+def T375():
+    return "\nUma fumaça acre emana da moringa quando você enfia o pano nela. O líquido é indubitavelmente ácido. Você arrolha a moringa de novo e a coloca na mochila, esperando que venha a ter utilidade mais tarde. Você recoloca a espada na bainha e prossegue rumo ao norte. Volte para 110.\n"
+
+def T376():
+    return "\nO Gnomo, ainda sorrindo, lhe diz, excitado: 'Excelente! Só falta uma. Você possui um diamante?' Se você tiver encontrado um diamante, volte para 62. Se não tiver encontrado um diamante, volte para 3.\n"
+
+def T377():
+    return "\nA imensa fera atira o corpo contra o seu braço, e você solta a corda. Gritando de dor, você despenca no fundo do poço e perde 5 pontos de ENERGIA. Se ainda estiver vivo, volte para 203.\n"
+
+def T378():
+    return "\nUm tanto nervoso, você respira fundo e mergulha na poça escura. A parede norte não se projeta muito longe, sob a superfície da água, e você resolve se arriscar e nadar por baixo dela. Logo começa a sentir falta de ar e é obrigado a voltar à tona. Você tenta não pensar que pode estar aprisionado em um velho túnel submerso e fica aliviado quando emerge e encontra ar puro. Você está do outro lado da parede e pode ver o túnel saindo da água e continuando para o norte. Saindo da água, você verifica o conteúdo da mochila molhada. Teste sua Sorte. Se você tiver sorte, volte para 112. Se não tiver sorte, volte para 209.\n"
+
+def T379():
+    return "\nExaurido pelo longo duelo, você cai de joelhos. Ao olhar para o corpo imóvel de Throm, um ódio amargo ao Anão enche-lhe o coração. De alguma forma, você vingará Throm. Envolvido pela raiva, não repara que o Anão entra na arena, até que ele chega diante de você, uma besta carregada apontada para o seu peito. 'Sei o que você está pensando', ele diz calmamente, 'mas não se esqueça que só eu sei o modo de sair daqui. Levante-se, está na hora de você ir embora.' O Anão indica que você deve andar à frente dele. De volta à câmara, ele vai até a parede norte e empurra uma das pedras que a compõem. Um pedaço da parede, semelhante a uma porta, gira, abrindo-se para um túnel iluminado por cristais. Com a besta ainda apontada para o seu peito, o Anão sorri, dizendo: 'Boa sorte.' Se você quiser caminhar direto para o túnel, volte para 213. Se preferir desferir um soco no Anão, volte para 145.\n"
+
+def T380():
+    return "\nA maça de ferro do Orca se choca contra o escudo e resvala sem causar dano. O túnel é estreito demais para que os dois o ataquem ao mesmo tempo, por isso você pode lutar com um de cada vez.\n\nHABILIDADE ENERGIA\nPrimeiro ORCA 5 5\nSegundo ORCA 6 4\n\nSe você vencer, volte para 257.\n"
+
+def T381():
+    return "\nVocê olha em volta no aposento e nada vê de interesse, exceto a alcova na parede do oeste e uma cadeira de pedra no meio do aposento, na qual se encontra sentado o esqueleto de um guerreiro armado, possivelmente um concorrente de anos atrás. Os dedos descamados da mão direita estão fechados em torno de um pedaço de pergaminho. Se você quiser pegar o pergaminho do esqueleto, volte para 331. Se preferir caminhar até a alcova, volte para 128.\n"
+
+def T382():
+    return "\nO velho aponta para uma das estátuas, e você logo a reconhece. É o cavaleiro que iniciou a Prova dos Campeões, um olhar de agonia registrado na pedra para toda a eternidade. O velho sorri, dizendo: 'Este homem pesa 50 kg mais a metade do peso dele. Quanto ele pesa?' O que você responderá?\n\n50 quilos?	Volte para 144\n75 quilos?	Volte para 227\n100 quilos?	Vá para 391\n"
+
+def T383():
+    return "\nPara sua grande surpresa, nada de extraordinário lhe acontece enquanto está sentado na cadeira. Nada há a fazer senão continuar para o norte pelo túnel. Volte para 188.\n"
+
+def T384():
+    return "\nO quarto degrau cede sob seu peso. Sua perna afunda num buraco e, antes que você tenha tempo de tirá-la, sente uma terrível dor no pé quando dentes que não pode ver cravam-se nele. Os guinchos agudos que você ouve lá embaixo são produzidos por ratazanas. Elas estão famintas e arrancam-lhe pedaços do pé, ansiosas pela sua carne. Você perde 2 pontos de ENERGIA. Você recupera o equilíbrio e consegue tirar a perna do buraco. Três ratazanas ainda se penduram pelos dentes no seu pé. Chutando freneticamente, você bate com as cabeças delas contra o corrimão até que se soltem. Você então enrola bandagens improvisadas com sua camisa rasgada em torno do pé que sangra e sobe os degraus para partir para o norte de novo. Volte para 277.\n"
+
+def T385():
+    return "\nVocê derrama o conteúdo do frasco de vidro na boca e engole o líquido claro. Embora não sinta qualquer mudança imediata, você espera que a poção crie a ilusão de que você é um TROGLODITA igual aos outros diante de você. Respirando fundo, penetra decididamente na caverna. Os Trogloditas continuam com sua dança tribal, acreditando que você é um deles. Você passa por eles andando naturalmente e segue para o norte. Infelizmente, os efeitos da poção são de curta duração, e você ouve um berro atrás de si, quando um dos Trogloditas repara em você, que é forçado a correr, atravessando a caverna. Adiante, você vê um rio subterrâneo que corre de leste para oeste, cruzando a caverna, e uma ponte que liga uma margem à outra. Se você quiser correr pela ponte, volte para 318. Se preferir mergulhar no rio, volte para 47.\n"
+
+def T386():
+    return "\nVocê não chega a percorrer mais de três metros para o oeste antes de se chocar contra uma barreira invisível. Ela estala e solta faíscas, e você é repelido. Você colidiu com uma parede magnética. Você perde 1 ponto de ENERGIA. Não há outra alternativa senão voltar para a encruzilhada e seguir para o norte. Volte para 218.\n"
+
+
+def T387():
+    return "\nDa sua frente vem o baque de passos pesados que se aproximam. Da penumbra surge um ser grande e primitivo, vestido com uma pele de animal e carregando uma clava de madeira. Ao vê-lo, ele grunhe e cospe no chão, em seguida ergue a clava e avança na sua direção, com um ar nada amigável. Você desembainha a espada e se prepara para enfrentar o HOMEM DA CAVERNA.\n\nHOMEM DA CAVERNA	HABILIDADE 7      ENERGIA 7\n\nSe você vencer, volte para 114.\n"
+
+
+def T388():
+    return "\nO túnel logo chega a um beco sem saída. Um pedaço de papel, escurecido e enrugado de tão velho, está pregado na parede do fundo. Se você quiser pegá-lo para ver se contém alguma mensagem, volte para 23. Se preferir apressar-se a voltar pelo túnel para reunir-se ao Bárbaro, volte para 154.\n"
+
+
+def T389():
+    return "\nSem suas armas você está mais vulnerável, e a perda da espada faz com que se sinta praticamente nu. Você perde 4 pontos de HABILIDADE. Questionando se tomou a decisão correta, você segue pelo túnel para o norte. Volte para 181.\n"
+
+
+def T390():
+    return "\nVocê se agacha ao lado do pedestal, abaixo da linha de fogo das bestas. Estica a mão e puxa o crânio do pedestal, esperando que sua ação faça as bestas dispararem. Para sua grande surpresa, nada acontece. Some 1 ponto de SORTE. Ainda agachado, você arranca as jóias que formam os olhos do crânio. Você identifica as pedras amarelas - topázios - e as coloca na mochila. Olhando para a série de bestas, pergunta-se se ainda há uma armadilha à sua espera no aposento. Você:\n\nEngatinha para fora do aposento, levando o crânio?	Volte para 15\nRecoloca o crânio no pedestal antes de engatinhar para fora do aposento?	Volte para 204\n"
+
+
+def T391():
+    return "\nAinda sorrindo, o velho olha para você e diz: “Muito bem, Estranho. Você respondeu corretamente. Desejo-lhe boa sorte durante o resto da Prova dos Campeões, e, com este objetivo, aumentarei seus poderes.” Ele então murmura mais umas poucas palavras ininteligíveis, e você sente um impulso poderoso percorrer-lhe o corpo. Acrescente 1 ponto a cada um dos seus índices de HABILIDADE, ENERGIA e SORTE. Você diz adeus ao velho e sai do aposento para continuar para o norte pela passagem. Volte para 100.\n"
+
+
+def T392():
+    return """\nVocê só tem tempo de ouvir o Gnomo dizer: “Três crânios”, antes que um raio branco de energia seja disparado da fechadura e atinja-lhe o peito, derrubando-o sem sentidos. Jogue um dado, some 1 ao número obtido e reduza esse total da sua ENERGIA. Se ainda estiver vivo, você recupera os sentidos e ouve o Gnomo ordenar que tente de novo. Você não acertou nenhuma das gemas, por isso não tentará essa combinação de novo.
+
+    A           B           C
+    Esmeralda   Diamante    Safira      Volte para 16
+    Diamante    Safira      Esmeralda   Fique em 392
+    Safira      Esmeralda   Diamante    Volte para 177
+    Esmeralda   Safira      Diamante    Volte para 287
+    Diamante    Esmeralda   Safira      Volte para 132
+    Safira      Diamante    Esmeralda   Volte para 249\n
+"""
+
+
+def T393():
+    return "\nVocê entra em um aposento frio, dividido por uma fenda profunda. Uma corda retesada estendida de lado a lado atravessa a fenda para o outro lado, onde um magnífico elmo alado repousa sobre um poste. Se você quiser caminhar pela corda bamba para chegar ao elmo, volte para 274. Se preferir retornar pelo túnel para continuar para o norte, volte para 291.\n"
+
+
+def T394():
+    return "\nVocê arrebenta o vidro com o cabo da espada, fazendo um buraco grande o bastante para que você passe. Imediatamente, os Insetos Gigantes saltam na sua direção. Sem perda de tempo, você entra no aposento, apanhando uma das tochas acesas para se defender. O fogo mantém a maioria dos Insetos a distância, mas, quando você consegue pegar a coroa e retornar ao corredor, certamente foi mordido por alguns deles. Jogue um dado e some 2 ao total. Este é o número de ferroadas que você recebeu, e terá que reduzir sua ENERGIA em 1 ponto para cada uma delas. Os Insetos Gigantes não vêm atrás de você, preferindo a luz brilhante do aposento em que estão. Você examina a coroa, e vê com desgosto que não é nada além de ferro pintado, e o “diamante” é vidro e não vale nada. Você a atira no chão com raiva e fica pensando aonde ir em seguida. Se quiser se dirigir para o oeste, volte para 59. Se preferir retornar ao cruzamento para continuar para o norte, volte para 14.\n"
+
+
+def T395():
+    return "\nAo ouvir o roído da sua bainha, um dos Trogloditas dá o alarme. Você se levanta e corre o mais rápido que pode pela caverna. Um dos arqueiros dispara uma flecha que lhe rasga o ombro com precisão mortal. Você perde 3 pontos de ENERGIA. Se ainda estiver vivo, volte para 259.\n"
+
+
+def T396() :
+    return """\nVocê faz um laço com a corda, gira-o acima de si e o lança na cabeça do ídolo, sorrindo com alegria quando ele cai em torno do pescoço da estátua. Você então aperta o nó e começa a içar-se pela corda. Logo chega ao topo, sentando-se em cima do nariz do ídolo enquanto continua a segurar a corda. Você desembainha a espada e fica pensando de que olho arrancar a jóia primeiro.
+    \nVocê: \n(1)Arranca primeiro a do olho esquerdo\n(2)Arranca primeiro a do olho direito"""
+
+
+def T397():
+    return "\nO líquido é uma poção mágica que lhe permitirá detectar armadilhas ocultas. Some 2 pontos de SORTE. Se ainda não o fez, você pode abrir o livro vermelho – volte para 52. Do contrário, você terá que continuar para o norte com Throm - volte para 369.\n"
+
+
+def T398():
+    return "\nEmbora não haja qualquer armadilha evidente, você tem a forte sensação de que a arca contém um perigo oculto. A Poção de Detecção de Armadilha está funcionando bem. Você pára de um dos lados da arca e levanta a tampa com a espada, esticando o braço para mantê-la a distância. Quando a tampa se ergue, uma bola de ferro presa a um cordão é atirada para trás e quebra uma cápsula de vidro que está fixada no lado de dentro da tampa, instantaneamente liberando um gás. Felizmente, você tem tempo de pular para trás sem inalar os vapores venenosos. Quando o gás se dissipa, você caminha até a arca e olha dentro dela. Uma corrente com um pingente está jogada no fundo, mas alguém já tirou a jóia que havia nele. Você fica tão aborrecido que joga a corrente no chão e sai do aposento, furioso, para o túnel. Volte para 230.\n"
+
+
+def T399():
+    return "\nO pão contém ervas curativas secretas dos elfos. Some 3 pontos de ENERGIA. Sentindo-se triste, embora forte, você guarda o espelho e o amuleto, saindo da caverna para seguir para o norte. Volte para 192.\n"
+
+
+def T400():
+    return "\nLogo que você aparece na saída do túnel, uma multidão grita e vibra. As pessoas abrem alas para que você siga na direção de um pequeno palanque, no qual, sentado embaixo de um pára- sol de bambu colorido, está o Barão Sukumvit. Ele parece apalermado, como se jamais esperasse que alguém conseguisse sair vivo do Calabouço da Morte. O segredo de Fang foi revelado. Quando o Barão se levanta da cadeira, você sobe os degraus do palanque, inclina-se diante dele e observa aqueles olhos frios fixos em você em completo espanto. Você sorri meio sem graça quando ele lhe oferece a mão estendida. Em meio ao barulho ensurdecedor da ovação do povo de Fang, o Barão Sukumvit abre o cofre que contém seu prêmio de 10.000 Peças de Ouro. Em seguida, ele coloca uma coroa de louros sobre a sua cabeça e o proclama Campeão do Calabouço da Morte.\n"
 
