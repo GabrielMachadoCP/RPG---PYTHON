@@ -60,7 +60,7 @@ def T10() :
 
 
 def T11() :
-    return """Você olha para baixo e vê os corpos esparramados dos Guardiões Voadores imóveis no chão. Então, começa a forçar o olho de esmeralda do ídolo para retirá-lo com a ponta da espada. Finalmente, ele se solta, e você fica surpreso com o peso da jóia. Esperando que possa ser útil mais tarde, você o coloca na mochila. 
+    return """\nVocê olha para baixo e vê os corpos esparramados dos Guardiões Voadores imóveis no chão. Então, começa a forçar o olho de esmeralda do ídolo para retirá-lo com a ponta da espada. Finalmente, ele se solta, e você fica surpreso com o peso da jóia. Esperando que possa ser útil mais tarde, você o coloca na mochila. 
     \nVocê: \n(1)Retira o olho direito\n(2)Desce do ídolo"""
 
 
@@ -218,7 +218,7 @@ def T45() :
 
 
 def T46() :
-    return "Você desce cuidadosamente do ídolo e, sem perder mais tempo na caverna, corre para o túnel adiante na parede norte."
+    return "\nVocê desce cuidadosamente do ídolo e, sem perder mais tempo na caverna, corre para o túnel adiante na parede norte."
 
 
 def T47() :
@@ -668,7 +668,7 @@ def T139() :
 
 
 def T140() :
-    return """Você tenta forçar o olho de esmeralda com a ponta da espada, procurando enfiá-la por baixo dele. Para sua grande surpresa, ele se despedaça com o contato, soltando um jato de gás venenoso direto no seu rosto. Você desmaia e cai para trás, chocando-se contra o ídolo várias vezes até parar no chão de pedra. Sua aventura termina aqui."""
+    return """\nVocê tenta forçar o olho de esmeralda com a ponta da espada, procurando enfiá-la por baixo dele. Para sua grande surpresa, ele se despedaça com o contato, soltando um jato de gás venenoso direto no seu rosto. Você desmaia e cai para trás, chocando-se contra o ídolo várias vezes até parar no chão de pedra. Sua aventura termina aqui."""
 
 
 def T141() :
@@ -789,13 +789,7 @@ def T165() :
 
 
 def T166() :
-    return """Ao tocar o olho de esmeralda do ídolo, você ouve um rangido abaixo de si. Olhando na direção do ruído. Você fica abismado ao ver os dois pássaros empalhados voando. As asas dele batem aos arrancos, mas logo estão sobre você e parecem prontos para atacar. Lute com um dos GUARDIÕES VOADORES de cada vez, mas reduza a sua HABILIDADE em 3 pontos durante este combate, pois a posição restringe-lhe os movimentos.
-
-                                HABILIDADE	ENERGIA
-    Primeiro GUARDIÃO VOADOR	7	        8
-    Segundo GUARDIÃO VOADOR	    8       	8
-
-    Se você vencer, volte para 11."""
+    return "\nAo tocar o olho de esmeralda do ídolo, você ouve um rangido abaixo de si. Olhando na direção do ruído. Você fica abismado ao ver os dois pássaros empalhados voando. As asas dele batem aos arrancos, mas logo estão sobre você e parecem prontos para atacar. Você tem sua HABILIDADE reduzida em 3 pontos durante este combate, pois a posição restringe-lhe os movimentos."
 
 
 def T167() :
@@ -879,7 +873,7 @@ def T185() :
 
 
 def T186() :
-    return "\nLenta e cuidadosamente, você começa a escalar o ídolo. Quando está prestes a segurar na grande orelha, seu pé escorrega, Teste sua Sorte."
+    return "\nLenta e cuidadosamente, você começa a escalar o ídolo. Quando está prestes a segurar na grande orelha, seu pé escorrega. Teste sua Sorte."
 
 
 def T187() :
@@ -1210,8 +1204,9 @@ def T259():
     return "Ignorando a dor, você continua correndo. À sua frente, vê um rio subterrâneo que corre de leste para oeste atravessando a caverna, com uma ponte de madeira que liga uma margem a outra. Você olha para trás e vê os Trogloditas no seu encalço. Se você quiser correr pela ponte, vá para 318. Se desejar mergulhar no rio, volte para 47."
 
 
-def T260():
-    return "Você mal consegue se agarrar à orelha do ídolo e recuperar um ponto de apoio para os pés. Você se desloca pelo rosto da estátua. Sentado no nariz do ídolo, você desembainha a espada e considera qual dos olhos dele arrancará primeiro para levar a jóia. Se quiser arrancar primeiro o olho esquerdo, volte para 166. Se preferir arrancar o olho direito, volte para 140."
+def T260() :
+    return """\nVocê mal consegue se agarrar à orelha do ídolo e recuperar um ponto de apoio para os pés. Você se desloca pelo rosto da estátua. Sentado no nariz do ídolo, você desembainha a espada e considera qual dos olhos dele arrancará primeiro para levar a jóia.
+    \nVocê: \n(1)Arranca primeiro o olho esquerdo\n(2)Arranca o olho direito"""
 
 
 def T261():
@@ -1523,8 +1518,9 @@ def T356():
 def T357():
     return "\nA Besta Sangrenta chafurda na poça, e o cheiro dos gases venenosos, cujas bolhas sobem à tona e contaminam a atmosfera, provoca ânsias de vômito. Você:\n\nCorrerá contornando a poça da fera, na direção do túnel?	Volte para 255\nJogará uma gema na poça (se você tiver uma)?	Volte para 332\nAtacará a fera com sua espada?	Volte para 180.\n"
 
-def T358():
-    return "\nVocê perde o equilíbrio e despenca de cabeça no chão. Perde 2 pontos de ENERGIA. Você desiste de tentar escalar o ídolo e corre para seguir pelo túnel na parede norte. Volte para 239.\n"
+def T358() :
+    return "\nVocê perde o equilíbrio e despenca de cabeça no chão. Perde 2 pontos de ENERGIA. Você desiste de tentar escalar o ídolo e corre para seguir pelo túnel na parede norte."
+
 
 def T359():
     return "\nVocê cai da corda e despenca de cabeça na fenda. Bate com a cabeça em uma saliência rochosa e morre antes de chegar ao fundo da fenda.\n"
