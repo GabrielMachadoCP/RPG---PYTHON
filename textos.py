@@ -70,7 +70,7 @@ def T12() :
 
 
 def T13() :
-    return """O túnel faz uma curva abrupta para a esquerda e se dirige para o norte, tanto quanto a sua vista alcança. As pegadas que você está seguindo começam a sumir à medida que o túnel vai ficando mais seco. Logo não vê mais o teto gotejante e as poças no chão. Você repara que o ar está se tornando mais quente, e se vê ofegante, embora esteja andando bem devagar. Em uma pequena reentrância da parede da esquerda, você vê um pedaço de bambu na vertical. Levantando-o, repara que ele está cheio de um líquido claro. Sua garganta está dolorosamente seca, e você se sente um pouco tonto por causa do calor no túnel. 
+    return """\nO túnel faz uma curva abrupta para a esquerda e se dirige para o norte, tanto quanto a sua vista alcança. As pegadas que você está seguindo começam a sumir à medida que o túnel vai ficando mais seco. Logo não vê mais o teto gotejante e as poças no chão. Você repara que o ar está se tornando mais quente, e se vê ofegante, embora esteja andando bem devagar. Em uma pequena reentrância da parede da esquerda, você vê um pedaço de bambu na vertical. Levantando-o, repara que ele está cheio de um líquido claro. Sua garganta está dolorosamente seca, e você se sente um pouco tonto por causa do calor no túnel. 
     \nVocê: \n(1)Bebe o líquido\n(2)Não se arrisca a beber e prefere continuar para o norte"""
 
 
@@ -130,7 +130,7 @@ def T24() :
 
 
 def T25() :
-    return """Embora a temperatura no túnel esteja mais alta do que você conseguiria normalmente tolerar, o líquido do bambu mantém-no vivo."""
+    return "\nEmbora a temperatura no túnel esteja mais alta do que você conseguiria normalmente tolerar, o líquido do bambu mantém-no vivo."
 
 
 def T26() :
@@ -150,11 +150,11 @@ def T29() :
 
 
 def T30() :
-    return """Dando um passo à frente, você salta para a borda do outro lado do poço.""" #Teste sua Sorte => INPUT
+    return """Dando um passo à frente, você salta para a borda do outro lado do poço."""
 
 
 def T31() :
-    return """O Gnomo sorri e diz: “Bom. Agora, você possui uma safira?” """ #INPUT = Sim ou Não
+    return """O Gnomo sorri e diz: “Bom. Agora, você possui uma safira?” """
 
 
 def T32() :
@@ -196,8 +196,21 @@ def T40() :
 
 
 def T41() :
-    return """Você caminha lentamente para a alcova, verificando cuidadosamente o chão para não cair em outras armadilhas ocultas. Você vê que a taça contém um líquido vermelho efervescente.
-    \nVocê: \n(1)Beberá o líquido vermelho\n(2)Deixará a taça e caminhará de volta para procurar o Bárbaro (se você ainda não tiver feito isso)\n(3)Deixará a câmara para continuar para o oeste"""
+    return """\nVocê caminha lentamente para a alcova, verificando cuidadosamente o chão para não cair em outras armadilhas ocultas. Você vê que a taça contém um líquido vermelho efervescente.
+    
+    \nVocê: \n(1)Beberá o líquido vermelho\n(2)Deixará a taça e caminhará de volta para procurar o Bárbaro\n(3)Deixará a câmara para continuar para o oeste"""
+
+
+def T41_2() :
+    return """\nVocê caminha lentamente para a alcova, verificando cuidadosamente o chão para não cair em outras armadilhas ocultas. Você vê que a taça contém um líquido vermelho efervescente.
+    
+    \nVocê: \n(1)Beberá o líquido vermelho\n(2)Deixará a câmara para continuar para o oeste"""
+
+
+def T41_3() :
+    return """\nVocê caminha lentamente para a alcova, verificando cuidadosamente o chão para não cair em outras armadilhas ocultas. Você vê que a taça contém um líquido vermelho efervescente.
+    
+    \nVocê: \n(1)Beberá o líquido vermelho\n(2)Deixará a taça e caminhará de volta para comer a carne\n(3)Deixará a câmara para continuar para o oeste"""
 
 
 def T42() :
@@ -226,7 +239,7 @@ def T47() :
 
 
 def T48() :
-    return "Somente sua força imensa e determinação inquebrantável evitam que você caia inconsciente ao solo. Você aperta os dentes e, resoluto, segue adiante."
+    return "\nSomente sua força imensa e determinação inquebrantável evitam que você caia inconsciente ao solo. Você aperta os dentes e, resoluto, segue adiante."
 
 
 def T49() :
@@ -341,7 +354,11 @@ def T72() :
 
 
 def T73() :
-    return "Se você ainda não o tiver feito, poderá caminhar de volta à procura do Bárbaro - vá para 126. Do contrário, saia da câmara para continuar para o oeste - vá para 83."
+    return "\nSe você ainda não o tiver feito, poderá caminhar de volta à procura do Bárbaro - vá para 126. Do contrário, saia da câmara para continuar para o oeste - vá para 83."
+
+
+def T73_2() :
+    return "\nSaia da câmara para continuar para o oeste."
 
 
 def T74() :
@@ -413,13 +430,7 @@ def T90() :
 
 
 def T91() :
-    return """A maça de ferro do Orca atinge-lhe o braço, jogando sua espada no chão. Você terá que lutar com as mãos nuas, o que lhe reduz a HABILIDADE em 4 pontos enquanto durar o combate. Felizmente, o túnel é estreito demais para os dois Orcas atacarem-no ao mesmo tempo. Lute com um de cada vez.
-
-    	        HABILIDADE	    ENERGIA
-Primeiro ORCA	5	            5
-Segundo ORCA    6                   4
-
-Se você vencer, vá para 257."""
+    return "\nA maça de ferro do Orca atinge-lhe o braço, jogando sua espada no chão. Você terá que lutar com as mãos nuas, o que lhe reduz a HABILIDADE em 4 pontos enquanto durar o combate. Felizmente, o túnel é estreito demais para os dois Orcas atacarem-no ao mesmo tempo. Lute com um de cada vez."
 
 
 def T92() :
@@ -447,7 +458,7 @@ def T97() :
 
 
 def T98() :
-    return "Erguendo a taça, você aciona um mecanismo de mola, e um dardo é disparado da perna da mesa de madeira. Teste sua Sorte. Se você tiver sorte, vá para 105. Se não tiver sorte, vá para 235."
+    return "\nErguendo a taça, você aciona um mecanismo de mola, e um dardo é disparado da perna da mesa de madeira."
 
 
 def T99() :
@@ -475,7 +486,13 @@ def T104() :
 
 
 def T105() :
-    return "Seus reflexos são precisos, e você rapidamente pula de lado. O dardo passa assobiando, por pouco não o atingindo, e se choca contra a parede do outro lado. Você vê a taça jogada no chão, e o líquido vermelho escorrendo pela pedra cinzenta como pequenos riachos. Pelo menos a raça pode ser de alguma utilidade, portanto você a põe na mochila. Se você ainda não o tiver feito, poderá caminhar de volta para revistar o Bárbaro - vá para 126. Do contrário, saia da câmara para continuar para o oeste - volte para 83."
+    return """\nSeus reflexos são precisos, e você rapidamente pula de lado. O dardo passa assobiando, por pouco não o atingindo, e se choca contra a parede do outro lado. Você vê a taça jogada no chão, e o líquido vermelho escorrendo pela pedra cinzenta como pequenos riachos. Pelo menos a taça pode ser de alguma utilidade, portanto você a põe na mochila.
+
+    \nAgora: \n(1)Caminha de volta para revistar o Bárbaro\n(2)Sai da câmara para continuar para o oeste"""
+
+
+def T105_2() :
+    return "\nSeus reflexos são precisos, e você rapidamente pula de lado. O dardo passa assobiando, por pouco não o atingindo, e se choca contra a parede do outro lado. Você vê a taça jogada no chão, e o líquido vermelho escorrendo pela pedra cinzenta como pequenos riachos. Pelo menos a taça pode ser de alguma utilidade, portanto você a põe na mochila. Você sai da câmara para continuar para o oeste."
 
 
 def T106() :
@@ -591,12 +608,15 @@ def T125() :
 
 
 def T126() :
-    return """A bolsa no cinto do Bárbaro contém apenas uma porção de carne seca de aparência estranha, embrulhada num pano.
-    Você:
+    return """\nA bolsa no cinto do Bárbaro contém apenas uma porção de carne seca de aparência estranha, embrulhada num pano.
 
-    Comerá a carne seca?	Vá para 226
-    Deixará a carne e caminhará para a alcova (se ainda não tiver feito isso)?	Volte para 41
-    Deixará a câmara e seguirá para o oeste?	Volte para 83"""
+    \nVocê: \n(1)Comerá a carne seca\n(2)Deixará a carne e caminhará para a alcova\n(3)Deixará a câmara e seguirá para o oeste"""
+
+
+def T126_2() :
+    return """\nA bolsa no cinto do Bárbaro contém apenas uma porção de carne seca de aparência estranha, embrulhada num pano.
+
+    \nVocê: \n(1)Comerá a carne seca\n(2)Deixará a câmara e seguirá para o oeste"""
 
 
 def T127() :
@@ -672,7 +692,7 @@ def T140() :
 
 
 def T141() :
-    return """O Demônio do Espelho está quase em cima de você quando, reunindo todas as suas forças, você desfere um golpe decisivo contra o espelho com a espada. Jogue dois dados. Se o total for igual ou menor que a sua HABILIDADE, volte para 72. Se o total for maior que a sua HABILIDADE, volte para 96."""
+    return """\nO Demônio do Espelho está quase em cima de você quando, reunindo todas as suas forças, você desfere um golpe decisivo contra o espelho com a espada. Jogue dois dados. Se o total for igual ou menor que a sua HABILIDADE, volte para 72. Se o total for maior que a sua HABILIDADE, volte para 96."""
 
 
 def T142() :
@@ -703,7 +723,7 @@ def T146() :
 
 
 def T147() :
-    return """A água no tubo de bambu é agradavelmente refrescante. Você ganha 1 ponto de ENERGIA. A água contém também uma solução mágica que lhe permite expor-se a temperaturas altíssimas sem sofrer danos. Jogando fora o bambu, você segue para o norte de novo com excelente disposição. Vá para 182."""
+    return "\nA água no tubo de bambu é agradavelmente refrescante. Você ganha 1 ponto de ENERGIA. A água contém também uma solução mágica que lhe permite expor-se a temperaturas altíssimas sem sofrer danos. Jogando fora o bambu, você segue para o norte de novo com excelente disposição."
 
 
 def T148() :
@@ -749,7 +769,9 @@ def T155() :
 
 
 def T156() :
-    return """A pequena placa desliza e se abre facilmente, e você divisa um aposento com um poço profundo no chão atrás da porta. Na parede do outro lado, há dois ganchos de ferro, num dos quais está pendurado um rolo de corda. Se você quiser abrir a porta, pular por cima do poço e pegar a corda, vá para 208. Se preferir continuar para o norte pelo túnel, vá para 326."""
+    return """\nA pequena placa desliza e se abre facilmente, e você divisa um aposento com um poço profundo no chão atrás da porta. Na parede do outro lado, há dois ganchos de ferro, num dos quais está pendurado um rolo de corda.
+
+    \nVocê: \n(1)Tenta abrir a porta, pular por cima do poço e pegar a corda\n(2)Continua para o norte pelo túnel"""
 
 
 def T157() :
@@ -781,7 +803,9 @@ def T163() :
 
 
 def T164() :
-    return """Enquanto você caminha, pingos de água voltam a cair do teto do túnel. Você vê pegadas úmidas, feitas pelas mesmas botas que você havia seguido anteriormente, se dirigindo para o oeste. As pegadas conduzem a uma porta de ferro fechada na parede do lado direito do túnel, mas não parecem continuar a partir dali. Se quiser abrir a porta, vá para 299. Se preferir continuar em frente para o oeste, volte para 83."""
+    return """\nEnquanto você caminha, pingos de água voltam a cair do teto do túnel. Você vê pegadas úmidas, feitas pelas mesmas botas que você havia seguido anteriormente, se dirigindo para o oeste. As pegadas conduzem a uma porta de ferro fechada na parede do lado direito do túnel, mas não parecem continuar a partir dali.
+
+    \nVocê: \n(1)Abre a porta\n(2)Continua em frente para o oeste"""
 
 
 def T165() :
@@ -809,7 +833,7 @@ def T170() :
 
 
 def T171() :
-    return """A porta abre para um pequeno aposento, mas, antes que saiba o que está acontecendo, você despenca no vazio havia um poço atrás da porta e você não o viu. Você cai pesadamente no fundo e se contorce em dores. Perde 4 pontos de ENERGIA. As paredes do poço são rugosas e têm muitos pontos onde apoiar os pés e as mãos; por isso, você consegue fazer a escalada e sair com bastante facilidade. Você amaldiçoa sua própria ansiedade e diz a si mesmo que doravante será mais cuidadoso. No interior do aposento, você vê dois ganchos de ferro numa das paredes. Há um rolo de corda pendurado em um deles; você o coloca na mochila, salta de volta por cima do poço e sai do aposento, dirigindo-se ao norte. Vá para 326."""
+    return "\nA porta abre para um pequeno aposento, mas, antes que saiba o que está acontecendo, você despenca no vazio - havia um poço atrás da porta e você não o viu. Você cai pesadamente no fundo e se contorce em dores. Perde 4 pontos de ENERGIA. As paredes do poço são rugosas e têm muitos pontos onde apoiar os pés e as mãos; por isso, você consegue fazer a escalada e sair com bastante facilidade. Você amaldiçoa sua própria ansiedade e diz a si mesmo que doravante será mais cuidadoso. No interior do aposento, você vê dois ganchos de ferro numa das paredes. Há um rolo de corda pendurado em um deles; você o coloca na mochila, salta de volta por cima do poço e sai do aposento, dirigindo-se ao norte."
 
 
 def T172() :
@@ -857,7 +881,7 @@ def T181() :
 
 
 def T182() :
-    return """A temperatura continua a subir, e você começa a pingar suor. Adiante, o calor se intensifica. Parece que você está numa fornalha. A situação é tão insuportável que você começa a desfalecer. Se você tiver bebido o líquido do tubo de bambu, volte para 25. Se não tiver parado para beber o líquido, vá para 242."""
+    return "\nA temperatura continua a subir, e você começa a pingar suor. Adiante, o calor se intensifica. Parece que você está numa fornalha. A situação é tão insuportável que você começa a desfalecer."
 
 
 def T183() :
@@ -885,13 +909,7 @@ def T188() :
 
 
 def T189() :
-    return """As pontas da maça do Orca penetram dolorosamente na sua coxa esquerda. Você perde 3 pontos de ENERGIA. Você cambaleia para trás, mas consegue recuperar o equilíbrio a tempo de se defender. Felizmente, o túnel é estreito demais para que ambos os Orcas ataquem-no a um só tempo. Lute com um de cada vez.
-
-                    HABILIDADE	ENERGIA
-    Primeiro ORCA	5	        5
-    Segundo ORCA	6	        4
-
-    Se você vencer, vá para 257."""
+    return "\nAs pontas da maça do Orca penetram dolorosamente na sua coxa esquerda. Você perde 3 pontos de ENERGIA. Você cambaleia para trás, mas consegue recuperar o equilíbrio a tempo de se defender. Felizmente, o túnel é estreito demais para que ambos os Orcas ataquem-no a um só tempo. Lute com um de cada vez."
 
 
 def T190() :
@@ -931,11 +949,9 @@ def T196() :
 
 
 def T197() :
-    return """Graças aos céus, a temperatura agora começa a cair rapidamente, e logo parece quase fresca de novo. No lado esquerdo do túnel, há uma porta fechada e nela, uma pequena placa de ferro que talvez possa ser aberta. Você:
+    return """\nGraças aos céus, a temperatura agora começa a cair rapidamente, e logo parece quase fresca de novo. No lado esquerdo do túnel, há uma porta fechada e nela, uma pequena placa de ferro que talvez possa ser aberta.
 
-Tentará abrir a porta?	Volte para 171
-Tentará fazer deslizar a placa de ferro?	Volte para 156
-Continuará para o norte, subindo o túnel?	Vá para 326"""
+    \nVocê: \n(1)Tentará abrir a porta\n(2)Tentará fazer deslizar a placa de ferro\n(3)Continuará para o norte, subindo o túnel"""
 
 
 def T198() :
@@ -982,8 +998,8 @@ def T207() :
     return """Você tira a camisa e a rasga ao meio, depois amarra cada um dos pedaços em volta de cada pé, a fim de se proteger em certa medida do lodo corrosivo, e dispara para cruzá-lo a passos largos. No terreno fume do outro lado do lodaçal, você tenta freneticamente, com a espada, arrancar a camisa que queima em seus pés. Porém, parte do lodo penetrou até seu tornozelo. Você perde 3 pontos de ENERGIA. Partindo para o norte de novo, você chega a uma encruzilhada. Se quiser ir para o oeste, vá para 386. Se preferir continuar para o norte, vá para 218."""
 
 
-def T208():
-    return """A porta abre para o aposento; você toma distância e salta sobre o poço. Coloca a corda na mochila e salta de volta por sobre o poço para sair do aposento e prosseguir para o norte."""
+def T208() :
+    return "\nA porta abre para o aposento; você toma distância e salta sobre o poço. Coloca a corda na mochila e salta de volta por sobre o poço para sair do aposento e prosseguir para o norte."
 
 
 def T209():
@@ -1010,8 +1026,8 @@ def T214():
     return """Caminhando em frente, você vê uma linha vermelha pintada no chão do túnel e nota um aviso na parede que diz: “Armas não são permitidas a partir deste ponto.” Ignorar o aviso?"""
 
 
-def T215():
-    return """Sua espada arrebenta facilmente a fina casca externa da gigantesca bola de esporos. Uma espessa nuvem de esporos saída da bola se espalha e o envolve. Alguns dos esporos grudam- se à sua pele, que começa a coçar terrivelmente. Aparecem grandes caroços no seu rosto e braços, e sua pele parece estar em fogo. Você perde 2 pontos de ENERGIA. Coçando freneticamente os caroços, você passa por cima da bola de esporos, agora murcha, e segue para o oeste."""
+def T215() :
+    return "\nSua espada arrebenta facilmente a fina casca externa da gigantesca bola de esporos. Uma espessa nuvem de esporos saída da bola se espalha e o envolve. Alguns dos esporos grudam-se à sua pele, que começa a coçar terrivelmente. Aparecem grandes caroços no seu rosto e braços, e sua pele parece estar em fogo. Você perde 2 pontos de ENERGIA. Coçando freneticamente os caroços, você passa por cima da bola de esporos, agora murcha, e segue para o oeste."
 
 
 def T216():
@@ -1059,8 +1075,20 @@ def T225():
     return """Você reage prontamente e, com um golpe de espada, consegue cortar a língua estendida da Besta Sangrenta. A fera urra de dor e se atira para frente, tentando prendê-lo nas mandíbulas ensangüentadas. Esta será uma luta até a morte."""
 
 
-def T226():
-    return """A carne contém ervas que lhe aumentarão a força. Some 3 pontos ao seu índice de ENERGIA. Quer sair da câmara e continuar para o oeste?"""
+def T226() :
+    return """\nA carne contém ervas que lhe aumentarão a força. Você ganha 3 pontos de ENERGIA.
+
+    \nAgora: \n(1)Caminha até a alcova\n(2)Sai da câmara e continua para o oeste"""
+
+
+def T226_2() :
+    return """\nA carne contém ervas que lhe aumentarão a força. Você ganha 3 pontos de ENERGIA.
+
+    \nAgora: \n(1)Caminha até a alcova e bebe o líquido\n(2)Sai da câmara e continua para o oeste"""
+
+
+def T226_3() :
+    return """\nA carne contém ervas que lhe aumentarão a força. Você ganha 3 pontos de ENERGIA. Você sai da câmara e continua para o oeste"""
 
 
 def T227():
@@ -1100,8 +1128,8 @@ def T234():
     return "Um pouco mais adiante, você chega a uma parte do túnel coberta de lodo verde e espesso. Parece ameaçador, por isso você resolve testá-lo primeiro com um pedaço de pano. A pasta corrosiva do lodo queima o pano instantaneamente, não deixando nem sinal dele. Se você estiver carregando um par de pernas-de-pau, você vai para a função correspondente. Se não as tiver, você também vai para a função correspondente."
 
 
-def T235():
-    return "Você não tem tempo para reagir antes que um dardo se crave na sua coxa. Você perde 2 pontos de ENERGIA. Se ainda estiver vivo, você vai para a função correspondente."
+def T235() :
+    return "\nVocê não tem tempo para reagir antes que um dardo se crave na sua coxa. Você perde 2 pontos de ENERGIA."
 
 
 def T236():
@@ -1131,7 +1159,7 @@ def T241():
 
 
 def T242():
-    return "Você sacode a cabeça, tentando desesperadamente manter a consciência, mas o calor é intenso demais, e você perde os sentidos."
+    return "\nVocê sacode a cabeça, tentando desesperadamente manter a consciência, mas o calor é intenso demais, e você perde os sentidos."
 
 
 def T243():
@@ -1198,7 +1226,7 @@ def T256() :
 
 
 def T257() :
-    return """Dentro dos bolsos de um dos Orcas, você acha uma Peça de Ouro e um tubo oco de madeira. Você guarda na mochila o que encontrou e parte para o oeste. Volte para 164."""
+    return "\nDentro dos bolsos de um dos Orcas, você acha uma Peça de Ouro e um tubo oco de madeira. Você guarda na mochila o que encontrou e parte para o oeste."
 
 
 def T258():
@@ -1339,8 +1367,10 @@ def T297():
 def T298():
     return """Há uma mochila encostada na parede do túnel. Você se pergunta se ela pertenceria a um de seus rivais. Se você quiser olhar dentro da mochila, vá para 304. Se preferir continuar para o norte, volte para 279."""
 
-def T299():
-    return """A porta abre para uma grande câmara, onde você se choca ao ver que um de seus rivais obviamente encontrou morte súbita ao ser perfurado. É um dos Bárbaros, e ele está empalado em vários espigões de ferro bem longos, presos a uma tábua projetada de dentro do chão. O piso está coberto de lixo e detritos, escondendo um arame no qual ele deve ter pisado, disparando assim o mecanismo da tábua com espigões. Numa alcova na parede do outro lado, você pode ver uma taça de prata sobre uma pequena mesa de madeira. Você:\n\nIrá até o Bárbaro para revistá-lo? Volte para 126\nCaminhará na direção da alcova? Volte para 41\nFechará a porta e continuará para o oeste? Volte para 83"""
+def T299() :
+    return """\nA porta abre para uma grande câmara, onde você se choca ao ver que um de seus rivais obviamente encontrou morte súbita ao ser perfurado. É um dos Bárbaros, e ele está empalado em vários espigões de ferro bem longos, presos a uma tábua projetada de dentro do chão. O piso está coberto de lixo e detritos, escondendo um arame no qual ele deve ter pisado, disparando assim o mecanismo da tábua com espigões. Numa alcova na parede do outro lado, você pode ver uma taça de prata sobre uma pequena mesa de madeira.
+
+    \nVocê: \n(1)Irá até o Bárbaro para revistá-lo\n(2)Caminhará na direção da alcova\n(3)Fechará a porta e continuará para o oeste"""
 
 def T300():
     return """Você golpeia o espelho com a espada, com toda sua força, mas isso de nada adianta: o espelho não quebra, e o Demônio do Espelho continua a avançar. Se você quiser tentar partir o espelho de novo, volte para 141. Se, em vez disso, preferir atacar o Demônio do Espelho, vá para 327."""
@@ -1425,7 +1455,7 @@ def T325():
     return """\nVocê se levanta e segue túnel abaixo. De repente, vê a luz do dia no fim do túnel. Enquanto corre na direção da visão mais bela que teve diante de si desde muito tempo, um céu claro e azul, árvores verdes, você sonha com o alegre cenário de pessoas vibrando. Mas não há recepção de herói da parte das pessoas à sua volta. Estão todas mortas. Você está dentro de uma câmara fria repleta de cadáveres e esqueletos com armaduras. A saída para a vitória era apenas uma ilusão. Somente os despojos de aventureiros do passado são reais. Profundamente deprimido, você caminha de volta para o túnel, mas se choca com uma barreira invisível. Você está aprisionado neste sinistro local, fadado a terminar seus dias na câmara dos mortos.\n"""
 
 def T326():
-    return """\nAdiante, o túnel faz uma curva fechada para a esquerda. Ao dobra-la, você quase bate de frente em dois ORCAS de aspecto feroz, armados de maças com pontas de ferro e usando armaduras de couro. Você está totalmente despreparado, e, enquanto desembainha a espada, um deles desfere-lhe um golpe de maça. Jogue um dado. Se você obtiver 1 ou 2, volte para 91. Se obtiver 3 ou 4, volte para 189. Se obtiver 5 ou 6, vá para 380.\n"""
+    return "\nAdiante, o túnel faz uma curva fechada para a esquerda. Ao dobra-la, você quase bate de frente em dois ORCAS de aspecto feroz, armados de maças com pontas de ferro e usando armaduras de couro. Você está totalmente despreparado, e, enquanto desembainha a espada, um deles desfere-lhe um golpe de maça."
 
 def T327():
     return """\nExclusivamente voltado para agarrar-lhe o braço, o Demônio do Espelho não tenta defender- se.\n\nDEMÔNIO DO ESPELHO    HABILIDADE 10    ENERGIA 10\n\nSe, durante uma Série de Ataque, a Força de Ataque do Demônio do Espelho for maior que a sua, volte para 8. Se você conseguir derrotar o Demônio do Espelho sem que ele ganhe qualquer Série de Ataque, volte para 92.\n"""
@@ -1551,7 +1581,8 @@ def T365():
     return "\nVocê diz a Throm que matar o Anão não vai adiantar nada, pois vocês jamais acharão a saída da câmara sozinhos. Você argumenta que talvez surja uma chance de enganar o Anão mais tarde, quando tiverem descoberto a saída da câmara, por isso você pretende ir adiante com o teste do Anão. Você diz ao Anão que está pronto, e ele acena para que o siga. Throm deve aguardar a volta dele. Uma porta secreta abre-se na parede da câmara, e você segue o Anão até um pequeno aposento circular. Ele fecha a porta atrás de você e lhe entrega dois dados de osso, mandando que os jogue no chão. Você tira um seis e um dois: total, oito. O Anão pede que você os jogue mais uma vez, mas, agora, deve adivinhar se o total será igual, menor ou maior que oito. Se seu palpite for que será igual, volte para 290. Se achar que será menor que oito, volte para 191. Se optar por maior que oito, volte para 84.\n"
 
 def T366():
-    return "\nA temperatura continua a subir, muito além dos limites de tolerância humanos. Estendido no chão quase derretido do túnel, você não consegue recuperar a consciência. Sua aventura termina aqui.\n"
+    return "\nA temperatura continua a subir, muito além dos limites de tolerância humanos. Estendido no chão quase derretido do túnel, você não consegue recuperar a consciência. Sua aventura termina aqui."
+
 
 def T367():
     return "\nEle o encara desconfiado quando você diz que é um competidor na Prova dos Campeões. Você pergunta a ele o que faz nos túneis, e ele lhe responde, um tanto relutante, que é servo de um dos Juízes da Prova, os controladores das diferentes partes do calabouço designados pelo Barão Sukumvit. Depois de alguma conversa, ele admite que gostaria de fugir, mas ninguém pode sair do calabouço, pois poderia revelar os segredos da construção. Ele espera conseguir sair dali mediante suborno, e, por uma Peça de Ouro, poderá dizer-lhe onde há um tesouro escondido. Se você quiser pagar pela orientação do velho, volte para 244. Se preferir simplesmente desejar-lhe o melhor e continuar para o oeste, volte para 109.\n"
@@ -1571,8 +1602,9 @@ def T371():
 def T372():
     return "\nVocê finalmente chega ao corpo do guerreiro, mas, logo que toca na jóia, tanto ela quanto o guerreiro desaparecem como num passe de mágica. A porta bate atrás de você, e segue-se um estrondo agourento acima da sua cabeça. Você olha para o alto e vê o teto baixando. Corre para a porta na tentativa de escapar, mas ela está trancada e não há maçaneta do lado de dentro. O teto vai descendo, e você é obrigado a se deitar no chão, tentando impedir o movimento do teto com as mãos e os pés. Mas o esforço é inútil, e você é esmagado entre os blocos de pedra.\n"
 
-def T373():
-    return "\nVocê sobe pelo rochedo macio, temendo ser absorvido por ele a qualquer momento. É difícil passar por cima da coisa, pois seus membros afundam na casca mole, mas, por fim, você consegue chegar ao outro lado. Aliviado por estar de novo em terreno firme, você se dirige para o leste. Volte para 13.\n"
+def T373() :
+    return "\nVocê sobe pelo rochedo macio, temendo ser absorvido por ele a qualquer momento. É difícil passar por cima da coisa, pois seus membros afundam na casca mole, mas, por fim, você consegue chegar ao outro lado. Aliviado por estar de novo em terreno firme, você se dirige para o leste"
+
 
 def T374():
     return "\nVocê caminha pela caverna, mas não acha nada interessante. Throm o chama lá de trás, dizendo que encontrou um saco de couro sob uma pilha de rochas. Abrindo o saco, Throm ri alto quando um minúsculo camundongo corre entre os dedos dele e foge para uma fresta entre dois rochedos. A súbitas, você ouve o som de rocha rachando: estalactites se desprendem do teto, como resultado da vibração causada pelo riso retumbante de Throm, que ainda ecoa pela caverna. Você berra para que Throm fuja pela passagem em arco, enquanto as estalactites desabam. Teste sua Sorte. Se você tiver sorte, volte para 118. Se não tiver sorte, volte para 295.\n"
@@ -1592,8 +1624,9 @@ def T378():
 def T379():
     return "\nExaurido pelo longo duelo, você cai de joelhos. Ao olhar para o corpo imóvel de Throm, um ódio amargo ao Anão enche-lhe o coração. De alguma forma, você vingará Throm. Envolvido pela raiva, não repara que o Anão entra na arena, até que ele chega diante de você, uma besta carregada apontada para o seu peito. 'Sei o que você está pensando', ele diz calmamente, 'mas não se esqueça que só eu sei o modo de sair daqui. Levante-se, está na hora de você ir embora.' O Anão indica que você deve andar à frente dele. De volta à câmara, ele vai até a parede norte e empurra uma das pedras que a compõem. Um pedaço da parede, semelhante a uma porta, gira, abrindo-se para um túnel iluminado por cristais. Com a besta ainda apontada para o seu peito, o Anão sorri, dizendo: 'Boa sorte.' Se você quiser caminhar direto para o túnel, volte para 213. Se preferir desferir um soco no Anão, volte para 145.\n"
 
-def T380():
-    return "\nA maça de ferro do Orca se choca contra o escudo e resvala sem causar dano. O túnel é estreito demais para que os dois o ataquem ao mesmo tempo, por isso você pode lutar com um de cada vez.\n\nHABILIDADE ENERGIA\nPrimeiro ORCA 5 5\nSegundo ORCA 6 4\n\nSe você vencer, volte para 257.\n"
+def T380() :
+    return "\nA maça de ferro do Orca se choca contra o escudo e resvala sem causar dano. O túnel é estreito demais para que os dois o ataquem ao mesmo tempo, por isso você pode lutar com um de cada vez."
+
 
 def T381():
     return "\nVocê olha em volta no aposento e nada vê de interesse, exceto a alcova na parede do oeste e uma cadeira de pedra no meio do aposento, na qual se encontra sentado o esqueleto de um guerreiro armado, possivelmente um concorrente de anos atrás. Os dedos descamados da mão direita estão fechados em torno de um pedaço de pergaminho. Se você quiser pegar o pergaminho do esqueleto, volte para 331. Se preferir caminhar até a alcova, volte para 128.\n"
