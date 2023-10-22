@@ -108,7 +108,7 @@ def T19() :
 
 
 def T20() :
-    return """Somente sua incrível força poderia resistir à mordida da aranha venenosa. Contudo, você está enfraquecido e repara que sua mão está tremendo ao colocar a Peça de Ouro no bolso. Reduza sua HABILIDADE em 1 ponto. Você amaldiçoa a pessoa que largou a mochila e parte para o norte de novo."""
+    return "\nSomente sua incrível força poderia resistir à mordida da aranha venenosa. Contudo, você está enfraquecido e repara que sua mão está tremendo ao colocar a Peça de Ouro no bolso. Sua HABILIDADE reduz em 1 ponto. Você amaldiçoa a pessoa que largou a mochila e parte para o norte de novo."
 
 
 def T21() :
@@ -354,11 +354,15 @@ def T72() :
 
 
 def T73() :
-    return "\nSe você ainda não o tiver feito, poderá caminhar de volta à procura do Bárbaro - vá para 126. Do contrário, saia da câmara para continuar para o oeste - vá para 83."
+    return "\nSe você ainda não o tiver feito, poderá caminhar de volta à procura do Bárbaro(1). Do contrário, saia da câmara para continuar para o oeste(2)."
 
 
 def T73_2() :
     return "\nSaia da câmara para continuar para o oeste."
+
+
+def T73_3() :
+    return "\nSe você ainda não o tiver feito, poderá caminhar de volta e comer a carne(1). Do contrário, saia da câmara para continuar para o oeste(2)."
 
 
 def T74() :
@@ -398,7 +402,7 @@ def T82() :
 
 
 def T83() :
-    return "A passagem logo conduz a uma encruzilhada. Você repara em mais pegadas no chão, possivelmente uns três pares, dirigindo-se ao norte pela passagem do sul. Resolve segui-las. Volte para 37."
+    return "\nA passagem logo conduz a uma encruzilhada. Você repara em mais pegadas no chão, possivelmente uns três pares, dirigindo-se ao norte pela passagem do sul. Resolve segui-las."
 
 
 def T84() :
@@ -495,6 +499,12 @@ def T105_2() :
     return "\nSeus reflexos são precisos, e você rapidamente pula de lado. O dardo passa assobiando, por pouco não o atingindo, e se choca contra a parede do outro lado. Você vê a taça jogada no chão, e o líquido vermelho escorrendo pela pedra cinzenta como pequenos riachos. Pelo menos a taça pode ser de alguma utilidade, portanto você a põe na mochila. Você sai da câmara para continuar para o oeste."
 
 
+def T105_3() :
+    return """\nSeus reflexos são precisos, e você rapidamente pula de lado. O dardo passa assobiando, por pouco não o atingindo, e se choca contra a parede do outro lado. Você vê a taça jogada no chão, e o líquido vermelho escorrendo pela pedra cinzenta como pequenos riachos. Pelo menos a taça pode ser de alguma utilidade, portanto você a põe na mochila.
+
+    \nAgora: \n(1)Caminha de volta para comer a carne\n(2)Sai da câmara para continuar para o oeste"""
+
+
 def T106() :
     return "Ao apertar o braço da cadeira, você aciona a mola de um painel secreto, que salta no ar. Você encontra um frasco de vidro e lê o rótulo: 'Poção da Réplica - uma dose apenas. Este líquido fará com que seu corpo tome a forma de qualquer ser que esteja próximo.' Você coloca a estranha poção na mochila e continua para o norte. Vá para 188."
 
@@ -529,7 +539,9 @@ def T113() :
 
 
 def T114() :
-    return "O Homem da Caverna está usando uma munhequeira de couro com quatro pequenos crânios de rato pendurados. Se você quiser colocá-la no seu próprio pulso, vá para 336. Se preferir prosseguir para o norte, vá para 298."
+    return """\nO Homem da Caverna está usando uma munhequeira de couro com quatro pequenos crânios de rato pendurados.
+
+    \nVocê: \n(1)A coloca no seu próprio pulso\n(2)Prossegue para o norte"""
 
 
 def T115() :
@@ -617,6 +629,12 @@ def T126_2() :
     return """\nA bolsa no cinto do Bárbaro contém apenas uma porção de carne seca de aparência estranha, embrulhada num pano.
 
     \nVocê: \n(1)Comerá a carne seca\n(2)Deixará a câmara e seguirá para o oeste"""
+
+
+def T126_3() :
+    return """\nA bolsa no cinto do Bárbaro contém apenas uma porção de carne seca de aparência estranha, embrulhada num pano.
+
+    \nVocê: \n(1)Comerá a carne seca\n(2)Deixará a carne e caminhará para a alcova para beber o líquido vermelho\n(3)Deixará a câmara e seguirá para o oeste"""
 
 
 def T127() :
@@ -1071,7 +1089,7 @@ def T224():
     return """Parece não haver como continuar para o norte. Você dá meia-volta e retorna pelo túnel, passando pela cadeira de madeira. Logo chega à encruzilhada e vira à direita para seguir para o oeste."""
 
 
-def T225():
+def T225() :
     return """Você reage prontamente e, com um golpe de espada, consegue cortar a língua estendida da Besta Sangrenta. A fera urra de dor e se atira para frente, tentando prendê-lo nas mandíbulas ensangüentadas. Esta será uma luta até a morte."""
 
 
@@ -1088,7 +1106,7 @@ def T226_2() :
 
 
 def T226_3() :
-    return """\nA carne contém ervas que lhe aumentarão a força. Você ganha 3 pontos de ENERGIA. Você sai da câmara e continua para o oeste"""
+    return """\nA carne contém ervas que lhe aumentarão a força. Você ganha 3 pontos de ENERGIA. Se sentindo revigorado, você sai da câmara e continua para o oeste"""
 
 
 def T227():
@@ -1303,8 +1321,9 @@ def T277():
 def T278():
     return """Sua lâmina atinge um dos olhos verdadeiros da Besta Sangrenta. O efeito é devastador. Ela desaba na poça, debatendo-se freneticamente. Você aproveita a oportunidade e corre, contornando a poça, rumo à saída para o túnel. Volte para 134."""
 
-def T279():
-    return """Você chega a um cruzamento no túnel. Uma nova ramificação leva para o oeste, mas as pegadas molhadas que você vem seguindo continuam para o norte. Você decide continuar seguindo as pegadas. Volte para 32"""
+def T279() :
+    return "\nVocê chega a um cruzamento no túnel. Uma nova ramificação leva para o oeste, mas as pegadas molhadas que você vem seguindo continuam para o norte. Você decide continuar seguindo as pegadas."
+
 
 def T280():
     return """O túnel continua para o leste por uma boa distância antes de chegar a um cruzamento. As paredes, o teto e o chão do túnel que leva para o sul estão cobertos por um limo verde e espesso. Você considera que é mais seguro dirigir-se para o norte. Volte para 218."""
@@ -1348,8 +1367,8 @@ def T292():
     return """Uma porta se torna visível na parede do lado esquerdo do túnel. Você escuta cuidadosamente junto à porta, mas não ouve nada. A porta não está trancada, e a maçaneta gira facilmente. Se você quiser abrir a porta, volte para 93. Se preferir prosseguir pelo túnel, volte para 230."""
 
 def T293() :
-    return """Seguindo os três pares de pegadas molhadas pela passagem oeste do túnel, você logo chega a uma encruzilhada.
-    \nVocê: \n(1)Continua para o oeste, seguindo dois pares de pegadas\n(2)Se dirige para o norte, seguindo o terceiro par de pegadas\n"""
+    return """\nSeguindo os três pares de pegadas molhadas pela passagem oeste do túnel, você logo chega a uma encruzilhada.
+    \nVocê: \n(1)Continua para o oeste, seguindo dois pares de pegadas\n(2)Se dirige para o norte, seguindo o terceiro par de pegadas"""
 
 
 def T294():
@@ -1364,8 +1383,11 @@ def T296():
 def T297():
     return """A perda de suas posses, obtidas com tanta dificuldade, está se tornando um problema. Você perde 1 ponto de SORTE. Sem mesmo parar para agradecer, Erva o empurra para fora do quarto por uma porta na parede leste. Ei-lo parado no fim de um outro túnel. Vá para 305."""
 
-def T298():
-    return """Há uma mochila encostada na parede do túnel. Você se pergunta se ela pertenceria a um de seus rivais. Se você quiser olhar dentro da mochila, vá para 304. Se preferir continuar para o norte, volte para 279."""
+def T298() :
+    return """\nHá uma mochila encostada na parede do túnel. Você se pergunta se ela pertenceria a um de seus rivais.
+
+    \nVocê: \n(1)Olhar dentro da mochila\n(2)Continua para o norte"""
+
 
 def T299() :
     return """\nA porta abre para uma grande câmara, onde você se choca ao ver que um de seus rivais obviamente encontrou morte súbita ao ser perfurado. É um dos Bárbaros, e ele está empalado em vários espigões de ferro bem longos, presos a uma tábua projetada de dentro do chão. O piso está coberto de lixo e detritos, escondendo um arame no qual ele deve ter pisado, disparando assim o mecanismo da tábua com espigões. Numa alcova na parede do outro lado, você pode ver uma taça de prata sobre uma pequena mesa de madeira.
@@ -1385,8 +1407,9 @@ def T302():
 def T303():
     return """\nCom sua mão livre, você busca a moringa na mochila. Desarrolhando-a com os dentes, derrama o ácido sobre a porta, que é na realidade a forma fluida de um IMITADOR. Um jato de fumaça sobe dela, com um alto som sibilante, enquanto o ácido começa a queimar o Imitador. Ela derrete rapidamente, e você consegue afastar-se sem se ferir. Não tendo outra alternativa, você, um tanto apreensivo, gira a maçaneta da outra porta. Volte para 262.\n"""
 
-def T304():
-    return """\nHá uma única Peça de Ouro no fundo da mochila. Quando você tenta pegá-la, sente um leve movimento que faz cócegas nas costas, da sua mão. Você retira a mão lentamente, tentando controlar o pânico crescente, e fica horrorizado ao ver uma ARANHA VIÚVA NEGRA. Antes que possa afastá-la, ela crava as presas venenosas profundamente no seu pulso. Você perde 6 pontos de ENERGIA. Se ainda estiver vivo, volte para 20.\n"""
+def T304() :
+    return "\nHá uma única Peça de Ouro no fundo da mochila. Quando você tenta pegá-la, sente um leve movimento que faz cócegas nas costas, da sua mão. Você retira a mão lentamente, tentando controlar o pânico crescente, e fica horrorizado ao ver uma ARANHA VIÚVA NEGRA. Antes que possa afastá-la, ela crava as presas venenosas profundamente no seu pulso. Você perde 6 pontos de ENERGIA."
+
 
 def T305():
     return """\nO túnel termina em um lance de degraus de pedra. Do chão, abaixo, vêm latidos de cães. Você tem um osso velho? Se tiver, volte para 253. Se não tiver, volte para 148.\n"""
@@ -1484,8 +1507,9 @@ def T334():
 def T335():
     return """\nAinda correndo o mais rápido que pode, você mergulha no rio. Teste sua Sorte. Se você tiver sorte, volte para 67. Se não tiver sorte, volte para 101.\n"""
 
-def T336():
-    return """\nA munhequeira foi feita e amaldiçoada por uma Bruxa. Ela torna suas reações mais lentas e embota-lhe os sentidos. Reduza sua HABILIDADE em 4 pontos. Furioso, você chuta a parede do túnel e segue para o norte. Volte para 298.\n"""
+def T336() :
+    return "\nA munhequeira foi feita e amaldiçoada por uma Bruxa. Ela torna suas reações mais lentas e embota-lhe os sentidos. Reduza sua HABILIDADE em 4 pontos. Furioso, você chuta a parede do túnel e segue para o norte."
+
 
 def T337():
     return """\nA água fresca é revigorante, mas provém de uma fonte amaldiçoada por uma Bruxa. Some 1 ponto de ENERGIA, mas desconte 2 pontos de SORTE. Se ainda não o fez, você poderá beber da outra fonte - volte para 173 - ou continuar para o norte - vá para 368.\n"""
@@ -1648,7 +1672,7 @@ def T386():
 
 
 def T387():
-    return "\nDa sua frente vem o baque de passos pesados que se aproximam. Da penumbra surge um ser grande e primitivo, vestido com uma pele de animal e carregando uma clava de madeira. Ao vê-lo, ele grunhe e cospe no chão, em seguida ergue a clava e avança na sua direção, com um ar nada amigável. Você desembainha a espada e se prepara para enfrentar o HOMEM DA CAVERNA.\n\nHOMEM DA CAVERNA	HABILIDADE 7      ENERGIA 7\n\nSe você vencer, volte para 114.\n"
+    return "\nDa sua frente vem o baque de passos pesados que se aproximam. Da penumbra surge um ser grande e primitivo, vestido com uma pele de animal e carregando uma clava de madeira. Ao vê-lo, ele grunhe e cospe no chão, em seguida ergue a clava e avança na sua direção, com um ar nada amigável. Você desembainha a espada e se prepara para enfrentar o HOMEM DA CAVERNA."
 
 
 def T388():
