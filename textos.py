@@ -96,7 +96,7 @@ def T16() :
 
 
 def T17() :
-    return """Você não é forte o bastante para forçar e abrir a pesada porta. A água já está na cintura agora, e você está exausto por causa dos esforços. O nível da água sobe rapidamente, e você se vê boiando cada vez mais alto. Até que seu rosto fica imprensado contra o teto. Logo fica completamente imerso e não tem como prender a respiração por mais tempo. Sua aventura termina aqui."""
+    return "\nVocê não é forte o bastante para forçar e abrir a pesada porta. A água já está na cintura agora, e você está exausto por causa dos esforços. O nível da água sobe rapidamente, e você se vê boiando cada vez mais alto. Até que seu rosto fica imprensado contra o teto. Logo fica completamente imerso e não tem como prender a respiração por mais tempo. Sua aventura termina aqui."
 
 
 def T18() :
@@ -166,7 +166,7 @@ def T33() :
 
 
 def T34() :
-    return """\nVocê tenta forçar por baixo da esmeralda com a ponta da espada. Para sua grande surpresa, a esmeralda se despedaça com o contato, soltando um jato de gás venenoso diretamente no seu rosto. O gás o faz desmaiar, e você solta a corda, despenca do ídolo e cai no chão de pedra. Sua aventura termina aqui."""
+    return "\nVocê tenta forçar por baixo da esmeralda com a ponta da espada. Para sua grande surpresa, a esmeralda se despedaça com o contato, soltando um jato de gás venenoso diretamente no seu rosto. O gás o faz desmaiar, e você solta a corda, despenca do ídolo e cai no chão de pedra. Sua aventura termina aqui."
 
 
 def T35() :
@@ -426,7 +426,7 @@ def T88() :
 
 
 def T89() :
-    return "\nDe volta à solidez do chão da caverna, você tenta sacudir a corda para que saia do pescoço do ídolo. Teste sua Sorte."
+    return "\nDe volta à solidez do chão da caverna, você tenta sacudir a corda para que saia do pescoço do ídolo."
 
 
 def T90() :
@@ -478,7 +478,9 @@ def T101() :
 
 
 def T102() :
-    return """Você entra em um aposento pequeno e completamente vazio. Logo a porta se fecha atrás de você. Repentinamente, uma voz ressoa, vinda de lugar nenhum: 'Bem vindo ao Calabouço da Morte, o engenhoso labirinto assassino do meu senhor. Aventureiro, creio que você apresentará seus respeitos ao meu senhor, gritando seu nome?' Você gritará:\n\nSalve, Sukumvit? Vá para 133\nSukumvit é um verme? Vá para 251"""
+    return """\nVocê entra em um aposento pequeno e completamente vazio. Logo a porta se fecha atrás de você. Repentinamente, uma voz ressoa, vinda de lugar nenhum: 'Bem vindo ao Calabouço da Morte, o engenhoso labirinto assassino do meu senhor. Aventureiro, creio que você apresentará seus respeitos ao meu senhor, gritando seu nome?'
+
+    \nVocê gritará: \n(1)Salve, Sukumvit\n(2)Sukumvit é um verme"""
 
 
 def T103() :
@@ -672,7 +674,7 @@ def T132() :
 
 
 def T133() :
-    return """Mais uma vez, a voz misteriosa ecoa, só que agora num tom cheio de desprezo e escárnio. "Então, temos uma erva daninha em nosso meio, não?", zomba a voz. "Meu senhor tem um presente especial para você, verme abjeto." Súbito, começa a entrar água no aposento por um buraco no teto. Logo sobe até a altura dos seus tornozelos, e não parece haver qualquer meio de escapar. Você caminha na água até a porta. Está firmemente trancada, mas, no desespero, você tenta arrombá-la, batendo com o ombro. Jogue dois dados. Se o total for igual ou menor que o seu índice de HABILIDADE, vá para 178. Se o total for maior que o seu índice de HABILIDADE, volte para 17."""
+    return "\nMais uma vez, a voz misteriosa ecoa, só que agora num tom cheio de desprezo e escárnio. 'Então, temos uma erva daninha em nosso meio, não?', zomba a voz. 'Meu senhor tem um presente especial para você, verme abjeto.' Súbito, começa a entrar água no aposento por um buraco no teto. Logo sobe até a altura dos seus tornozelos, e não parece haver qualquer meio de escapar. Você caminha na água até a porta. Está firmemente trancada, mas, no desespero, você tenta arrombá-la, batendo com o ombro."
 
 
 def T134() :
@@ -706,7 +708,7 @@ def T139() :
 
 
 def T140() :
-    return """\nVocê tenta forçar o olho de esmeralda com a ponta da espada, procurando enfiá-la por baixo dele. Para sua grande surpresa, ele se despedaça com o contato, soltando um jato de gás venenoso direto no seu rosto. Você desmaia e cai para trás, chocando-se contra o ídolo várias vezes até parar no chão de pedra. Sua aventura termina aqui."""
+    return "\nVocê tenta forçar o olho de esmeralda com a ponta da espada, procurando enfiá-la por baixo dele. Para sua grande surpresa, ele se despedaça com o contato, soltando um jato de gás venenoso direto no seu rosto. Você desmaia e cai para trás, chocando-se contra o ídolo várias vezes até parar no chão de pedra. Sua aventura termina aqui."
 
 
 def T141() :
@@ -763,7 +765,7 @@ def T150() :
 
 
 def T151() :
-    return """\nQuando toca o olho de esmeralda do ídolo, você ouve um rangido abaixo. Ao olhar, fica abismado ao ver os dois pássaros empalhados voando. As asas das criaturas batem aos arrancos, mas logo estão acima de você e parecem prontos para atacar. A posição restringe-lhe os movimentos, por isso receberá uma penalidade de -2 em HABILIDADE."""
+    return "\nQuando toca o olho de esmeralda do ídolo, você ouve um rangido abaixo. Ao olhar, fica abismado ao ver os dois pássaros empalhados voando. As asas das criaturas batem aos arrancos, mas logo estão acima de você e parecem prontos para atacar. A posição restringe-lhe os movimentos, por isso receberá uma penalidade de -2 em HABILIDADE."
 
 
 def T152() :
@@ -883,7 +885,7 @@ def T177() :
 
 
 def T178() :
-    return """A porta não resiste às violentas pancadas que você desfere. A placa central racha e se despedaça; você abre a pontapés um buraco grande o bastante para por ele se esgueirar. Molhado, mas feliz por ter sobrevivido a essa ameaça, você parte para o norte de novo. Vá para 344."""
+    return "\nA porta não resiste às violentas pancadas que você desfere. A placa central racha e se despedaça; você abre a pontapés um buraco grande o bastante para por ele se esgueirar. Molhado, mas feliz por ter sobrevivido a essa ameaça, você parte para o norte de novo."
 
 
 def T179() :
@@ -915,7 +917,7 @@ def T185() :
 
 
 def T186() :
-    return "\nLenta e cuidadosamente, você começa a escalar o ídolo. Quando está prestes a segurar na grande orelha, seu pé escorrega. Teste sua Sorte."
+    return "\nLenta e cuidadosamente, você começa a escalar o ídolo. Quando está prestes a segurar na grande orelha, seu pé escorrega."
 
 
 def T187() :
@@ -1219,8 +1221,8 @@ def T250():
     return "Quando você corre para a porta, o velho grita atrás de você: 'Não corra, ninguém escapa de mim. Pare, ou eu o transformarei em pedra neste instante!' Você:\n\nContinua correndo? Volte para 44\nVira-se para atacá-lo com a espada? Volte para 195\nDiz a ele que responderá à pergunta? Vá para 382"
 
 
-def T251():
-    return "Mais uma vez, ouve-se a voz misteriosa, só que agora, para sua grande surpresa, num tom bem menos ameaçador: 'Bom, meu senhor gosta daqueles que demonstram ter espírito. Tome este presente para ajudá-lo. Isto lhe concederá um desejo, mas somente um desejo. Adeus.' Um anel de ouro, magicamente saído do nada, cai a seus pés com um tinido suave. Você o põe num dedo. A porta se abre e você entra de novo no túnel, rumo ao norte. Vá para 344."
+def T251() :
+    return "\nMais uma vez, ouve-se a voz misteriosa, só que agora, para sua grande surpresa, num tom bem menos ameaçador: 'Bom, meu senhor gosta daqueles que demonstram ter espírito. Tome este presente para ajudá-lo. Isto lhe concederá um desejo, mas somente um desejo. Adeus.' Um anel de ouro, magicamente saído do nada, cai a seus pés com um tinido suave. Você o põe num dedo. A porta se abre e você entra de novo no túnel, rumo ao norte."
 
 
 def T252():
@@ -1265,7 +1267,7 @@ def T260() :
 
 
 def T261():
-    return "Apesar de todos os esforços, você não consegue tirar o Laço do pescoço do ídolo. Finalmente, você desiste e o abandona para quem quer que venha depois de você. Não há nada mais de interesse na caverna, portanto você caminha até a parede norte e entra no túnel. Volte para 239."
+    return "\nApesar de todos os esforços, você não consegue tirar o Laço do pescoço do ídolo. Finalmente, você desiste e o abandona para quem quer que venha depois de você. Não há nada mais de interesse na caverna, portanto você caminha até a parede norte e entra no túnel."
 
 
 def T262():
