@@ -188,7 +188,9 @@ def T38() :
 
 
 def T39() :
-    return """Você consegue se desviar das pernas estendidas da Mosca Gigante que mergulha sobre você. Recuando, você desembainha a espada e se prepara para lutar contra o horroroso inseto, quando ele se volta para atacá-lo outra vez."""
+    return """\nVocê consegue se desviar das pernas estendidas da Mosca Gigante que mergulha sobre você. Recuando, você desembainha a espada e se prepara para lutar contra o horroroso inseto, quando ele se volta para atacá-lo outra vez.
+
+    \nVocê vai: \n(1)Enfrentá-la\n(2)Automaticamente perder 2 pontos de energia e fugir, evitando a batalha"""
 
 
 def T40() :
@@ -374,7 +376,9 @@ def T75() :
 
 
 def T76() :
-    return "Você dá a volta pela enorme massa morta do Verme da Rocha e dá uma espiada dentro da escuridão de seu buraco perfurado. Você só consegue ver alguns metros, mas pode notar que ele se inclina levemente e é tímido por causa da gosma secretada pelo Verme da Rocha. Se você quiser explorar o buraco de broca, vá para 317. Se preferir caminhar para o oeste pelo túnel, vá para 117."
+    return """\nVocê dá a volta pela enorme massa morta do Verme da Rocha e dá uma espiada dentro da escuridão de seu buraco perfurado. Você só consegue ver alguns metros, mas pode notar que ele se inclina levemente e é tímido por causa da gosma secretada pelo Verme da Rocha.
+
+    \nVocê vai: \n(1)Explorar o buraco de broca\n(2)Caminhar para o oeste pelo túnel"""
 
 
 def T77() :
@@ -446,7 +450,7 @@ def T93() :
 
 
 def T94() :
-    return "Respirando fundo, você se debruça sobre o poço e mergulha o braço na massa de vermes que se contorcem. Eles são frios e viscosos, e o contato é extremamente desagradável, mas, pelo menos, são inofensivos, e você consegue pegar o punhal pelo cabo. Ao sacudi-lo firmemente, ele sai da rachadura em que a ponta estava cravada. Admirando-lhe a beleza, e imaginando se ele teria um dia pertencido a um competidor de pouca sorte, você põe o punhal ornamentado de opala firmemente no cinto e sai da caverna. Vá para 174."
+    return "\nRespirando fundo, você se debruça sobre o poço e mergulha o braço na massa de vermes que se contorcem. Eles são frios e viscosos, e o contato é extremamente desagradável, mas, pelo menos, são inofensivos, e você consegue pegar o punhal pelo cabo. Ao sacudi-lo firmemente, ele sai da rachadura em que a ponta estava cravada. Admirando-lhe a beleza, e imaginando se ele teria um dia pertencido a um competidor de pouca sorte, você põe o punhal ornamentado de opala firmemente no cinto e sai da caverna."
 
 
 def T95() :
@@ -512,7 +516,9 @@ def T106() :
 
 
 def T107() :
-    return "Você chega a uma porta em arco localizada na parede à direita do túnel. A pesada porta de pedra está fechada, mas há um trinco de ferro e uma maçaneta redonda. Se você quiser tentar a porta, vá para 168. Se, em vez disso, quiser continuar pelo túnel, vá para 267."
+    return """Você chega a uma porta em arco localizada na parede à direita do túnel. A pesada porta de pedra está fechada, mas há um trinco de ferro e uma maçaneta redonda.
+
+    \nVocê: \n(1)Tenta a porta\n(2)Continua pelo túnel"""
 
 
 def T108() :
@@ -529,7 +535,7 @@ def T110() :
 
 
 def T111() :
-    return "Você limpa o viscoso lodo amarelo da lâmina de sua espada e caminha rapidamente para a porta, de volta para o túnel, e segue para o norte. Vá para 267."
+    return "\nVocê limpa o viscoso lodo amarelo da lâmina de sua espada e caminha rapidamente para a porta, de volta para o túnel, e segue para o norte."
 
 
 def T112() :
@@ -555,11 +561,9 @@ def T116() :
 
 
 def T117() :
-    return """Depois de uma longa caminhada pelo túnel, você chega a um beco sem saída.
-Um grande espelho, que vai do chão até o teto, está colocado na parede do fundo.
-Na penumbra, você só consegue visualizar vagamente o seu próprio reflexo.
-Se quiser olhar o espelho mais de perto, vá para 329.
-Se preferir fazer a longa caminhada de volta para a última encruzilhada no túnel, a fim de prosseguir para o leste, vá para 135."""
+    return """\nDepois de uma longa caminhada pelo túnel, você chega a um beco sem saída. Um grande espelho, que vai do chão até o teto, está colocado na parede do fundo. Na penumbra, você só consegue visualizar vagamente o seu próprio reflexo.
+
+    \nVocê: \n(1)Olhar o espelho mais de perto\n(2)Faz a longa caminhada de volta para a última encruzilhada no túnel, a fim de prosseguir para o leste"""
 
 
 def T118() :
@@ -682,7 +686,7 @@ def T134() :
 
 
 def T135() :
-    return """Passando pelo buraco perfurado do Verme da Rocha, à sua esquerda, você logo chega à encruzilhada. Dá uma olhada rápida no túnel que conduz ao sul, mas não vê ninguém se aproximando. Apressando o passo, você segue velozmente para o leste. Volte para 68."""
+    return "\nPassando pelo buraco perfurado do Verme da Rocha, à sua esquerda, você logo chega à encruzilhada. Dá uma olhada rápida no túnel que conduz ao sul, mas não vê ninguém se aproximando. Apressando o passo, você segue velozmente para o leste"
 
 
 def T136() :
@@ -841,7 +845,9 @@ def T167() :
 
 
 def T168() :
-    return """Levantando o trinco e empurrando a pesada porta de pedra, você se vê em uma grande caverna. A luz é fraca e sombria, mas seus olhos logo se adaptam e você vê que as paredes são úmidas e revestidas de algas verdes. O chão está coberto de palha. A atmosfera é quente, úmida e fétida, e um zumbido suave enche o ar. Com cautela, você avança pela palha na direção de um dos cantos da caverna, onde parece haver um poço raso. Espiando com cuidado para dentro do poço, você fica enojado ao ver uma massa de vermes esbranquiçados que se contorcem, alguns deles chegando a meio metro de comprimento. Nauseado, você está prestes a ir embora quando repara que os corpos ondulantes dos vermes estão amontoados em torno de um punhal, cuja ponta está firmemente presa a uma fenda no fundo do poço. O cabo é envolto em couro negro com incrustações de opalas, e a lâmina é feita de um estranho metal lustrado preto-avermelhado. Você fica doido para pegar a arma, mas isso significaria enfiar a mão no meio daqueles vermes. Você tenta apanhar o punhal - volte para 94 - ou recua enojado e sai da caverna - vá para 267."""
+    return """\nLevantando o trinco e empurrando a pesada porta de pedra, você se vê em uma grande caverna. A luz é fraca e sombria, mas seus olhos logo se adaptam e você vê que as paredes são úmidas e revestidas de algas verdes. O chão está coberto de palha. A atmosfera é quente, úmida e fétida, e um zumbido suave enche o ar. Com cautela, você avança pela palha na direção de um dos cantos da caverna, onde parece haver um poço raso. Espiando com cuidado para dentro do poço, você fica enojado ao ver uma massa de vermes esbranquiçados que se contorcem, alguns deles chegando a meio metro de comprimento. Nauseado, você está prestes a ir embora quando repara que os corpos ondulantes dos vermes estão amontoados em torno de um punhal, cuja ponta está firmemente presa a uma fenda no fundo do poço. O cabo é envolto em couro negro com incrustações de opalas, e a lâmina é feita de um estranho metal lustrado preto-avermelhado. Você fica doido para pegar a arma, mas isso significaria enfiar a mão no meio daqueles vermes.
+
+    \nVocê: \n(1)Tenta apanhar o punhal\n(2)Recua enojado e sai da caverna"""
 
 
 def T169() :
@@ -869,7 +875,7 @@ def T173() :
 
 
 def T174() :
-    return """Quando você está retornando para a porta, o zumbido aumenta de intensidade, e você procura desesperadamente descobrir de onde ele vem. Ao olhar para o alto, você vê num relance a imensa e grotesca forma negra de uma MOSCA GIGANTE surgindo de uma reentrância no alto da parede da caverna. Ao se aproximar, você se dá conta de que ela tem pelo menos um metro e meio de comprimento. As asas opacas vibram, produzindo o abominável zumbido que você vem ouvindo; as seis pernas peludas estão posicionadas para agarrá-lo; abaixo dos olhos multifacetados, há uma longa probóscida, negra e lustrosa, que se movimenta malignamente para dentro e para fora. Você retirou o tesouro da Mosca Gigante do ninho de larvas, e agora deve enfrentar as consequências. Teste sua Sorte. Se você tiver sorte, volte para 39. Se não tiver sorte, vá para 350."""
+    return "\nQuando você está retornando para a porta, o zumbido aumenta de intensidade, e você procura desesperadamente descobrir de onde ele vem. Ao olhar para o alto, você vê num relance a imensa e grotesca forma negra de uma MOSCA GIGANTE surgindo de uma reentrância no alto da parede da caverna. Ao se aproximar, você se dá conta de que ela tem pelo menos um metro e meio de comprimento. As asas opacas vibram, produzindo o abominável zumbido que você vem ouvindo; as seis pernas peludas estão posicionadas para agarrá-lo; abaixo dos olhos multifacetados, há uma longa probóscida, negra e lustrosa, que se movimenta malignamente para dentro e para fora. Você retirou o tesouro da Mosca Gigante do ninho de larvas, e agora deve enfrentar as consequências."
 
 
 def T175() :
@@ -1119,13 +1125,12 @@ def T228():
     return """Você enfia o braço no buraco e sente seu sangue gelar quando uma coisa quente e pegajosa se enrosca nele. Você consegue tirar o braço de dentro do buraco, mas um horrendo tentáculo, com ventosas incrivelmente fortes, está pendurado nele. Quando você consegue se libertar, cortando o tentáculo, seu braço dói e lateja. Teste sua Sorte."""
 
 
-def T229():
-    return """Logo que sua cabeça entra embaixo da luz azul, você ouve o som de vozes abafadas. Os rostos já não riem, e as expressões são agora máscaras de desespero e angústia. O rosto triste de uma menina paira à sua frente, ela começa a sussurrar um poema. Em transe, você ouve atentamente, acreditando que ela tem uma mensagem especial para você, enquanto ela recita:
+def T229() :
+    return """\nLogo que sua cabeça entra embaixo da luz azul, você ouve o som de vozes abafadas. Os rostos já não riem, e as expressões são agora máscaras de desespero e angústia. O rosto triste de uma menina paira à sua frente, ela começa a sussurrar um poema. Em transe, você ouve atentamente, acreditando que ela tem uma mensagem especial para você, enquanto ela recita:
 
-    
-    “Quando o corredor a água encontrar, Não se apresse em recuar. Mergulhe depois dos pulmões encher, Se sua Prova espera vencer.”
+    \n“Quando o corredor a água encontrar,\nNão se apresse em recuar.\nMergulhe depois dos pulmões encher,\nSe sua Prova espera vencer.”
 
-    Guardando de cor o poema da garota-espírito, você atravessa o raio de luz e se dirige rapidamente para o norte."""
+    \nGuardando de cor o poema da garota-espírito, você atravessa o raio de luz e se dirige rapidamente para o norte."""
 
 
 def T230():
@@ -1234,11 +1239,11 @@ def T253() :
 
 
 def T254() :
-    return """Você desembainha a espada e avança lentamente na direção do imenso e viscoso Verme da Rocha.
+    return "\nVocê desembainha a espada e avança lentamente na direção do imenso e viscoso Verme da Rocha."
 
-    VERME DA ROCHA	HABILIDADE 7	ENERGIA 11
 
-    Se você vencer, volte para 76. Você poderá fugir depois de duas Séries de Ataque, correndo para o oeste pelo túnel. Volte para 117."""
+def T254_2() :
+    return "\nVocê: \n(1)Tem certexa do que quer e vai para a luta\n(2)Foge e automaticamente perde dois pontos de energia"
 
 
 def T255() :
@@ -1288,8 +1293,11 @@ def T265():
 def T266():
     return "Você revista os armários e caixas no quarto de Erva, mas não encontra nada, exceto um osso velho, que pode levar com você, se quiser. Saindo da câmara pela porta do leste, você agora se encontra de pé no final de um outro túnel. Vá para 305."
 
-def T267():
-    return "O túnel logo termina em uma encruzilhada. Olhando para a esquerda e para a direita, você vê uma passagem estreita que desaparece na penumbra da distância. Se você quiser se dirigir para o oeste, vá para 352. Se preferir seguir para o leste, volte para 68."
+def T267() :
+    return """\nO túnel logo termina em uma encruzilhada. Olhando para a esquerda e para a direita, você vê uma passagem estreita que desaparece na penumbra da distância.
+
+    \nVocê: \n(1)Se dirige para o oeste\n(2)Segue para o leste"""
+
 
 def T268():
     return "Você salta para adiante e tenta agarrar o líder para usá-lo como refém. Contudo, os Trogloditas estavam prevenidos para sua tentativa, e seis dos arqueiros deles imediatamente disparam flechas em você. A pontaria deles é mortalmente precisa, e as seis flechas atingem o alvo. Você tomba sem vida. Os Trogloditas encerraram abruptamente sua jornada."
@@ -1457,7 +1465,7 @@ def T316():
     return """\nO túnel continua por uma boa distância antes de chegar a um cruzamento. Se você quiser se dirigir para o oeste pelo novo túnel, volte para 296. Se preferir continuar para o norte, volte para 241.\n"""
 
 def T317():
-    return """\nTateando nos lados do buraco perfurado com sua espada, você abre caminho cegamente pelo lodo viscoso. Você segue as curvas e reviravoltas do orifício por um tempo que parece ser uma eternidade e começa a imaginar onde poderia levar. De repente, você ouve o ruído de alguma coisa se arrastando à frente. Você fica gelado de medo, seus olhos tentando desesperadamente rasgar a escuridão impenetrável. Antes que você se dê conta do que está acontecendo, seu pescoço é abocanhado pelas fortíssimas mandíbulas de outro Verme da Rocha. E o companheiro daquele que você matou, o qual foi atraído pelo cheiro de sangue na sua espada. Ele aperta mais forte. Seu pescoço estala como um ramo seco. Sua aventura termina aqui.\n"""
+    return "\nTateando nos lados do buraco perfurado com sua espada, você abre caminho cegamente pelo lodo viscoso. Você segue as curvas e reviravoltas do orifício por um tempo que parece ser uma eternidade e começa a imaginar onde poderia levar. De repente, você ouve o ruído de alguma coisa se arrastando à frente. Você fica gelado de medo, seus olhos tentando desesperadamente rasgar a escuridão impenetrável. Antes que você se dê conta do que está acontecendo, seu pescoço é abocanhado pelas fortíssimas mandíbulas de outro Verme da Rocha. E o companheiro daquele que você matou, o qual foi atraído pelo cheiro de sangue na sua espada. Ele aperta mais forte. Seu pescoço estala como um ramo seco. Sua aventura termina aqui."
 
 def T318():
     return """\nDepois de cruzar a ponte, você atravessa a caverna correndo. Finalmente, vê um túnel na parede do outro lado, pelo qual você entra a toda. O túnel termina numa pesada porta de madeira, e ela está trancada. Se você tiver uma chave de ferro, volte para 86. Se não tiver uma chave, volte para 276.\n"""
@@ -1492,8 +1500,9 @@ def T327():
 def T328():
     return """\nVocê olha em torno do quarto de Erva. Ao ver o retrato de um outro Troll pendurado na parede, pergunta a ela se são parentes. Imediatamente, o humor e a expressão dela mudam. Ela afrouxa o aperto sobre você e sorri, dizendo: “Ah, sim. Este é meu amado e querido irmão Barriga Azeda. Ele tem-se saído muito bem lá no sul, em Port Blacksand. Está agora na Guarda Imperial, na tropa de elite de Lord Azzur. Estou muito orgulhosa dele.” Erva fica olhando para a pintura e continua a tecer elogios ao irmão. Se você quiser se esgueirar para fora do quarto, pela porta na parede do leste, volte para 125. Se preferir continuar a conversa, volte para 99.\n"""
 
-def T329():
-    return """\nVocê caminha até o espelho e se diverte com a imagem distorcida. Sua cabeça parece tão grande quanto uma abóbora, o rosto, muito estranho... Sem qualquer sinal prévio, uma dor terrível martela-lhe a cabeça; você tenta desviar o olhar do espelho, mas não consegue. Alguma força do mal mantém seus olhos pregados ao próprio reflexo. Você segura a cabeça com as mãos e, horrorizado, se dá conta de que ela está se expandindo. Você não pode mais suportar a dor, e tomba sem sentidos para nunca mais acordar.\n"""
+def T329() :
+    return "\nVocê caminha até o espelho e se diverte com a imagem distorcida. Sua cabeça parece tão grande quanto uma abóbora, o rosto, muito estranho... Sem qualquer sinal prévio, uma dor terrível martela-lhe a cabeça; você tenta desviar o olhar do espelho, mas não consegue. Alguma força do mal mantém seus olhos pregados ao próprio reflexo. Você segura a cabeça com as mãos e, horrorizado, se dá conta de que ela está se expandindo. Você não pode mais suportar a dor, e tomba sem sentidos para nunca mais acordar."
+
 
 def T330():
     return """\nAs rações do Ninja são modestas mas bem-vindas. Acrescente 1 ponto de ENERGIA. Se você ainda não o fez, poderá esfregar um pouco do unguento nos seus ferimentos - volte para 269 - ou sair do salão, levando só o diamante - volte para 127.\n"""
@@ -1541,7 +1550,9 @@ def T343():
     return "\nCom vozes esganiçadas, os Trogloditas explicam as regras da Corrida da Flecha. Eles dispararão uma flecha e você poderá caminhar, sem ser atacado, até o ponto onde ela cair. Porém, você deverá ir descalço, e o chão da caverna, como pode ver, está coberto de pedras pontiagudas. Logo que você chegar à flecha, os Trogloditas começarão a persegui-lo; se o pegarem, você será morto. De repente, um dos Trogloditas dispara uma flecha bem alto no ar. Ela cai a grande distância, e, imediatamente, os Trogloditas forçam-no a caminhar na direção dela. Enquanto você anda devagar na direção da flecha, ouve os gritos excitados dos Trogloditas. Ao chegar à flecha você se volta e vê os Trogloditas agitarem os braços no ar e iniciarem a perseguição. Você corre o mais depressa que pode, os pés sangrando com os cortes sofridos nas pedras pontiagudas. Você perde 1 ponto de ENERGIA. Adiante, um rio subterrâneo, que corre de leste para oeste, cruza a caverna; uma ponte de madeira liga uma margem à outra. Se você quiser atravessar a ponte, volte para 318. Se quiser mergulhar no rio, volte para 47.\n"
 
 def T344():
-    return "\nO túnel faz curvas e reviravoltas, mas continua sempre para o norte. À sua frente, um facho de luz azul desce do teto para o chão. Ele faísca e cintila, e você pode ver imagens de rostos que riem na luz. Se você quiser passar através da luz, volte para 229. Se preferir contornar o facho, volte para 107.\n"
+    return """\nO túnel faz curvas e reviravoltas, mas continua sempre para o norte. À sua frente, um facho de luz azul desce do teto para o chão. Ele faísca e cintila, e você pode ver imagens de rostos que riem na luz.
+
+    \nVocê: \n(1)Passa através da luz\n(2)Contorna o facho"""
 
 def T345():
     return "\nVocê está prestes a entrar no aposento quando a Poção de Detecção de Cilada começa a fazer efeito, e você é dominado por uma terrível premonição. Há uma armadilha mortal neste aposento. Você resolve não entrar e continua para o norte pelo túnel. Volte para 252.\n"
@@ -1567,7 +1578,10 @@ def T351() :
 
 
 def T352() :
-    return "\nVocê ouve o som de rochas sendo trituradas e esmagadas à sua frente. O ruído cresce e, subitamente, você se dá conta de que a parede do seu lado direito começa a desabar. Apavorado, você vê uma enorme e horrorosa criatura, com mandíbulas incrivelmente poderosas, deslizar por um buraco na parede. A enorme boca da criatura mastiga rocha enquanto ela vira a cabeça devagar de um lado para outro, sentindo o ar fresco do túnel. O VERME DA ROCHA parece ser cego, mas dá a impressão de estar ciente de sua presença, talvez sentindo o calor de seu corpo. Ele se arrasta na sua direção com as mandíbulas bem abertas, pronto para o ataque. Se você quiser lutar contra o Verme da Rocha, volte para 254. Se preferir correr de volta pelo túnel para o cruzamento e depois se dirigir para o leste, volte para 68.\n"
+    return """\nVocê ouve o som de rochas sendo trituradas e esmagadas à sua frente. O ruído cresce e, subitamente, você se dá conta de que a parede do seu lado direito começa a desabar. Apavorado, você vê uma enorme e horrorosa criatura, com mandíbulas incrivelmente poderosas, deslizar por um buraco na parede. A enorme boca da criatura mastiga rocha enquanto ela vira a cabeça devagar de um lado para outro, sentindo o ar fresco do túnel. O VERME DA ROCHA parece ser cego, mas dá a impressão de estar ciente de sua presença, talvez sentindo o calor de seu corpo. Ele se arrasta na sua direção com as mandíbulas bem abertas, pronto para o ataque.
+
+    \nVocê vai: \n(1)Lutar contra o Verme da Rocha\n(2)Correr de volta pelo túnel para o cruzamento, se dirigindo para o leste"""
+
 
 def T353():
     return "\nAntes que você possa sair do caminho, o rochedo se choca contra seu ombro. Você perde 1 ponto de HABILIDADE e 4 pontos de ENERGIA. Se ainda estiver vivo, volte para 325.\n"

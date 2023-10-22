@@ -3,7 +3,7 @@
 # Gabriel Pimentel  RM 99880
 # Hellen Assis      RM 98284
 
-#LINHA QUE ESTOU TRABALHANDO NO MOMENTO: 1875
+#LINHA QUE ESTOU TRABALHANDO NO MOMENTO: 2212
 
 #Imports
 import random
@@ -17,7 +17,7 @@ venceu = False
 pecas_de_ouro = 0
 moringa = 0
 corda = 0
-punhal = 0
+punhal_ornamental = 0
 rubi = 0
 esmeralda = 0
 escudo = 1
@@ -1616,7 +1616,7 @@ while energia > 0 or venceu == False :
                 esmeralda += 1
                 resposta = int(input("Escolha: "))
 
-                #Pegando a joia da direita depois de pegar a da esquerta
+                #Pegando a joia da direita depois de pegar a da esquerda
                 if resposta == 1 :
                     print(textos.T34())
                     energia = 0
@@ -1872,5 +1872,341 @@ while energia > 0 or venceu == False :
             print(textos.T251())
             anel_de_ouro += 1
     
-    #Seguindo para o norte, TUDO PARA CIMA ESTÁ COMPLETO =========================================================
+    #Seguindo para o norte
     print(textos.T344())
+    resposta = int(input("Escolha: "))
+    
+    #Olhando pelo feixo
+    if resposta == 1 :
+        print(textos.T229())
+    
+    #Não olhando
+    print(textos.T107())
+    resposta = int(input("Escolha: "))
+    
+    #Tentando a porta
+    if resposta == 1 :
+        print(textos.T168())
+        escolha = int(input("Escolha: "))
+        
+        #Pegando a adaga
+        if escolha == 1 :
+            print(textos.T94())
+            punhal_ornamental += 1
+            print(textos.T174())
+            
+            #Teste de sorte
+            sorte -= 1
+            input("Teste sua sorte...\n")
+            teste_da_sorte = random.randint(1,6) + random.randint(1,6)
+            
+            if teste_da_sorte <= sorte :
+                print("Você teve sorte!")
+                print(textos.T39())
+                resposta = int(input("Escolha: "))
+                
+                #Fugindo
+                if resposta == 2 :
+                    energia -= 2                            
+                    print("Quer testar sua sorte para receber menos dano?")
+                    testarSorte = input().lower()
+
+                    if testarSorte == "sim" :
+                        if sorte > 0 :
+                            input("Jogue os dados para testar sua sorte...\n")
+                            teste_da_sorte = random.randint(1,6) + random.randint(1,6)
+
+                            if teste_da_sorte <= sorte :
+                                print("Você teve sorte! Recebeu menos dano!")
+                                energia -= 1
+                                sorte -= 1
+                                print(f"Sua energia atual é {energia}")
+                                print(f"Sua sorte agora é {sorte}")
+
+                            else :
+                                print("Você não teve sorte, recebeu mais dano!")
+                                energia -= 3
+                                sorte -= 1
+                                print(f"Sua energia atual é {energia}")
+                                print(f"Sua sorte agora é {sorte}")
+
+                        else :
+                            print("Você infelizmente não tem mais sorte")
+                            energia -= 2
+                            print(f"\nSua energia atual é {energia}")
+
+                    else :
+                        energia -= 2
+                        print(f"\nSua energia atual é {energia}")
+                
+                    if energiaFixa - energia >= 4 :
+                        print(f"\nVocê tem {energia} pontos de energia, gostaria de usar uma provisão para recuperar 4 pontos?")
+                        resposta = input("\nSim ou Não?").lower()
+                        
+                        if resposta == "sim" :
+                            energia += 4
+                            provisoes -=1
+                
+                #Ficando para batalhar
+                elif resposta == 1 :
+                    print("\nQue comece a batalha!")
+                    #Matando a Mosca Gigante
+                    print("Briga com a Mosca Gigante...\n")
+
+                    while inimigos.inimigos["mosca_gigante"]["Energia"] > 0 :
+                        ataqueInimigo = inimigos.inimigos["mosca_gigante"]["Habilidade"] + random.randint(1,6) + random.randint(1,6)
+                        meuAtaque = habilidade + random.randint(1,6) + random.randint(1,6) - 3
+
+                        print(f"O ataque do inimigo foi de: {ataqueInimigo}")
+                        input("Jogue os dados...🎲")
+                        print(f"O seu ataque foi de: {meuAtaque}\n")
+
+                        #Causando dano
+                        if meuAtaque > ataqueInimigo :
+                            print("Quer testar sua sorte para causar mais dano?")
+                            testarSorte = input().lower()
+
+                            if testarSorte == "sim" :
+                                if sorte > 0 :
+                                    input("Jogue os dados para testar sua sorte...\n")
+                                    teste_da_sorte = random.randint(1,6) + random.randint(1,6)
+
+                                    if teste_da_sorte <= sorte :
+                                        print("Você teve sorte! Causou o dobro de dano")
+                                        inimigos.inimigos["mosca_gigante"]["Energia"] -= 4
+                                        sorte -= 1
+                                        print("A energia atual do inimigo é: ", inimigos.inimigos["mosca_gigante"]["Energia"])
+                                        print(f"Sua sorte agora é {sorte}")
+
+                                    else :
+                                        print("Você não teve sorte, causou menos dano!")
+                                        inimigos.inimigos["mosca_gigante"]["Energia"] -= 1
+                                        sorte -= 1
+                                        print("A energia atual do inimigo é:", inimigos.inimigos["mosca_gigante"]["Energia"])
+                                        print(f"Sua sorte agora é {sorte}")
+                                        
+                                else :
+                                    print("Você infelizmente não tem mais sorte")
+                                    inimigos.inimigos["mosca_gigante"]["Energia"] -= 2
+                                    print("\nA energia atual do inimigo é: ", inimigos.inimigos["mosca_gigante"]["Energia"])
+
+                            else :
+                                inimigos.inimigos["mosca_gigante"]["Energia"] -= 2
+                                print("\nA energia atual do inimigo é: ", inimigos.inimigos["mosca_gigante"]["Energia"])
+
+                        #Tomando dano
+                        else :
+                            print("Quer testar sua sorte para receber menos dano?")
+                            testarSorte = input().lower()
+
+                            if testarSorte == "sim" :
+                                if sorte > 0 :
+                                    input("Jogue os dados para testar sua sorte...\n")
+                                    teste_da_sorte = random.randint(1,6) + random.randint(1,6)
+
+                                    if teste_da_sorte <= sorte :
+                                        print("Você teve sorte! Recebeu menos dano!")
+                                        energia -= 1
+                                        sorte -= 1
+                                        print(f"Sua energia atual é {energia}")
+                                        print(f"Sua sorte agora é {sorte}")
+
+                                    else :
+                                        print("Você não teve sorte, recebeu mais dano!")
+                                        energia -= 3
+                                        sorte -= 1
+                                        print(f"Sua energia atual é {energia}")
+                                        print(f"Sua sorte agora é {sorte}")
+
+                                else :
+                                    print("Você infelizmente não tem mais sorte")
+                                    energia -= 2
+                                    print(f"\nSua energia atual é {energia}")
+
+                            else :
+                                energia -= 2
+                                print(f"\nSua energia atual é {energia}")
+                    
+                    print("\nParabéns você sobreviveu!")
+                    
+                    if energiaFixa - energia >= 4 :
+                        print(f"\nVocê tem {energia} pontos de energia, gostaria de usar uma provisão para recuperar 4 pontos?")
+                        resposta = input("\nSim ou Não?").lower()
+                        
+                        if resposta == "sim" :
+                            energia += 4
+                            provisoes -=1
+                    
+                    print(textos.T111())
+    
+    #Continuando pelo corredor (TAMBÉM DEPOS DE NÃO PEGAR A FACA OU FUGIR/BATALHAR COM A MOSCA) - TUDO EM CIMA CONCLUÍDO =============
+    print(textos.T267())
+    resposta = int(input("Escolha: "))
+    
+    #Seguindo para o oeste
+    if resposta == 1 :
+        print(textos.T352())
+        escolha = int(input("Escolha: "))
+        
+        #Lutando contra o verme
+        if escolha == 1 :
+            print(textos.T254_2())
+            resposta = int(input("Escolha: "))
+            
+            #Tendo certeza da luta
+            if resposta == 1 :
+                print(textos.T254())
+                print("Que comece a luta!")
+                
+                #Matando o Verme da Rocha
+                print("Briga com o Verme da Rocha...\n")
+
+                while inimigos.inimigos["verme_rocha"]["Energia"] > 0 :
+                    ataqueInimigo = inimigos.inimigos["verme_rocha"]["Habilidade"] + random.randint(1,6) + random.randint(1,6)
+                    meuAtaque = habilidade + random.randint(1,6) + random.randint(1,6) - 3
+
+                    print(f"O ataque do inimigo foi de: {ataqueInimigo}")
+                    input("Jogue os dados...🎲")
+                    print(f"O seu ataque foi de: {meuAtaque}\n")
+
+                    #Causando dano
+                    if meuAtaque > ataqueInimigo :
+                        print("Quer testar sua sorte para causar mais dano?")
+                        testarSorte = input().lower()
+
+                        if testarSorte == "sim" :
+                            if sorte > 0 :
+                                input("Jogue os dados para testar sua sorte...\n")
+                                teste_da_sorte = random.randint(1,6) + random.randint(1,6)
+
+                                if teste_da_sorte <= sorte :
+                                    print("Você teve sorte! Causou o dobro de dano")
+                                    inimigos.inimigos["verme_rocha"]["Energia"] -= 4
+                                    sorte -= 1
+                                    print("A energia atual do inimigo é: ", inimigos.inimigos["verme_rocha"]["Energia"])
+                                    print(f"Sua sorte agora é {sorte}")
+
+                                else :
+                                    print("Você não teve sorte, causou menos dano!")
+                                    inimigos.inimigos["verme_rocha"]["Energia"] -= 1
+                                    sorte -= 1
+                                    print("A energia atual do inimigo é:", inimigos.inimigos["verme_rocha"]["Energia"])
+                                    print(f"Sua sorte agora é {sorte}")
+                                    
+                            else :
+                                print("Você infelizmente não tem mais sorte")
+                                inimigos.inimigos["verme_rocha"]["Energia"] -= 2
+                                print("\nA energia atual do inimigo é: ", inimigos.inimigos["verme_rocha"]["Energia"])
+
+                        else :
+                            inimigos.inimigos["verme_rocha"]["Energia"] -= 2
+                            print("\nA energia atual do inimigo é: ", inimigos.inimigos["verme_rocha"]["Energia"])
+
+                    #Tomando dano
+                    else :
+                        print("Quer testar sua sorte para receber menos dano?")
+                        testarSorte = input().lower()
+
+                        if testarSorte == "sim" :
+                            if sorte > 0 :
+                                input("Jogue os dados para testar sua sorte...\n")
+                                teste_da_sorte = random.randint(1,6) + random.randint(1,6)
+
+                                if teste_da_sorte <= sorte :
+                                    print("Você teve sorte! Recebeu menos dano!")
+                                    energia -= 1
+                                    sorte -= 1
+                                    print(f"Sua energia atual é {energia}")
+                                    print(f"Sua sorte agora é {sorte}")
+
+                                else :
+                                    print("Você não teve sorte, recebeu mais dano!")
+                                    energia -= 3
+                                    sorte -= 1
+                                    print(f"Sua energia atual é {energia}")
+                                    print(f"Sua sorte agora é {sorte}")
+
+                            else :
+                                print("Você infelizmente não tem mais sorte")
+                                energia -= 2
+                                print(f"\nSua energia atual é {energia}")
+
+                        else :
+                            energia -= 2
+                            print(f"\nSua energia atual é {energia}")
+                
+                print("\nParabéns você sobreviveu!")
+                
+                if energiaFixa - energia >= 4 :
+                    print(f"\nVocê tem {energia} pontos de energia, gostaria de usar uma provisão para recuperar 4 pontos?")
+                    resposta = input("\nSim ou Não?").lower()
+                    
+                    if resposta == "sim" :
+                        energia += 4
+                        provisoes -=1
+                
+                print(textos.T76())
+                escolha = int(input("Escolha: "))
+                
+                if escolha == 1 :
+                    print(textos.T317())
+                    energia = 0
+            
+            #Fugindo do verme
+            elif resposta == 2 :
+                print("Você fugiu e perdeu 2 pontos de energia!")
+                energia -= 2                            
+                print("Quer testar sua sorte para receber menos dano?")
+                testarSorte = input().lower()
+
+                if testarSorte == "sim" :
+                    if sorte > 0 :
+                        input("Jogue os dados para testar sua sorte...\n")
+                        teste_da_sorte = random.randint(1,6) + random.randint(1,6)
+
+                        if teste_da_sorte <= sorte :
+                            print("Você teve sorte! Recebeu menos dano!")
+                            energia -= 1
+                            sorte -= 1
+                            print(f"Sua energia atual é {energia}")
+                            print(f"Sua sorte agora é {sorte}")
+
+                        else :
+                            print("Você não teve sorte, recebeu mais dano!")
+                            energia -= 3
+                            sorte -= 1
+                            print(f"Sua energia atual é {energia}")
+                            print(f"Sua sorte agora é {sorte}")
+
+                    else :
+                        print("Você infelizmente não tem mais sorte")
+                        energia -= 2
+                        print(f"\nSua energia atual é {energia}")
+
+                else :
+                    energia -= 2
+                    print(f"\nSua energia atual é {energia}")
+                
+                if energiaFixa - energia >= 4 :
+                    print(f"\nVocê tem {energia} pontos de energia, gostaria de usar uma provisão para recuperar 4 pontos?")
+                    resposta = input("\nSim ou Não?").lower()
+                    
+                    if resposta == "sim" :
+                        energia += 4
+                        provisoes -=1
+                
+            #INDEPENDENTE DE LUTAR OU FUGIR, VOCÊ VAI CHEGAR AQUI
+            print(textos.T117())
+            resposta = int(input("Escolha: "))
+            
+            #Olhando no espelho
+            if resposta == 1 :
+                print(textos.T329())
+                energia = 0
+            
+            #Não olhando o espelho
+            elif resposta == 2 :
+                print(textos.T135())
+    
+    #Seguindo para o leste
+    print(textos.T68())
