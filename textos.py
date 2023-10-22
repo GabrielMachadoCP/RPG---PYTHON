@@ -252,7 +252,7 @@ def T50() :
 
 
 def T51() :
-    return "Os Hobgoblins não estão preparados para o seu ataque, e você consegue matar o primeiro antes que ele possa puxar da espada. Você se volta para enfrentar o outro Hobgoblin, que rosna de ódio."
+    return "\nOs Hobgoblins não estão preparados para o seu ataque, e você consegue matar o primeiro antes que ele possa puxar da espada. Você se volta para enfrentar o outro Hobgoblin, que rosna de ódio."
 
 
 def T52() :
@@ -283,7 +283,7 @@ def T57() :
 
 
 def T58() :
-    return "\nVocê caminha lentamente entre os postes, tomando cuidado para não tocar em nenhum deles. Jogue dois dados."
+    return "\nVocê caminha lentamente entre os postes, tomando cuidado para não tocar em nenhum deles."
 
 
 def T59() :
@@ -297,7 +297,7 @@ def T60() :
 
 
 def T61() :
-    return "Apesar do terrível ruído de campainha nos seus ouvidos, você ouve passos descendo pelo túnel. Seus gritos altos atraíram um guardião do túnel. Há um HOBGOBLIN de pé junto a você. Ele sorri doentiamente enquanto pressiona a ponta da espada contra seu pescoço. Você não tem como se defender e impedir que ele o trespasse. Sua aventura termina aqui."
+    return "\nApesar do terrível ruído de campainha nos seus ouvidos, você ouve passos descendo pelo túnel. Seus gritos altos atraíram um guardião do túnel. Há um HOBGOBLIN de pé junto a você. Ele sorri doentiamente enquanto pressiona a ponta da espada contra seu pescoço. Você não tem como se defender e impedir que ele o trespasse. Sua aventura termina aqui."
 
 
 def T62() :
@@ -689,7 +689,7 @@ def T136() :
 
 def T137() :
     return """\nCaminhando pelo túnel, você se surpreende com um grande sino de ferro pendurado no teto.
-    \nVocê: \n(1)Tocar o sino\n(2)Contorná-lo e prossegue para o oeste\n"""
+    \nVocê: \n(1)Tocar o sino\n(2)Contorná-lo e prossegue para o oeste"""
 
 
 def T138() :
@@ -943,7 +943,7 @@ def T192() :
 
 
 def T193() :
-    return """O ácido queima a parede do seu estômago, penetrando nos seus órgãos vitais. Você tomba inconsciente para nunca mais se recuperar. Sua aventura termina aqui."""
+    return "\nO ácido queima a parede do seu estômago, penetrando nos seus órgãos vitais. Você tomba inconsciente para nunca mais se recuperar. Sua aventura termina aqui."
 
 
 def T194() :
@@ -1065,8 +1065,8 @@ def T219():
 
 
 def T220() :
-    return """Um "bong" sombrio soa como um toque de sino fúnebre. Tudo vibra à sua volta, e você aperta os dentes quando sua cabeça também estremece. Todo seu corpo está tremendo, e você cai. Você tirita e tem calafrios, contorcendo-se convulsivamente no chão, à medida que as vibrações se intensificam. Procura desesperadamente uma maneira de parar o sino.
-    \nVocê: \n(1)Gritará o mais alto possível\n(2)Tentará abafar o sino com sua bota\n"""
+    return """\nUm "bong" sombrio soa como um toque de sino fúnebre. Tudo vibra à sua volta, e você aperta os dentes quando sua cabeça também estremece. Todo seu corpo está tremendo, e você cai. Você tirita e tem calafrios, contorcendo-se convulsivamente no chão, à medida que as vibrações se intensificam. Procura desesperadamente uma maneira de parar o sino.
+    \nVocê: \n(1)Gritará o mais alto possível\n(2)Tentará abafar o sino com sua bota"""
 
 
 def T221():
@@ -1188,8 +1188,12 @@ def T245():
     return "Você não tem outra alternativa senão abrir a porta, já que o muro é liso demais para ser escalado. Respirando fundo, você gira a maçaneta e entra em um poço coberto de areia. Ali, um monstro enorme com aparência de dinossauro, chegando a uns 10 metros de altura, está de pé nas imensas patas traseiras, diante de grandes portas duplas na parede do outro lado. Possui um couro grosso verde malhado e uma boca com filas de dentes afiados como navalhas. As mandíbulas da criatura se abrem e fecham com força capaz de pulverizar ossos. E mesmo você não consegue evitar o tremor ao se aproximar do Diabo do Poço com a espada na mão."
 
 
-def T246():
-    return "Apesar de toda a cautela, sua perna raspa em um dos postes, que imediatamente solta uma chuva de farpas afiadas, cada uma com vários centímetros de comprimento. Você perde 2 pontos de SORTE. Elas voam em todas as direções com grande velocidade, e você não consegue evitá-las. Jogue dois dados para determinar o número de farpas que se cravam na sua carne. Cada farpa reduz sua ENERGIA em 1 ponto. Se ainda estiver vivo, você senta para a dolorosa tarefa de retirar as farpas do corpo antes de partir para o leste."
+def T246() :
+    return "\nApesar de toda a cautela, sua perna raspa em um dos postes, que imediatamente solta uma chuva de farpas afiadas, cada uma com vários centímetros de comprimento. Você perde 2 pontos de SORTE. Elas voam em todas as direções com grande velocidade, e você não consegue evitá-las."
+
+
+def T246_2() :
+    return  "\nVocê senta para a dolorosa tarefa de retirar as farpas do corpo antes de partir para o leste."
 
 
 def T247():
@@ -1308,7 +1312,7 @@ def T274():
     return """Você pisa nervosamente na corda, sem se atrever a olhar para baixo. Na metade da travessia, você começa a entrar em pânico e perde o equilíbrio. Jogue dois dados. Se o total for igual ou menor que a sua HABILIDADE, volte para 238. Se o total for maior que sua HABILIDADE, vá para 359."""
 
 def T275() :
-    return """\nUma fumaça espessa sobe do chão no lugar onde o ácido caiu da moringa quebrada. Você se arrasta desesperadamente, tentando encontrar água potável nas poças rasas do túnel gotejante. Teste sua Sorte."""
+    return "\nUma fumaça espessa sobe do chão no lugar onde o ácido caiu da moringa quebrada. Você se arrasta desesperadamente, tentando encontrar água potável nas poças rasas do túnel gotejante."
 
 
 def T276():
@@ -1570,7 +1574,7 @@ def T354():
     return "\nA pílula faz com que você se sinta como se o mundo inteiro estivesse contra você. E perde 2 pontos de SORTE. O Anão lhe diz que agora você pode passar à segunda fase do teste. Ele apanha uma cesta de vime e lhe diz que ela contém uma serpente. Vira a cesta e a serpente cai no chão. É uma naja, e se ergue no ar, pronta para dar o bote. O Anão lhe diz que pretende testar suas reações. Você deverá agarrar a naja com as mãos nuas, pelo pescoço, evitando as presas mortais. Você se agacha, tensionando os músculos para o momento decisivo. Jogue dois dados. Se o total for igual ou menor que a sua HABILIDADE, volte para 55. Se o total for maior que a sua HABILIDADE, volte para 202.\n"
 
 def T355():
-    return "\nVocê se aproxima silenciosamente por trás dos Hobglobins que lutam e, saltando das sombras, empurra-os contra a parede e foge correndo. Você olha para trás e os vê esparramados no chão. Rindo, você segue depressa para o norte. Volte para 110.\n"
+    return "\nVocê se aproxima silenciosamente por trás dos Hobglobins que lutam e, saltando das sombras, empurra-os contra a parede e foge correndo. Você olha para trás e os vê esparramados no chão. Rindo, você segue depressa para o norte."
 
 def T356():
     return "\nHá uma abertura no lado esquerdo da parede do túnel. Você está de pé na entrada de uma caverna grande, quando ouve uma voz de mulher gritando por socorro. Você distingue apenas a forma de uma figura humana que rola pelo chão no fundo da caverna. Se você quiser entrar na caverna, volte para 170. Se preferir continuar para o norte pelo túnel, volte para 192.\n"
@@ -1634,7 +1638,7 @@ def T374():
     return "\nVocê caminha pela caverna, mas não acha nada interessante. Throm o chama lá de trás, dizendo que encontrou um saco de couro sob uma pilha de rochas. Abrindo o saco, Throm ri alto quando um minúsculo camundongo corre entre os dedos dele e foge para uma fresta entre dois rochedos. A súbitas, você ouve o som de rocha rachando: estalactites se desprendem do teto, como resultado da vibração causada pelo riso retumbante de Throm, que ainda ecoa pela caverna. Você berra para que Throm fuja pela passagem em arco, enquanto as estalactites desabam. Teste sua Sorte. Se você tiver sorte, volte para 118. Se não tiver sorte, volte para 295.\n"
 
 def T375():
-    return "\nUma fumaça acre emana da moringa quando você enfia o pano nela. O líquido é indubitavelmente ácido. Você arrolha a moringa de novo e a coloca na mochila, esperando que venha a ter utilidade mais tarde. Você recoloca a espada na bainha e prossegue rumo ao norte. Volte para 110.\n"
+    return "\nUma fumaça acre emana da moringa quando você enfia o pano nela. O líquido é indubitavelmente ácido. Você arrolha a moringa de novo e a coloca na mochila, esperando que venha a ter utilidade mais tarde. Você recoloca a espada na bainha e prossegue rumo ao norte."
 
 def T376():
     return "\nO Gnomo, ainda sorrindo, lhe diz, excitado: 'Excelente! Só falta uma. Você possui um diamante?' Se você tiver encontrado um diamante, volte para 62. Se não tiver encontrado um diamante, volte para 3.\n"
