@@ -24,6 +24,7 @@ escudo = 1
 tubo_oco_madeira = 0
 taça = 0
 anel_de_ouro = 0
+objeto_redondo_pequeno = 0
 
 #Variáveis adicionadas para auxiliar mais para frente
 beber = ""
@@ -1423,7 +1424,7 @@ while energia > 0 or venceu == False :
         
         print(textos.T83())
 
-    #PARA CIMA ESTÁ TUDO COMPLETO, ESTAREI ALTERANDO SÓ ABAIXO AGORA =====================================================
+    #TUDO CHEGA NO 37
     print(textos.T37())
     resposta = int(input("Escolha: "))
 
@@ -2208,5 +2209,102 @@ while energia > 0 or venceu == False :
             elif resposta == 2 :
                 print(textos.T135())
     
+    #PARA CIMA ESTÁ TUDO COMPLETO, ESTAREI ALTERANDO SÓ ABAIXO AGORA ================================================================================
     #Seguindo para o leste
     print(textos.T68())
+    resposta = int(input("Escolha: "))
+    
+    #Jogando o escudo por cima e depois pulando
+    if resposta == 1 :
+        print(textos.T271())
+        escudo -= 1
+        habilidade -= 1
+    
+    #Pular por cima carregando suas posses
+    elif resposta == 2 :
+        print(textos.T30())
+        input("Teste sua sorte...\n")
+        teste_da_sorte = random.randint(1,6) + random.randint(1,6)
+        
+        #Tendo sorte
+        if teste_da_sorte <= sorte :
+            print(textos.T160())
+        
+        #Não tendo sorte
+        else :
+            print(textos.T319())
+            print(textos.T285())
+            habilidade -= 1
+            energia -= 2
+            objeto_redondo_pequeno += 1
+    
+    #Usando a corda
+    elif resposta == 3 :
+        print(textos.T212())
+        print(textos.T285())
+        habilidade -= 1
+        energia -= 2
+        objeto_redondo_pequeno += 1
+    
+    #Todos do 68 vem para aqui
+    print(textos.T237())
+    resposta = int(input("Escolha: "))
+    
+    #Abrindo a porta
+    if resposta == 1 :
+        print(textos.T12())
+        escolha = int(input("Escolha: "))
+        
+        #Atacar com a espada
+        if escolha == 2 :
+            print(textos.T195())
+            energia -= 1
+        
+        #Correr pela porta
+        elif escolha == 3 :
+            print(textos.T250())
+            resposta = int(input("Escolha: "))
+            
+            #Continuar correndo
+            if resposta == 1 :
+                print(textos.T44())
+                energia = 0
+            
+            elif resposta == 3 :
+                print(textos.T195())
+                energia -= 1
+        
+        #Esperando a pergunta
+        print(textos.T382())
+        resposta = int(input("Escolha: "))
+        
+        #50KG
+        if resposta == 1 :
+            print(textos.T144())
+            print(textos.T85())
+            energia = 0
+        
+        #75KG
+        elif resposta == 2 :
+            print(textos.T227())
+            print(textos.T85())
+            energia = 0
+        
+        #100KG
+        elif resposta == 3 :
+            print(textos.T391())
+            habilidade += 1
+            energia += 1
+            sorte += 1
+            
+    #Não entrando na porta e continuando/Depois de sair
+    print(textos.T100())
+    resposta = int(input("Escolha: "))
+    
+    #Abrindo a porta
+    if resposta == 1 :
+        print(textos.T87())
+        print(textos.T381())
+    
+    #Continuando no corredor
+    print(textos.T217())

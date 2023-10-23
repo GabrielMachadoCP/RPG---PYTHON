@@ -65,7 +65,7 @@ def T11() :
 
 
 def T12() :
-    return """A porta abre para um grande aposento iluminado por velas, repleto das mais extraordinárias estátuas, de aparência real, representando guerreiros e cavaleiros. Um velho de cabelos brancos, trajando trapos esfarrapados, salta de trás de uma das estátuas e começa a dar risinhos. Uma centelha nos olhos dele faz com que você pense que algo se esconde por trás daquela aparência de idiota. Numa voz estridente, ele diz: "Bom, mais uma pedra para meu jardim. Fico feliz que você tenha vindo se juntar a seus amigos. Sou um homem justo, e por isso vou lhe fazer uma pergunta. Se responder corretamente, ficará livre - mas, se sua resposta estiver errada, eu o transformarei em pedra!" Ele volta a dar risadinhas, obviamente feliz com sua chegada. 
+    return """\nA porta abre para um grande aposento iluminado por velas, repleto das mais extraordinárias estátuas, de aparência real, representando guerreiros e cavaleiros. Um velho de cabelos brancos, trajando trapos esfarrapados, salta de trás de uma das estátuas e começa a dar risinhos. Uma centelha nos olhos dele faz com que você pense que algo se esconde por trás daquela aparência de idiota. Numa voz estridente, ele diz: "Bom, mais uma pedra para meu jardim. Fico feliz que você tenha vindo se juntar a seus amigos. Sou um homem justo, e por isso vou lhe fazer uma pergunta. Se responder corretamente, ficará livre - mas, se sua resposta estiver errada, eu o transformarei em pedra!" Ele volta a dar risadinhas, obviamente feliz com sua chegada. 
     \nVocê: \n(1)Esperará pela pergunta?\n(2)Vai atacá-lo com sua espada?\n(3)Correrá para a porta?"""
 
 
@@ -150,7 +150,7 @@ def T29() :
 
 
 def T30() :
-    return """Dando um passo à frente, você salta para a borda do outro lado do poço."""
+    return "\nDando um passo à frente, você salta para a borda do outro lado do poço."
 
 
 def T31() :
@@ -225,7 +225,7 @@ def T43() :
 
 
 def T44() :
-    return "Você está a apenas alguns metros da porta quando ouve o velho atrás de si enunciar umas palavras estranhas. Instantaneamente, sente os músculos endurecerem e a pele esticar. Você entra em pânico, mas não há nada que possa fazer para impedir a petrificação do seu corpo. Sua aventura termina aqui."
+    return "\nVocê está a apenas alguns metros da porta quando ouve o velho atrás de si enunciar umas palavras estranhas. Instantaneamente, sente os músculos endurecerem e a pele esticar. Você entra em pânico, mas não há nada que possa fazer para impedir a petrificação do seu corpo. Sua aventura termina aqui."
 
 
 def T45() :
@@ -336,7 +336,9 @@ def T67() :
 
 
 def T68() :
-    return "Você desce a passagem e logo se encontra de pé na borda de um poço profundo e escuro. A passagem continua para o leste, do outro lado do poço. Você pensa que provavelmente conseguirá pular por cima do poço, mas não tem certeza. Há uma corda que pende do teto e desce sobre o centro do poço. Você:\n\nJogará seu escudo por cima do poço e depois pulará? Vá para 271\nPulará por cima do poço carregando todas as suas posses? Volte para 30\nUsará a espada para trazer a corda até você, de modo a poder usá-la para atravessar até a outra margem? Vá para 212"
+    return """\nVocê desce a passagem e logo se encontra de pé na borda de um poço profundo e escuro. A passagem continua para o leste, do outro lado do poço. Você pensa que provavelmente conseguirá pular por cima do poço, mas não tem certeza. Há uma corda que pende do teto e desce sobre o centro do poço.
+
+    \nVocê: \n(1)Jogará seu escudo por cima do poço e depois pulará\n(2)Pulará por cima do poço carregando todas as suas posses\n(3)Usará a espada para trazer a corda até você, de modo a poder usá-la para atravessar até a outra margem"""
 
 
 def T69() :
@@ -414,7 +416,7 @@ def T84() :
 
 
 def T85() :
-    return "Antes que você possa fazer qualquer outra coisa, o velho murmura umas palavras estranhas. Você sente os músculos se enrijecerem e a pele se esticar. Começa a entrar em pânico, mas não há nada que possa fazer para impedir a petrificação do seu corpo. Sua aventura termina aqui."
+    return "\nAntes que você possa fazer qualquer outra coisa, o velho murmura umas palavras estranhas. Você sente os músculos se enrijecerem e a pele se esticar. Começa a entrar em pânico, mas não há nada que possa fazer para impedir a petrificação do seu corpo. Sua aventura termina aqui."
 
 
 def T86() :
@@ -422,7 +424,7 @@ def T86() :
 
 
 def T87() :
-    return "A porta se abre para um aposento grande. Vá para 381."
+    return "\nA porta se abre para um aposento grande."
 
 
 def T88() :
@@ -474,7 +476,9 @@ def T99() :
 
 
 def T100() :
-    return "Alguns metros adiante, descendo a passagem, você vê uma outra porta fechada na parede da esquerda. Há uma letra X na placa central da porta. Colocando o ouvido na porta, você escuta atentamente, mas não consegue ouvir nada. Se você quiser abrir a porta, volte para 87. Se preferir continuar caminhando para o norte, vá para 217."
+    return """\nAlguns metros adiante, descendo a passagem, você vê uma outra porta fechada na parede da esquerda. Há uma letra X na placa central da porta. Colocando o ouvido na porta, você escuta atentamente, mas não consegue ouvir nada.
+
+    \nVocê: \n(1)Abrie a porta, volte para 87. Se preferir continuar caminhando para o norte, vá para 217."""
 
 
 def T101() :
@@ -732,7 +736,7 @@ def T143() :
 
 
 def T144() :
-    return """Ainda sorrindo, o velho olha para você e diz em voz baixa: "Errado." Volte para 85"""
+    return """\nAinda sorrindo, o velho olha para você e diz em voz baixa: "Errado." """
 
 
 def T145() :
@@ -811,7 +815,7 @@ def T159() :
 
 
 def T160() :
-    return """Sua armadura e sua espada são pesadas e dificultam o salto, mas você aterrissa em segurança, por um triz, na borda do outro lado do poço. Você não perde tempo e se encaminha para o leste. Vá para 237."""
+    return "\nSua armadura e sua espada são pesadas e dificultam o salto, mas você aterrissa em segurança, por um triz, na borda do outro lado do poço. Você não perde tempo e se encaminha para o leste."
 
 
 def T161() :
@@ -963,7 +967,7 @@ def T194() :
 
 
 def T195() :
-    return """Você desembainha a espada e corre na direção do velho. Ele ergue o braço esquerdo e, subitamente, você esbarra em uma barreira invisível. “Não seja tolo, meus poderes são grandes!”, diz o velho calmamente. “Se você não acredita em mim, veja isto.” Saindo do nada, um punho voador lhe desfere um soco no rosto antes que você possa se esquivar. Você perde 1 ponto de ENERGIA. Você sacode a cabeça e esfrega o queixo. Parece que não tem alternativa senão tentar responder à pergunta do velho. Vá para 382."""
+    return "\nVocê desembainha a espada e corre na direção do velho. Ele ergue o braço esquerdo e, subitamente, você esbarra em uma barreira invisível. “Não seja tolo, meus poderes são grandes!”, diz o velho calmamente. “Se você não acredita em mim, veja isto.” Saindo do nada, um punho voador lhe desfere um soco no rosto antes que você possa se esquivar. Você perde 1 ponto de ENERGIA. Você sacode a cabeça e esfrega o queixo. Parece que não tem alternativa senão tentar responder à pergunta do velho."
 
 
 def T196() :
@@ -1040,8 +1044,8 @@ def T211():
     return """Você consegue se livrar do aperto de Erva e desembainha a espada. Apanhando um banco quebrado para lhe servir de arma, ela avança na sua direção."""
 
 
-def T212():
-    return """Segurando a corda firmemente, você toma distância para o salto. Contudo, sob a luz fraca, você não nota que alguém enfraqueceu a corda, a ponto de parti-la em duas, logo acima do local em que você está segurando. Quando se lança por sobre o poço, a corda rompe e você grita de medo ao despencar de cabeça nas profundezas. """
+def T212() :
+    return "\nSegurando a corda firmemente, você toma distância para o salto. Contudo, sob a luz fraca, você não nota que alguém enfraqueceu a corda, a ponto de parti-la em duas, logo acima do local em que você está segurando. Quando se lança por sobre o poço, a corda rompe e você grita de medo ao despencar de cabeça nas profundezas. "
 
 
 def T213():
@@ -1117,8 +1121,8 @@ def T226_3() :
     return """\nA carne contém ervas que lhe aumentarão a força. Você ganha 3 pontos de ENERGIA. Se sentindo revigorado, você sai da câmara e continua para o oeste"""
 
 
-def T227():
-    return """Ainda sorrindo, o velho olha para você. “Errado”, ele diz em voz baixa."""
+def T227() :
+    return """\nAinda sorrindo, o velho olha para você. “Errado”, ele diz em voz baixa."""
 
 
 def T228():
@@ -1161,8 +1165,10 @@ def T236():
     return "O punho recua e prepara um novo ataque. Com a mão livre, você puxa a espada e tenta cortar a maçaneta da porta. Embora não o reconheça, você está sendo atacado pela forma fluida de um IMITADOR."
 
 
-def T237():
-    return "O túnel faz uma curva súbita para a esquerda e continua para o norte até onde a vista alcança. Você logo chega a uma porta de madeira, fechada, na parede do lado esquerdo.\n\nO que você deseja fazer?\n1. Abrir a porta\n2. Continuar seguindo para o norte"
+def T237() :
+    return """\nO túnel faz uma curva súbita para a esquerda e continua para o norte até onde a vista alcança. Você logo chega a uma porta de madeira, fechada, na parede do lado esquerdo.
+
+    \nO que você deseja fazer? \n(1))Abrir a porta\n(2)Continuar seguindo para o norte"""
 
 
 def T238():
@@ -1222,8 +1228,10 @@ def T249():
     Safira      Diamante    Esmeralda       Fique em 249"""
 
 
-def T250():
-    return "Quando você corre para a porta, o velho grita atrás de você: 'Não corra, ninguém escapa de mim. Pare, ou eu o transformarei em pedra neste instante!' Você:\n\nContinua correndo? Volte para 44\nVira-se para atacá-lo com a espada? Volte para 195\nDiz a ele que responderá à pergunta? Vá para 382"
+def T250() :
+    return """\nQuando você corre para a porta, o velho grita atrás de você: 'Não corra, ninguém escapa de mim. Pare, ou eu o transformarei em pedra neste instante!'
+
+    \nVocê: \n(1)Continua correndo\n(2)Vira-se para atacá-lo com a espada(3)\nDiz a ele que responderá à pergunta"""
 
 
 def T251() :
@@ -1310,7 +1318,7 @@ def T270() :
 
 
 def T271():
-    return """Quando você está prestes a soltar o escudo e atirá-lo por cima do poço, ele escorrega de seus dedos e rola pelo chão. Você não consegue apanhá-lo antes que ele ultrapasse a borda, caindo ruidosamente, de lado, no fundo. A perda do escudo reduz-lhe a capacidade - você perde 1 ponto de HABILIDADE. Amaldiçoando sua própria falta de jeito, você dá um passo à frente, salta por sobre o poço e cai em segurança do outro lado. Você não perde tempo e se dirige para o leste. Volte para 237."""
+    return "\nQuando você está prestes a soltar o escudo e atirá-lo por cima do poço, ele escorrega de seus dedos e rola pelo chão. Você não consegue apanhá-lo antes que ele ultrapasse a borda, caindo ruidosamente, de lado, no fundo. A perda do escudo reduz-lhe a capacidade - você perde 1 ponto de HABILIDADE. Amaldiçoando sua própria falta de jeito, você dá um passo à frente, salta por sobre o poço e cai em segurança do outro lado. Você não perde tempo e se dirige para o leste."
 
 def T272():
     return """Embora a Besta Sangrenta seja pesada e estufada demais para sair da poça, a língua da fera se estica e se enrosca na sua perna. Ainda inconsciente, você é arrastado para a poça de lodo. Depois de decomposto pela ação do lodo abjeto, seu corpo será saboreado pela repugnante Besta Sangrenta."""
@@ -1355,8 +1363,10 @@ def T283():
 def T284():
     return """Você bebeu uma poção encontrada em um livro de couro preto? Se você tiver bebido, vá para 398. Se não, volte para 57."""
 
-def T285():
-    return """Você cai pesadamente de costas, mas, felizmente, sua mochila suaviza o impacto. Você perde 1 ponto de HABILIDADE e 2 pontos de ENERGIA. A escuridão é quase total no fundo do poço, e você se arrasta, tateando. Repentinamente, sua mão toca alguma coisa fria, dura e lisa. O objeto é pequeno e redondo, mas você não consegue imaginar o que pode ser. Você o põe na mochila, esperando saber o que é quando sair do poço. Você continua a engatinhar e, adiante, topa com a parede do poço. É lisa demais para ser escalada, e você tem que escavar apoios nela com a espada. Isso toma muito tempo, mas, finalmente, você chega à boca do poço e sai dele pelo lado leste. Imediatamente, verifica a mochila, e descobre que o objeto encontrado é uma esfera de rubi vermelho vivo. Você fica absolutamente deslumbrado e se dirige para o leste com excelente disposição, assobiando suavemente. Volte para 237."""
+
+def T285() :
+    return "\nVocê cai pesadamente de costas, mas, felizmente, sua mochila suaviza o impacto. Você perde 1 ponto de HABILIDADE e 2 pontos de ENERGIA. A escuridão é quase total no fundo do poço, e você se arrasta, tateando. Repentinamente, sua mão toca alguma coisa fria, dura e lisa. O objeto é pequeno e redondo, mas você não consegue imaginar o que pode ser. Você o põe na mochila, esperando saber o que é quando sair do poço. Você continua a engatinhar e, adiante, topa com a parede do poço. É lisa demais para ser escalada, e você tem que escavar apoios nela com a espada. Isso toma muito tempo, mas, finalmente, você chega à boca do poço e sai dele pelo lado leste. Imediatamente, verifica a mochila, e descobre que o objeto encontrado é uma esfera de rubi vermelho vivo. Você fica absolutamente deslumbrado e se dirige para o leste com excelente disposição, assobiando suavemente."
+
 
 def T286():
     return """Foi obviamente um erro ter largado suas armas, mas, pelo menos, agora você pode se apossar das do Ninja morto. Você escolhe uma das facas compridas e a longa espada curva. O fio da lâmina de aço é excepcionalmente duro, e você não consegue deixar de admirar-lhe a beleza terrificante. Acrescente 4 pontos de HABILIDADE e vá para 320."""
@@ -1471,7 +1481,7 @@ def T318():
     return """\nDepois de cruzar a ponte, você atravessa a caverna correndo. Finalmente, vê um túnel na parede do outro lado, pelo qual você entra a toda. O túnel termina numa pesada porta de madeira, e ela está trancada. Se você tiver uma chave de ferro, volte para 86. Se não tiver uma chave, volte para 276.\n"""
 
 def T319():
-    return """\nA armadura e a espada pesam mais do que você pensa. No ar, você toma consciência, com horror, de que não vai conseguir chegar ao outro lado do poço. Você se choca contra o lado do poço, uns dois metros abaixo da borda, e despenca de cabeça para o fundo. Volte para 285.\n"""
+    return "\nA armadura e a espada pesam mais do que você pensa. No ar, você toma consciência, com horror, de que não vai conseguir chegar ao outro lado do poço. Você se choca contra o lado do poço, uns dois metros abaixo da borda, e despenca de cabeça para o fundo."
 
 def T320():
     return """\nVocê resolve revistar o Ninja e, em meio às vestes dele, encontra um saco de pano. Dentro, há um frasco de água, um pouco de arroz enrolado em folha de palmeira, um vidro de unguento e um lindo diamante. Você:\n\nComerá o arroz e beberá a água?	Vá para 330\nEsfregará um pouco do unguento nos seus ferimentos?	Volte para 269\nPegará apenas o diamante e sairá do salão?	Volte para 127\n"""
@@ -1672,11 +1682,15 @@ def T380() :
     return "\nA maça de ferro do Orca se choca contra o escudo e resvala sem causar dano. O túnel é estreito demais para que os dois o ataquem ao mesmo tempo, por isso você pode lutar com um de cada vez."
 
 
-def T381():
+def T381() :
     return "\nVocê olha em volta no aposento e nada vê de interesse, exceto a alcova na parede do oeste e uma cadeira de pedra no meio do aposento, na qual se encontra sentado o esqueleto de um guerreiro armado, possivelmente um concorrente de anos atrás. Os dedos descamados da mão direita estão fechados em torno de um pedaço de pergaminho. Se você quiser pegar o pergaminho do esqueleto, volte para 331. Se preferir caminhar até a alcova, volte para 128.\n"
 
-def T382():
-    return "\nO velho aponta para uma das estátuas, e você logo a reconhece. É o cavaleiro que iniciou a Prova dos Campeões, um olhar de agonia registrado na pedra para toda a eternidade. O velho sorri, dizendo: 'Este homem pesa 50 kg mais a metade do peso dele. Quanto ele pesa?' O que você responderá?\n\n50 quilos?	Volte para 144\n75 quilos?	Volte para 227\n100 quilos?	Vá para 391\n"
+
+def T382() :
+    return """\nO velho aponta para uma das estátuas, e você logo a reconhece. É o cavaleiro que iniciou a Prova dos Campeões, um olhar de agonia registrado na pedra para toda a eternidade. O velho sorri, dizendo: 'Este homem pesa 50 kg mais a metade do peso dele. Quanto ele pesa?'
+
+    \nO que você responderá? \n(1)50 quilos\n(2)75 quilos\n(3)100 quilos"""
+
 
 def T383():
     return "\nPara sua grande surpresa, nada de extraordinário lhe acontece enquanto está sentado na cadeira. Nada há a fazer senão continuar para o norte pelo túnel. Volte para 188.\n"
@@ -1707,8 +1721,8 @@ def T390():
     return "\nVocê se agacha ao lado do pedestal, abaixo da linha de fogo das bestas. Estica a mão e puxa o crânio do pedestal, esperando que sua ação faça as bestas dispararem. Para sua grande surpresa, nada acontece. Some 1 ponto de SORTE. Ainda agachado, você arranca as jóias que formam os olhos do crânio. Você identifica as pedras amarelas - topázios - e as coloca na mochila. Olhando para a série de bestas, pergunta-se se ainda há uma armadilha à sua espera no aposento. Você:\n\nEngatinha para fora do aposento, levando o crânio?	Volte para 15\nRecoloca o crânio no pedestal antes de engatinhar para fora do aposento?	Volte para 204\n"
 
 
-def T391():
-    return "\nAinda sorrindo, o velho olha para você e diz: “Muito bem, Estranho. Você respondeu corretamente. Desejo-lhe boa sorte durante o resto da Prova dos Campeões, e, com este objetivo, aumentarei seus poderes.” Ele então murmura mais umas poucas palavras ininteligíveis, e você sente um impulso poderoso percorrer-lhe o corpo. Acrescente 1 ponto a cada um dos seus índices de HABILIDADE, ENERGIA e SORTE. Você diz adeus ao velho e sai do aposento para continuar para o norte pela passagem. Volte para 100.\n"
+def T391() :
+    return "\nAinda sorrindo, o velho olha para você e diz: “Muito bem, Estranho. Você respondeu corretamente. Desejo-lhe boa sorte durante o resto da Prova dos Campeões, e, com este objetivo, aumentarei seus poderes.” Ele então murmura mais umas poucas palavras ininteligíveis, e você sente um impulso poderoso percorrer-lhe o corpo. Você ganha 1 ponto de cada um dos seus índices de HABILIDADE, ENERGIA e SORTE. Você diz adeus ao velho e sai do aposento para continuar para o norte pela passagem."
 
 
 def T392():
