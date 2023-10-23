@@ -3,7 +3,7 @@
 # Gabriel Pimentel  RM 99880
 # Hellen Assis      RM 98284
 
-#LINHA QUE ESTOU TRABALHANDO NO MOMENTO: 2212
+#LINHA QUE ESTOU TRABALHANDO NO MOMENTO: 2299
 
 #Imports
 import random
@@ -2209,7 +2209,6 @@ while energia > 0 or venceu == False :
             elif resposta == 2 :
                 print(textos.T135())
     
-    #PARA CIMA ESTÁ TUDO COMPLETO, ESTAREI ALTERANDO SÓ ABAIXO AGORA ================================================================================
     #Seguindo para o leste
     print(textos.T68())
     resposta = int(input("Escolha: "))
@@ -2297,6 +2296,7 @@ while energia > 0 or venceu == False :
             energia += 1
             sorte += 1
             
+    #PARA CIMA ESTÁ TUDO COMPLETO, ESTAREI ALTERANDO SÓ ABAIXO AGORA ================================================================================
     #Não entrando na porta e continuando/Depois de sair
     print(textos.T100())
     resposta = int(input("Escolha: "))
