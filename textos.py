@@ -80,7 +80,7 @@ def T14() :
 
 
 def T15() :
-    return """Uma sensação de cócegas desce pela sua espinha enquanto você se arrasta cuidadosamente para fora do aposento. De volta ao túnel, você solta um suspiro de alívio e fecha a porta com força. Feliz com sua boa sorte, parte para o oeste mais uma vez."""
+    return "\nUma sensação de cócegas desce pela sua espinha enquanto você se arrasta cuidadosamente para fora do aposento. De volta ao túnel, você solta um suspiro de alívio e fecha a porta com força. Feliz com sua boa sorte, parte para o oeste mais uma vez."
 
 
 def T16() :
@@ -404,7 +404,9 @@ def T80() :
 
 
 def T81() :
-    return "A única mobília no quarto do Goblin consiste em uma mesa, duas cadeiras e um armário de parede. Há duas portas fechadas, uma na parede oeste, outra na parede norte. Você:\n\nAbrirá o armário? Vá para 307\nAbrirá a porta do oeste? Vá para 263\nAbrirá a porta do norte? Vá para 136"
+    return """\nA única mobília no quarto do Goblin consiste em uma mesa, duas cadeiras e um armário de parede. Há duas portas fechadas, uma na parede oeste, outra na parede norte.
+
+    \nVocê: \n(1)Abrirá o armário\n(2)Abrirá a porta do oeste\n(3)Abrirá a porta do norte"""
 
 
 def T82() :
@@ -551,7 +553,13 @@ def T112() :
 
 
 def T113() :
-    return "A bola de madeira passa assobiando pelo crânio, atingindo a parede do outro lado com um estrondo. Se você quiser tentar outra vez com a outra bola, vá para 371. Se já tiver jogado duas vezes, ou não quiser tentar de novo, você pode fechar a porta e continuar pelo túnel – volte para 74."
+    return """\nA bola de madeira passa assobiando pelo crânio, atingindo a parede do outro lado com um estrondo.
+    
+    \nO que você vai fazer? \n(1)Tentar outra vez com a outra bola\n(2)Fechar a porta e continuar pelo túnel"""
+
+
+def T113_2() :
+    return "\nA bola de madeira passa assobiando pelo crânio, atingindo a parede do outro lado com um estrondo. Você desiste de tentar, fecha a porta e continua pelo túnel."
 
 
 def T114() :
@@ -663,7 +671,7 @@ def T130() :
 
 
 def T131() :
-    return """Os dardos da besta voam por cima de sua cabeça e se cravam na parede; felizmente, você ainda está agachado. Agora que a armadilha já disparou, você pode sair do aposento pela mesma porta pela qual entrou. De volta no túnel, você segue para o oeste. Volte para 74."""
+    return "\nOs dardos da besta voam por cima de sua cabeça e se cravam na parede; felizmente, você ainda está agachado. Agora que a armadilha já disparou, você pode sair do aposento pela mesma porta pela qual entrou. De volta no túnel, você segue para o oeste."
 
 
 def T132() :
@@ -777,11 +785,9 @@ def T152() :
 
 
 def T153() :
-    return """A porta abre para um pequeno aposento, no qual há um crânio humano cujos olhos são jóias, pousado sobre um pedestal de mármore. Uma bateria de bestas com dardos está fixada à parede da esquerda, e duas pequenas bolas de madeira estão no chão, bem perto da porta. Você:
-
-    Entrará no aposento e apanhará o crânio?	Vá para 390
-    Jogará, da porta, uma das bolas de madeira no crânio?	Vá para 371
-    Fechará a porta e continuará para o oeste, levando as bolas de madeira?	Volte para 74"""
+    return """\nA porta abre para um pequeno aposento, no qual há um crânio humano cujos olhos são jóias, pousado sobre um pedestal de mármore. Uma bateria de bestas com dardos está fixada à parede da esquerda, e duas pequenas bolas de madeira estão no chão, bem perto da porta.
+    
+    \nVocê: \n(1)Entrará no aposento e apanhará o crânio?\n(2)Jogará, da porta, uma das bolas de madeira no crânio\n(3)Fechará a porta e continuará para o oeste, levando as bolas de madeira"""
 
 
 def T154() :
@@ -985,7 +991,7 @@ def T198() :
 
 
 def T199() :
-    return """Os dardos da besta são em número tão grande que é impossível evitá-los. Jogue um dado para determinar o número de dardos que lhe atingem o corpo, perdendo 2 pontos de ENERGIA para cada um deles. Se ainda estiver vivo, terá que descansar aqui por um longo tempo para se recuperar dos ferimentos. Perde 1 ponto de SORTE. Quando você, finalmente, se sente forte o bastante para seguir adiante, sai do aposento e continua para o oeste pelo túnel. Volte para 74."""
+    return "\nOs dardos da besta são em número tão grande que é impossível evitá-los, perdendo 2 pontos de ENERGIA para cada um deles. Você terá que descansar aqui por um longo tempo para se recuperar dos ferimentos. Perde 1 ponto de SORTE. Quando você, finalmente, se sente forte o bastante para seguir adiante, sai do aposento e continua para o oeste pelo túnel."
 
 
 def T200() :
@@ -1009,7 +1015,7 @@ def T203() :
 
 
 def T204() :
-    return """Há uma placa sensível à pressão no topo do pedestal, e, logo que o crânio é colocado de volta sobre ele, o mecanismo invisível é disparado. Imediatamente, uma chuva de dardos lançados pela besta atravessa o aposento. Teste sua Sorte. Se você tiver sorte, volte para 131. Se não tiver sorte, volte para 199."""
+    return "\nHá uma placa sensível à pressão no topo do pedestal, e, logo que o crânio é colocado de volta sobre ele, o mecanismo invisível é disparado. Imediatamente, uma chuva de dardos lançados pela besta atravessa o aposento."
 
 
 def T205() :
@@ -1287,8 +1293,11 @@ def T262():
     return "A porta abre para um outro túnel que segue para o norte. Você topa com duas fontes de pedra, uma de cada lado do túnel, esculpidas na forma de querubins, de cujas bocas a água jorra e desce em cascata para pequenas conchas nos pés. Você:\n\nBeberá água na fonte da esquerda? Vá para 337\nBeberá água na fonte da direita? Volte para 173\nContinuará caminhando para o norte? Vá para 368."
 
 
-def T263():
-    return "A porta abre para um outro túnel. Caminhando para o oeste, você logo chega a uma porta na parede norte. Quer abrir a porta?"
+def T263() :
+    return """\nA porta abre para um outro túnel. Caminhando para o oeste, você logo chega a uma porta na parede norte.
+    
+    \nO que você vai fazer? \n(1)Abrir a porta\n(2)Continuar para o oeste"""
+
 
 def T264() :
     return """\nAdiante, na penumbra, você vê dois HOBGOBLINS se engalfinhando. Há uma bolsa de couro jogada no chão, e parece ser ela a razão da luta.
@@ -1323,8 +1332,11 @@ def T271():
 def T272():
     return """Embora a Besta Sangrenta seja pesada e estufada demais para sair da poça, a língua da fera se estica e se enrosca na sua perna. Ainda inconsciente, você é arrastado para a poça de lodo. Depois de decomposto pela ação do lodo abjeto, seu corpo será saboreado pela repugnante Besta Sangrenta."""
 
-def T273():
-    return """A bola de madeira se choca contra o crânio, derrubando-o do pedestal. Para sua surpresa, as bestas não disparam os dardos mortais. Você entra no aposento com cautela e apanha o crânio do chão. Reconhece as jóias amarelas dos olhos como sendo topázios, e rapidamente os arranca das órbitas. Você os coloca na mochila, imaginando se ainda há uma cilada à sua espera no aposento. Você:\n\nFicará de quatro e sairá engatinhando do aposento, segurando o crânio? Volte para 15\nRecolocará o crânio no pedestal antes de sair do aposento? Volte para 204"""
+def T273() :
+    return """\nA bola de madeira se choca contra o crânio, derrubando-o do pedestal. Para sua surpresa, as bestas não disparam os dardos mortais. Você entra no aposento com cautela e apanha o crânio do chão. Reconhece as jóias amarelas dos olhos como sendo topázios, e rapidamente os arranca das órbitas. Você os coloca na mochila, imaginando se ainda há uma cilada à sua espera no aposento.
+    
+    \nVocê: \n(1)Ficará de quatro e sairá engatinhando do aposento, segurando o crânio\n(2)Recolocará o crânio no pedestal antes de sair do aposento"""
+
 
 def T274():
     return """Você pisa nervosamente na corda, sem se atrever a olhar para baixo. Na metade da travessia, você começa a entrar em pânico e perde o equilíbrio. Jogue dois dados. Se o total for igual ou menor que a sua HABILIDADE, volte para 238. Se o total for maior que sua HABILIDADE, vá para 359."""
@@ -1442,8 +1454,11 @@ def T305():
 def T306():
     return """\nAntes que você possa dar um passo na direção dos Leprechauns, um deles joga uma poeira cintilante em você, que é imediatamente congelado no lugar, incapaz de mover um músculo. Você vê, indefeso, os Leprechauns revirarem sua mochila, fugindo com todas as suas posses e deixando a mochila vazia. Você perde 2 pontos de SORTE. Cerca de uma hora depois, o efeito congelante da poeira se desfaz, e as sensações retornam a seu corpo. Furioso com a perda, você ruma para o norte, determinado a se vingar. Volte para 29.\n"""
 
-def T307():
-    return """\nO armário contém uma marreta de madeira e 10 espigões de ferro, os quais você põe na mochila enquanto decide qual porta abrir. Se quiser abrir a porta do oeste, volte para 263. Se preferir abrir a porta do norte, volte para 136.\n"""
+def T307() :
+    return """\nO armário contém uma marreta de madeira e 10 espigões de ferro, os quais você põe na mochila enquanto decide qual porta abrir.
+
+    \n(1)A porta do oeste\n(2)A porta do norte"""
+
 
 def T308():
     return """\nA Medusa berra quando você entra na gaiola, mantendo os olhos firmemente fechados e desferindo golpes furiosos de um lado para o outro com a espada. Você sente a lâmina penetrar profundamente na fera e ouve um baque alto quando ela desaba pesadamente no chão. Você abre os olhos de novo e se arrepia com a visão da Medusa prostrada. O manto dela está preso por um grande broche constituído por uma única gema grande; é uma granada. Você a arranca, põe no bolso e sai do aposento, rumo ao norte. Vá para 316.\n"""
@@ -1652,8 +1667,9 @@ def T369():
 def T370():
     return "\nQuando você contorna a poça correndo, a Besta Sangrenta estende a língua comprida mais uma vez. Jogue dois dados. Se o total for igual ou menor que o seu índice de HABILIDADE, volte para 104. Se o total for maior que o seu índice de HABILIDADE, volte para 342.\n"
 
-def T371():
-    return "\nVocê faz pontaria e joga a bola de madeira no crânio. Jogue dois dados. Se o número obtido for igual ou menor que o seu índice de HABILIDADE, volte para 273. Se o número obtido for maior que o seu índice de HABILIDADE, volte para 113.\n"
+def T371() :
+    return "\nVocê faz pontaria e joga a bola de madeira no crânio."
+
 
 def T372():
     return "\nVocê finalmente chega ao corpo do guerreiro, mas, logo que toca na jóia, tanto ela quanto o guerreiro desaparecem como num passe de mágica. A porta bate atrás de você, e segue-se um estrondo agourento acima da sua cabeça. Você olha para o alto e vê o teto baixando. Corre para a porta na tentativa de escapar, mas ela está trancada e não há maçaneta do lado de dentro. O teto vai descendo, e você é obrigado a se deitar no chão, tentando impedir o movimento do teto com as mãos e os pés. Mas o esforço é inútil, e você é esmagado entre os blocos de pedra.\n"
@@ -1721,8 +1737,10 @@ def T389():
     return "\nSem suas armas você está mais vulnerável, e a perda da espada faz com que se sinta praticamente nu. Você perde 4 pontos de HABILIDADE. Questionando se tomou a decisão correta, você segue pelo túnel para o norte. Volte para 181.\n"
 
 
-def T390():
-    return "\nVocê se agacha ao lado do pedestal, abaixo da linha de fogo das bestas. Estica a mão e puxa o crânio do pedestal, esperando que sua ação faça as bestas dispararem. Para sua grande surpresa, nada acontece. Some 1 ponto de SORTE. Ainda agachado, você arranca as jóias que formam os olhos do crânio. Você identifica as pedras amarelas - topázios - e as coloca na mochila. Olhando para a série de bestas, pergunta-se se ainda há uma armadilha à sua espera no aposento. Você:\n\nEngatinha para fora do aposento, levando o crânio?	Volte para 15\nRecoloca o crânio no pedestal antes de engatinhar para fora do aposento?	Volte para 204\n"
+def T390() :
+    return """\nVocê se agacha ao lado do pedestal, abaixo da linha de fogo das bestas. Estica a mão e puxa o crânio do pedestal, esperando que sua ação faça as bestas dispararem. Para sua grande surpresa, nada acontece. Some 1 ponto de SORTE. Ainda agachado, você arranca as jóias que formam os olhos do crânio. Você identifica as pedras amarelas - topázios - e as coloca na mochila. Olhando para a série de bestas, pergunta-se se ainda há uma armadilha à sua espera no aposento. 
+    
+    \nVocê: \n(1)Engatinha para fora do aposento, levando o crânio\n(2)Recoloca o crânio no pedestal antes de engatinhar para fora do aposento"""
 
 
 def T391() :
