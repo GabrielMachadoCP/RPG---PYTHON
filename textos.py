@@ -170,12 +170,12 @@ def T34() :
 
 
 def T35() :
-    return """O túnel continua para o oeste por várias centenas de metros, terminando finalmente em alguns degraus que conduzem a um alçapão fechado. Você sobe os degraus lentamente, ouvindo vozes abafadas acima. Na penumbra, você pode ver que o alçapão não está trancado.
+    return """\nO túnel continua para o oeste por várias centenas de metros, terminando finalmente em alguns degraus que conduzem a um alçapão fechado. Você sobe os degraus lentamente, ouvindo vozes abafadas acima. Na penumbra, você pode ver que o alçapão não está trancado.
     \nVocê: \n(1)Bate na porta do alçapão\n(2)Irromper pela porta com a espada desembainhada"""
 
 
 def T36() :
-    return """Embora você jamais tenha corrido tanto em toda a sua vida, o rochedo chega cada vez mais perto.""" #Jogue dois dados => INPUT
+    return "\nEmbora você jamais tenha corrido tanto em toda a sua vida, o rochedo chega cada vez mais perto."
 
 
 def T37() :
@@ -350,7 +350,11 @@ def T70() :
 
 
 def T71() :
-    return "Mais uma vez, você estica a mão para o pergaminho, só que dessa vez ele está em meio a uma pilha de ossos quebrados. Ao desenrolá-lo, você vê o mapa de um aposento com o desenho de uma criatura pavorosa dentro. Embaixo da figura do monstro, há uma rima que diz:\n\n“Se você encontrar o Mantécora,\nÉ bom de sua cauda cuidar.\nProteja-se dos espinhos\nQue irão voar pelo ar.”\n\nVocê enrola o pedaço de pergaminho e o coloca na mochila. Repetindo a rima muitas vezes para si mesmo, você caminha para o outro lado, em direção à alcova. Vá para 128"
+    return """\nMais uma vez, você estica a mão para o pergaminho, só que dessa vez ele está em meio a uma pilha de ossos quebrados. Ao desenrolá-lo, você vê o mapa de um aposento com o desenho de uma criatura pavorosa dentro. Embaixo da figura do monstro, há uma rima que diz:
+    
+    \n“Se você encontrar o Mantécora,\nÉ bom de sua cauda cuidar.\nProteja-se dos espinhos\nQue irão voar pelo ar.”
+    
+    \nVocê enrola o pedaço de pergaminho e o coloca na mochila. Repetindo a rima muitas vezes para si mesmo, você caminha para o outro lado, em direção à alcova."""
 
 
 def T72() :
@@ -607,19 +611,10 @@ def T123() :
 
 
 def T124() :
-    return """Você abre o alçapão e sobe os degraus correndo, chegando a um aposento profundamente iluminado por lanternas.
-    Dois GOBLINS afiam espadas curtas em uma pedra colocada no meio do chão.
+    return """\nVocê abre o alçapão e sobe os degraus correndo, chegando a um aposento profundamente iluminado por lanternas. Dois GOBLINS afiam espadas curtas em uma pedra colocada no meio do chão.
     Você os pega desprevenidos, mas eles logo se recuperam e se projetam para frente a fim de atacá-lo.
-                        HABILIDADE     ENERGIA
-    Primeiro GOBLIN     5              4
-    Segundo GOBLIN      5              5
 
-    Os Goblins o atacarão separadamente em cada Série de Ataque, mas você deve escolher com qual dos dois vai lutar.
-    Ataque o Goblin escolhido como numa batalha normal. Contra o outro, você tem que jogar os dados para determinar sua Força de Ataque da maneira usual,
-    mas, mesmo que sua Força de Ataque seja maior, você não ferirá o Goblin.
-    Compute isso simplesmente como se tivesse se defendido de um golpe dele.
-    Porém, se a Força de Ataque dele for maior, ele o ferirá, da forma costumeira.
-    Se você vencer, volte para 81."""
+    \nOs Goblins o atacarão separadamente em cada Série de Ataque, mas você deve escolher com qual dos dois vai lutar. Ataque o Goblin escolhido como numa batalha normal. Contra o outro, mesmo que sua Força de Ataque seja maior, você não ferirá o Goblin. Isso será computado simplesmente como se tivesse se defendido de um golpe dele. Porém, se a Força de Ataque dele for maior, ele o ferirá de forma costumeira."""
 
 
 def T125() :
@@ -652,8 +647,9 @@ def T127() :
     Volte para 90."""
 
 def T128() :
-    return """Na parte de trás da alcova, há uns degraus que conduzem a uma adega abaixo. Teias de aranha tocam-lhe o rosto enquanto você desce. O teto da adega é bastante baixo, e o chão está coberto de lixo e detritos. No meio da parede do outro lado, uma passagem em arco leva a outro túnel iluminado por cristais. Grandes cogumelos crescem no lixo à sua direita.
-    Se você quiser atravessar a passagem em arco, volte para 35. Se preferir parar para comer alguns cogumelos, vá para 233."""
+    return """\nNa parte de trás da alcova, há uns degraus que conduzem a uma adega abaixo. Teias de aranha tocam-lhe o rosto enquanto você desce. O teto da adega é bastante baixo, e o chão está coberto de lixo e detritos. No meio da parede do outro lado, uma passagem em arco leva a outro túnel iluminado por cristais. Grandes cogumelos crescem no lixo à sua direita.
+    
+    \nVocê: \n(1)Atravessa a passagem em arco\n(2)Para para comer alguns cogumelos"""
 
 def T129() :
     return """Você amarra a corda ao gancho e o atira por cima da muralha. O gancho se prende na pedra, e você começa a se içar. De cima da muralha, vê um monstro gigantesco, semelhante a um dinossauro, circulando em um poço coberto de areia. O grosso couro da criatura é verde malhado, e de pé nas fortes pernas traseiras, deve atingir uns 10 metros de altura. As enormes mandíbulas deixam ver filas de dentes afiados como navalhas ao se abrirem e fecharem com força suficiente para triturar-lhe os ossos. Uma grande porta dupla na parede do outro lado do poço parece ser a única maneira de sair desta parte do calabouço.
@@ -1064,8 +1060,12 @@ def T216():
     return """Reconhecendo a cabeça de serpentes da Medusa, você fecha os olhos para evitar o olhar mortal da criatura que o transformaria em pedra. Quer recuar?"""
 
 
-def T217():
-    return """A passagem começa a subir lentamente, conduzindo-o sempre para o norte. Você não passa por uma única encruzilhada. Não há portas ou mesmo uma alcova para ser investigada, e você vai ficando mais relaxado enquanto segue adiante. Depois de certo tempo, você se torna tão temerário que não repara em um fino arame estendido bem baixo de lado a lado da passagem. Somente quando o seu pé o toca, e você ouve um ronco distante, é que se dá conta do erro que cometeu. O ronco cresce até um nível ensurdecedor, e subitamente surge da penumbra do túnel à sua frente um gigantesco rochedo que vem rolando na sua direção, ganhando velocidade a cada segundo. Largando o escudo, se tiver um (você perde 1 ponto de HABILIDADE), você se volta para fugir do rochedo que se aproxima."""
+def T217() :
+    return "\nA passagem começa a subir lentamente, conduzindo-o sempre para o norte. Você não passa por uma única encruzilhada. Não há portas ou mesmo uma alcova para ser investigada, e você vai ficando mais relaxado enquanto segue adiante. Depois de certo tempo, você se torna tão temerário que não repara em um fino arame estendido bem baixo de lado a lado da passagem. Somente quando o seu pé o toca, e você ouve um ronco distante, é que se dá conta do erro que cometeu. O ronco cresce até um nível ensurdecedor, e subitamente surge da penumbra do túnel à sua frente um gigantesco rochedo que vem rolando na sua direção, ganhando velocidade a cada segundo. Largando o escudo, você perde 1 ponto de HABILIDADE e se volta para fugir do rochedo que se aproxima."
+
+
+def T217_2() :
+    return "\nA passagem começa a subir lentamente, conduzindo-o sempre para o norte. Você não passa por uma única encruzilhada. Não há portas ou mesmo uma alcova para ser investigada, e você vai ficando mais relaxado enquanto segue adiante. Depois de certo tempo, você se torna tão temerário que não repara em um fino arame estendido bem baixo de lado a lado da passagem. Somente quando o seu pé o toca, e você ouve um ronco distante, é que se dá conta do erro que cometeu. O ronco cresce até um nível ensurdecedor, e subitamente surge da penumbra do túnel à sua frente um gigantesco rochedo que vem rolando na sua direção, ganhando velocidade a cada segundo. Você se volta para fugir do rochedo que se aproxima."
 
 
 def T218():
@@ -1149,8 +1149,8 @@ def T232():
     return "Você decide verificar suas armas. Se você estiver desarmado, você vai para a função correspondente. Se ainda estiver com suas armas, você também vai para a função correspondente."
 
 
-def T233():
-    return "Você parte um pedaço grande do cogumelo e o mastiga ansiosamente. De imediato, seu estômago incha, e você pode mesmo vê-lo estufando por baixo do cinto. Todo o seu corpo começa a se expandir, rasgando-lhe ruidosamente as roupas. Você fica cada vez maior, e logo seu rosto está imprensado de encontro ao teto. Os cogumelos que você comeu são muito procurados por mágicos para as poções de crescimento, mas para você eles significam a morte. Você está grande demais para poder algum dia sair da adega. Sua aventura termina aqui."
+def T233() :
+    return "\nVocê parte um pedaço grande do cogumelo e o mastiga ansiosamente. De imediato, seu estômago incha, e você pode mesmo vê-lo estufando por baixo do cinto. Todo o seu corpo começa a se expandir, rasgando-lhe ruidosamente as roupas. Você fica cada vez maior, e logo seu rosto está imprensado de encontro ao teto. Os cogumelos que você comeu são muito procurados por mágicos para as poções de crescimento, mas para você eles significam a morte. Você está grande demais para poder algum dia sair da adega. Sua aventura termina aqui."
 
 
 def T234():
@@ -1517,14 +1517,16 @@ def T329() :
 def T330():
     return """\nAs rações do Ninja são modestas mas bem-vindas. Acrescente 1 ponto de ENERGIA. Se você ainda não o fez, poderá esfregar um pouco do unguento nos seus ferimentos - volte para 269 - ou sair do salão, levando só o diamante - volte para 127.\n"""
 
-def T331():
-    return """\nTocar o pergaminho tem precisamente o efeito que você temia. O esqueleto dá um impulso para frente e, levantando-se da cadeira numa série de movimentos aos arrancos, ergue a espada para golpeá-lo. Esquivando-se para o lado, você desembainha a sua espada para se defender.\n\nGUERREIRO-ESQUELETO    HABILIDADE 8    ENERGIA 6\n\nSe você vencer, volte para 71.\n"""
+def T331() :
+    return "\nTocar o pergaminho tem precisamente o efeito que você temia. O esqueleto dá um impulso para frente e, levantando-se da cadeira numa série de movimentos aos arrancos, ergue a espada para golpeá-lo. Esquivando-se para o lado, você desembainha a sua espada para se defender."
+
 
 def T332():
     return """\nSua gema cai na poça com um 'plop' surdo. Enquanto espera que alguma coisa aconteça, você começa a se sentir fraco. O gás que emana da poça é tóxico, e você tomba inconsciente. Teste sua Sorte. Se você tiver sorte, volte para 53. Se não tiver sorte, volte para 272.\n"""
 
-def T333():
-    return """\nVocê ouve passos e, de repente, a porta do alçapão é jogada para trás. Por alguns segundos, você é cegado pela intensa luz que vem do aposento de cima, e não vê o Goblin desferir um golpe de lança, nem ouve o riso sádico quando a ponta rasga seu pescoço. Sua aventura termina aqui, nos degraus de pedra do túnel.\n"""
+def T333() :
+    return "\nVocê ouve passos e, de repente, a porta do alçapão é jogada para trás. Por alguns segundos, você é cegado pela intensa luz que vem do aposento de cima, e não vê o Goblin desferir um golpe de lança, nem ouve o riso sádico quando a ponta rasga seu pescoço. Sua aventura termina aqui, nos degraus de pedra do túnel."
+
 
 def T334():
     return """\nVocê tenta se livrar da língua com as mãos nuas, mas não consegue. Lentamente, você é arrastado para a poça, onde, depois de decomposto pelo lodo, seu corpo será devorado pela pavorosa Besta Sangrenta.\n"""
@@ -1546,8 +1548,8 @@ def T339():
     return "\nQuando você toca a maçaneta da porta, ela fica mole na sua mão, e, quando tenta tirar a mão, descobre que ela está grudada na maçaneta. Então, um punho gigantesco se forma no meio da porta e projeta-se na sua direção, atingindo-o no estômago. Você perde 1 ponto de ENERGIA. Se tiver uma moringa de ácido, volte para 303. Se não tiver, volte para 236.\n"
 
 
-def T340():
-    return "\nO medo lhe dá uma nova injeção de energia, e, de alguma forma, suas pernas cansadas conseguem mantê-lo à frente do rochedo. Adiante, à direita, você vê a forma bem-vinda de uma porta. Você mergulha de encontro à porta e, por sorte, ela se abre. O rochedo passa estrondoso, e você fica deitado, exausto, no chão de um aposento grande. Vá para 381.\n"
+def T340() :
+    return "\nO medo lhe dá uma nova injeção de energia, e, de alguma forma, suas pernas cansadas conseguem mantê-lo à frente do rochedo. Adiante, à direita, você vê a forma bem-vinda de uma porta. Você mergulha de encontro à porta e, por sorte, ela se abre. O rochedo passa estrondoso, e você fica deitado, exausto, no chão de um aposento grande"
 
 
 def T341():
@@ -1683,13 +1685,15 @@ def T380() :
 
 
 def T381() :
-    return "\nVocê olha em volta no aposento e nada vê de interesse, exceto a alcova na parede do oeste e uma cadeira de pedra no meio do aposento, na qual se encontra sentado o esqueleto de um guerreiro armado, possivelmente um concorrente de anos atrás. Os dedos descamados da mão direita estão fechados em torno de um pedaço de pergaminho. Se você quiser pegar o pergaminho do esqueleto, volte para 331. Se preferir caminhar até a alcova, volte para 128.\n"
+    return """\nVocê olha em volta no aposento e nada vê de interesse, exceto a alcova na parede do oeste e uma cadeira de pedra no meio do aposento, na qual se encontra sentado o esqueleto de um guerreiro armado, possivelmente um concorrente de anos atrás. Os dedos descamados da mão direita estão fechados em torno de um pedaço de pergaminho.
+    
+    \nVocê: \n(1)Pega o pergaminho do esqueleto\n(2)Caminha até a alcova"""
 
 
 def T382() :
     return """\nO velho aponta para uma das estátuas, e você logo a reconhece. É o cavaleiro que iniciou a Prova dos Campeões, um olhar de agonia registrado na pedra para toda a eternidade. O velho sorri, dizendo: 'Este homem pesa 50 kg mais a metade do peso dele. Quanto ele pesa?'
 
-    \nO que você responderá? \n(1)50 quilos\n(2)75 quilos\n(3)100 quilos"""
+    \nO que você responderá? \n(1)50KG\n(2)75KG\n(3)100KG"""
 
 
 def T383():
