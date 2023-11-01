@@ -24,7 +24,7 @@ esmeralda = 0
 escudo = 1
 tubo_oco_madeira = 0
 taça = 0
-anel_de_ouro = 0
+anel_de_ouro = 0 #ESSE AQUI É O ANEL DOS DESEJOS
 objeto_redondo_pequeno = 0
 marreta_madeira = 0
 espigoes_ferro = 0
@@ -105,7 +105,7 @@ while energia > 0 or venceu == False :
                 escolha = int(input("Escolha: "))
 
                 match escolha :
-                    #Gritar = morte
+                    #Gritar > MORTE
                     case 1 :
                         #Goblin te mata
                         print(textos.T61())
@@ -1921,7 +1921,7 @@ while energia > 0 or venceu == False :
         #Falando que o mestre dele é um verme
         elif escolha == 2 :
             print(textos.T251())
-            anel_de_ouro += 1
+            anel_de_ouro += 1 #ESSE AQUI É O ANEL DOS DESEJOS
     
     #Seguindo para o norte
     print(textos.T344())
@@ -2763,7 +2763,6 @@ while energia > 0 or venceu == False :
                     energia -= 2
                     print(f"\nSua energia atual é {energia}")
     
-    #PARA CIMA ESTÁ TUDO COMPLETO, ESTAREI ALTERANDO SÓ ABAIXO AGORA ================================================================================
     print(textos.T81())
     escolha = int(input("Escolha: "))
     
@@ -2902,10 +2901,150 @@ while energia > 0 or venceu == False :
             #Pegando as bolas de madeira e indo embora
             elif escolha == 3 :
                 bola_madeira += 2
+        
+        #PARA CIMA ESTÁ TUDO COMPLETO, ESTAREI ALTERANDO SÓ ABAIXO AGORA ================================================================================
+        #Continuando oeste
+        #Tendo o anel dos desejos
+        if anel_de_ouro > 0 :
+            print(textos.T74())
+            resposta = int(input("Escolha: "))
+            
+            #Fazendo um desejo utilizando o anel
+            if resposta == 1 :
+                print(textos.T265())
+                anel_de_ouro -= 1
+            
+            #Quebrando o espelho
+            elif resposta == 2 :
+                print(textos.T300())
+                escolha = int(input("Escolha: "))
+                
+                #Tentando quebrar o espelho de novo
+                if escolha == 1 :
+                    print(textos.T141())
+                    input("Jogue os dados...🎲")
+                    teste_da_habilidade = random.randint(1,6) + random.randint(1,6)
+                    
+                    #Passando no teste de habilidade
+                    if teste_da_habilidade <= habilidade :
+                        print(textos.T72())
+                        habilidade -= 2
+                    
+                    #Não passando no teste de habilidade > MORTE
+                    else :
+                        print(textos.T96())
+                        energia = 0
+                
+                #Atacando o demônio com a espada
+                elif escolha == 2 :
+                    print(textos.T327())
+                    
+                    #Inicializando as variáveis de ataque para o looping funcionar
+                    ataqueInimigo = 0
+                    meuAtaque = 0
+                    
+                    while ataqueInimigo < meuAtaque :
+                        #Inicializando as variáveis para a batalha
+                        guerreiro_esqueleto_1 = inimigos.inimigos["guerreiro_esqueleto"]
 
-        #Continuando oeste - PAREI AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII, PARA CIMA TA FEITO
-        print(textos.T74())
+                        #Matando o Guerreiro Esqueleto
+                        print("Briga com o Guerreiro Esqueleto...\n")
 
+                        while guerreiro_esqueleto_1["Energia"] > 0 :
+                            ataqueInimigo = guerreiro_esqueleto_1["Habilidade"] + random.randint(1,6) + random.randint(1,6)
+                            meuAtaque = habilidade + random.randint(1,6) + random.randint(1,6)
+
+                            print(f"O ataque do inimigo foi de: {ataqueInimigo}")
+                            input("Jogue os dados...🎲")
+                            print(f"O seu ataque foi de: {meuAtaque}\n")
+
+                            #Causando dano
+                            if meuAtaque > ataqueInimigo :
+                                print("Quer testar sua sorte para causar mais dano?")
+                                testarSorte = input().lower()
+
+                                if testarSorte == "sim" :
+                                    if sorte > 0 :
+                                        input("Jogue os dados para testar sua sorte...\n")
+                                        teste_da_sorte = random.randint(1,6) + random.randint(1,6)
+
+                                        if teste_da_sorte <= sorte :
+                                            print("\nVocê teve sorte! Causou o dobro de dano")
+                                            guerreiro_esqueleto_1["Energia"] -= 4
+                                            sorte -= 1
+                                            print("A energia atual do inimigo é: ", guerreiro_esqueleto_1["Energia"])
+                                            print(f"Sua sorte agora é {sorte}")
+
+                                        else :
+                                            print("\nVocê não teve sorte, causou menos dano!")
+                                            guerreiro_esqueleto_1["Energia"] -= 1
+                                            sorte -= 1
+                                            print("A energia atual do inimigo é:", guerreiro_esqueleto_1["Energia"])
+                                            print(f"Sua sorte agora é {sorte}")
+                                            
+                                    else :
+                                        print("Você infelizmente não tem mais sorte")
+                                        guerreiro_esqueleto_1["Energia"] -= 2
+                                        print("\nA energia atual do inimigo é: ", guerreiro_esqueleto_1["Energia"])
+
+                                else :
+                                    guerreiro_esqueleto_1["Energia"] -= 2
+                                    print("\nA energia atual do inimigo é: ", guerreiro_esqueleto_1["Energia"])
+
+                            #Tomando dano
+                            else :
+                                print("Quer testar sua sorte para receber menos dano?")
+                                testarSorte = input().lower()
+
+                                if testarSorte == "sim" :
+                                    if sorte > 0 :
+                                        input("Jogue os dados para testar sua sorte...\n")
+                                        teste_da_sorte = random.randint(1,6) + random.randint(1,6)
+
+                                        if teste_da_sorte <= sorte :
+                                            print("\nVocê teve sorte! Recebeu menos dano!")
+                                            energia -= 1
+                                            sorte -= 1
+                                            print(f"Sua energia atual é {energia}")
+                                            print(f"Sua sorte agora é {sorte}")
+
+                                        else :
+                                            print("\nVocê não teve sorte, recebeu mais dano!")
+                                            energia -= 3
+                                            sorte -= 1
+                                            print(f"Sua energia atual é {energia}")
+                                            print(f"Sua sorte agora é {sorte}")
+
+                                    else :
+                                        print("Você infelizmente não tem mais sorte")
+                                        energia -= 2
+                                        print(f"\nSua energia atual é {energia}")
+
+                                else :
+                                    energia -= 2
+                                    print(f"\nSua energia atual é {energia}")
+                        
+                        print("\nParabéns você sobreviveu!")
+            
+            #Atacando o demônio com a espada
+            elif resposta == 3 :
+                print(textos.T327())
+        
+        #Não tendo o anel dos desejos
+        else :
+            print(textos.T74_2())
+            resposta = int(input("Escolha: "))
+            
+            #Quebrando o espelho
+            if resposta == 1 :
+                print(textos.T300())
+            
+            #Atacando o demônio com a espada
+            elif resposta == 2 :
+                print(textos.T327())
+        
+        #Depois de desejar que o demônio vá embora ou de vencer a luta
+        print(textos.T122())
     
     #Abrindo a porta para o norte
     elif escolha == 3 or respostaT307 == 2 :
