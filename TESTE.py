@@ -9,12 +9,12 @@ energia = 19
 
 while energia != 0 :
     #Inicializando as variáveis para a batalha
-    
+    demonio = inimigos.inimigos["demonio_espelho"]
 
     #Matando o Guerreiro Esqueleto
     print("Briga com o Guerreiro Esqueleto...\n")
 
-    while demonio["Energia"] > 0 or energia != 0 :
+    while demonio["Energia"] > 0 or energia > 0 :
         ataqueInimigo = demonio["Habilidade"] + random.randint(1,6) + random.randint(1,6)
         meuAtaque = habilidade + random.randint(1,6) + random.randint(1,6)
 
@@ -57,5 +57,8 @@ while energia != 0 :
 
         #Tomando dano
         else :
-            energia = 0
             print("Você morreu")
+            energia = 0
+            print(energia)
+    
+    print("KAKAKAKAKAKA")

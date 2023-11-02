@@ -31,7 +31,7 @@ def T3() :
 
 
 def T4() :
-    return """Na escuridão total, você não vê a curva do cano para baixo. Escorrega e, incapaz de se segurar no cano cheio de limo, desliza pela borda. Seus gritos ecoam pelo tubo, enquanto você cai 50 metros até o fundo. Você fracassou na Prova dos Campeões."""
+    return "\nNa escuridão total, você não vê a curva do cano para baixo. Escorrega e, incapaz de se segurar no cano cheio de limo, desliza pela borda. Seus gritos ecoam pelo tubo, enquanto você cai 50 metros até o fundo. Você fracassou na Prova dos Campeões."
 
 
 def T5() :
@@ -100,7 +100,7 @@ def T17() :
 
 
 def T18() :
-    return """Para sorte sua, os dentes da naja se cravam na munhequeira de couro que você está usando. A serpente se enrosca de novo bem depressa, pronta para lançar outro ataque, quando o Anão ordena que você faça mais uma tentativa.""" #Jogue dois dados => INPUT
+    return "\nPara sorte sua, os dentes da naja se cravam na munhequeira de couro que você está usando. A serpente se enrosca de novo bem depressa, pronta para lançar outro ataque, quando o Anão ordena que você faça mais uma tentativa."
 
 
 def T19() :
@@ -122,7 +122,7 @@ def T22() :
 
 
 def T23() :
-    return """O papel traz uma advertência simples, escrita em sangue seco: "Cuidado com os Juízes da Prova." Você recoloca o papel no prego e corre de volta pelo túnel para se reunir ao Bárbaro."""
+    return """\nO papel traz uma advertência simples, escrita em sangue seco: "Cuidado com os Juízes da Prova." Você recoloca o papel no prego e corre de volta pelo túnel para se reunir ao Bárbaro."""
 
 
 def T24() :
@@ -135,11 +135,11 @@ def T25() :
 
 
 def T26() :
-    return """A pílula faz com que você se sinta mole e letárgico. Você perde 2 pontos de HABILIDADE. O Anão diz que agora você pode prosseguir para o segundo estágio do teste. Ele pega uma cesta de vime e lhe diz que ela contém uma serpente. Vira a cesta e a serpente cai no chão. É uma naja, e se ergue no ar, pronta para dar o bote. O Anão diz que pretende testar suas reações. Você deverá agarrar a naja, com as mãos nuas, pelo pescoço, evitando as presas mortais. Você se agacha, tensionando os músculos para o momento decisivo.""" #Jogue dois dados => INPUT
+    return "\nA pílula faz com que você se sinta mole e letárgico. Você perde 2 pontos de HABILIDADE. O Anão diz que agora você pode prosseguir para o segundo estágio do teste. Ele pega uma cesta de vime e lhe diz que ela contém uma serpente. Vira a cesta e a serpente cai no chão. É uma naja, e se ergue no ar, pronta para dar o bote. O Anão diz que pretende testar suas reações. Você deverá agarrar a naja, com as mãos nuas, pelo pescoço, evitando as presas mortais. Você se agacha, tensionando os músculos para o momento decisivo."
 
 
 def T27() :
-    return """Você caminha até o apavorado homem e corta a corrente com sua espada. Ele cai de joelhos e se inclina, agradecendo, repetidamente. Diz que, há quatro anos, entrou na Prova dos Campeões, mas fracassou. Ele caiu em um poço e teve que ser resgatado por um Juiz da Prova, um dos administradores do calabouço do Barão Sukumvit. Foi-lhe, então, oferecida a opção de morrer ou servir como lacaio no Calabouço da Morte. Para sobreviver, ele trabalhou como escravo, até que não pôde mais suportar e tentou escapar. Lástima, não teve êxito e foi capturado pelos Orcas, os guardas volantes do Juiz da Prova. Como corretivo, cortaram-lhe uma das mãos e condenaram-no a um ano de prisão nessa cela. Você pergunta se ele tem alguma informação que lhe possa ser útil. Ele coça a cabeça: “Bem, não cheguei a me sair exatamente bem aqui, mas, de fato, sei que você precisa juntar gemas e pedras preciosas, se espera escapar. Não sei por que, mas é isso.” Sem mais dizer, o esfarrapado prisioneiro dispara para fora do aposento, virando à esquerda no túnel. Você resolve prosseguir para o norte e vira à direita no túnel."""
+    return "\nVocê caminha até o apavorado homem e corta a corrente com sua espada. Ele cai de joelhos e se inclina, agradecendo, repetidamente. Diz que, há quatro anos, entrou na Prova dos Campeões, mas fracassou. Ele caiu em um poço e teve que ser resgatado por um Juiz da Prova, um dos administradores do calabouço do Barão Sukumvit. Foi-lhe, então, oferecida a opção de morrer ou servir como lacaio no Calabouço da Morte. Para sobreviver, ele trabalhou como escravo, até que não pôde mais suportar e tentou escapar. Lástima, não teve êxito e foi capturado pelos Orcas, os guardas volantes do Juiz da Prova. Como corretivo, cortaram-lhe uma das mãos e condenaram-no a um ano de prisão nessa cela. Você pergunta se ele tem alguma informação que lhe possa ser útil. Ele coça a cabeça: “Bem, não cheguei a me sair exatamente bem aqui, mas, de fato, sei que você precisa juntar gemas e pedras preciosas, se espera escapar. Não sei por que, mas é isso.” Sem mais dizer, o esfarrapado prisioneiro dispara para fora do aposento, virando à esquerda no túnel. Você resolve prosseguir para o norte e vira à direita no túnel."
 
 
 def T28() :
@@ -217,7 +217,7 @@ def T41_3() :
 
 
 def T42() :
-    return """Os dentes da naja se cravam fundo no seu pulso e você sente o veneno se alastrando pelo corpo. Você perde 5 pontos de ENERGIA.""" #Se você ainda estiver vivo, o Anão não tem pena, e lhe diz para tentar outra vez. Jogue dois dados.
+    return "\nOs dentes da naja se cravam fundo no seu pulso e você sente o veneno se alastrando pelo corpo. Você perde 5 pontos de ENERGIA."
 
 
 def T43() :
@@ -284,7 +284,7 @@ def T54() :
 
 
 def T55() :
-    return """Com a velocidade de um raio, você estica a mão e segura a naja logo abaixo da boca aberta. Você a ergue e, como braço estendido, sacode-a na frente do Anão. Ele fica impassível, mas, com seu jeito calmo e sem expressão, diz: 'Por favor, coloque a naja de volta na cesta e prepare-se para a parte final do teste. Siga-me.' Você faz o que ele disse e o segue de volta para a câmara, onde Throm está andando de um lado para o outro, evidentemente nervoso. Você acena para ele, enquanto o Anão abre uma segunda porta secreta e manda que você entre por ela e espere por ele. Outra vez você obedece, e se vê em outro aposento circular, embora este se assemelhe a uma pequena arena. O chão é coberto de areia, e uma pequena sacada circunda a parede da arena. No lado oposto ao da porta secreta pela qual você entrou, há uma porta de madeira de aparência agourenta. De repente, você ouve um grito, e olha para cima, vendo o Anão sorridente na sacada. Ele joga dois pedaços de papel para você. Num deles, estão escritas as palavras SEI PORCÃO, e no outro, RUIM NO ATO. Com a voz sempre calma, ele diz: “Se você rearrumar as letras das palavras, descobrirá os nomes de duas criaturas. Você pode escolher com qual delas quer lutar na minha Arena da Morte.”""" #Se você puder identificar a criatura rearrumando as letras de SEI PORCÃO, vá para 143. Se puder identificar a criatura rearrumando as letras de RUIM NO ATO, volte para 40. Se você não puder identificar nenhuma das duas criaturas, vá para 347.
+    return "\nCom a velocidade de um raio, você estica a mão e segura a naja logo abaixo da boca aberta. Você a ergue e, como braço estendido, sacode-a na frente do Anão. Ele fica impassível, mas, com seu jeito calmo e sem expressão, diz: 'Por favor, coloque a naja de volta na cesta e prepare-se para a parte final do teste. Siga-me.' Você faz o que ele disse e o segue de volta para a câmara, onde Throm está andando de um lado para o outro, evidentemente nervoso. Você acena para ele, enquanto o Anão abre uma segunda porta secreta e manda que você entre por ela e espere por ele. Outra vez você obedece, e se vê em outro aposento circular, embora este se assemelhe a uma pequena arena. O chão é coberto de areia, e uma pequena sacada circunda a parede da arena. No lado oposto ao da porta secreta pela qual você entrou, há uma porta de madeira de aparência agourenta. De repente, você ouve um grito, e olha para cima, vendo o Anão sorridente na sacada. Ele joga dois pedaços de papel para você. Num deles, estão escritas as palavras SEI PORCÃO, e no outro, RUIM NO ATO. Com a voz sempre calma, ele diz: “Se você rearrumar as letras das palavras, descobrirá os nomes de duas criaturas. Você pode escolher com qual delas quer lutar na minha Arena da Morte.”"
 
 
 def T56() :
@@ -306,7 +306,8 @@ def T59() :
 
 
 def T60() :
-    return """O túnel termina em uma grande porta de carvalho. Throm não perde tempo e vai logo testando a maçaneta, ficando algo admirado ao descobrir que a porta não está trancada. Ele a empurra e vocês se deparam com uma câmara iluminada por tochas. Sentado sozinho em uma cadeira ornamentada, há um ANÃO, que os convida a entrar na câmara. Ao fazê-lo, a porta de carvalho se fecha atrás de vocês. “Aventureiros, vocês se saíram muito bem até agora”, diz o Anão com voz profunda. “Contudo, como vocês dois sabem, só pode haver um vencedor na Prova dos Campeões. Como Juiz da Prova, é minha obrigação para com o Barão Sukumvit só permitir que o mais capaz continue. Portanto, tenho que preparar um teste de inteligência e força para eliminar um de vocês. Por favor, não tentem livrar-se de mim. Seria completamente estúpido, pois, como vocês podem ver, não há nenhuma maneira óbvia de sair desta câmara, e somente eu sei onde está a saída oculta. Agora, se vocês não se importassem de decidir entre vocês quem irá primeiro, eu tratarei de fazer as preparações necessárias.” Você olha para Throm, subitamente com raiva de que a eficaz associação de vocês pudesse ter que terminar. Ele se inclina e sussurra no seu ouvido que vocês deveriam tentar matar o Anão e preocupar-se com a saída depois.
+    return """\nO túnel termina em uma grande porta de carvalho. Throm não perde tempo e vai logo testando a maçaneta, ficando algo admirado ao descobrir que a porta não está trancada. Ele a empurra e vocês se deparam com uma câmara iluminada por tochas. Sentado sozinho em uma cadeira ornamentada, há um ANÃO, que os convida a entrar na câmara. Ao fazê-lo, a porta de carvalho se fecha atrás de vocês. “Aventureiros, vocês se saíram muito bem até agora”, diz o Anão com voz profunda. “Contudo, como vocês dois sabem, só pode haver um vencedor na Prova dos Campeões. Como Juiz da Prova, é minha obrigação para com o Barão Sukumvit só permitir que o mais capaz continue. Portanto, tenho que preparar um teste de inteligência e força para eliminar um de vocês. Por favor, não tentem livrar-se de mim. Seria completamente estúpido, pois, como vocês podem ver, não há nenhuma maneira óbvia de sair desta câmara, e somente eu sei onde está a saída oculta. Agora, se vocês não se importassem de decidir entre vocês quem irá primeiro, eu tratarei de fazer as preparações necessárias.” Você olha para Throm, subitamente com raiva de que a eficaz associação de vocês pudesse ter que terminar. Ele se inclina e sussurra no seu ouvido que vocês deveriam tentar matar o Anão e preocupar-se com a saída depois.
+    
     \nVocê vai: \n(1)Unir-se a Throm no ataque ao Anão\n(2)Convencer Throm seguir em frente com o teste do Anão"""
 
 
@@ -358,7 +359,7 @@ def T69() :
 
 
 def T70() :
-    return "Você consegue mergulhar para o lado, por pouco, antes que o rochedo despenque sobre o chão do túnel, rachando a pedra. Enquanto se limpa, nota que há luz do sol no fim do túnel. Você corre para lá, alegre com a bela visão do céu azul e das árvores verdes. Ao correr para fora do túnel, você espera ser cumprimentado por multidões vibrantes, mas fica horrorizado com o que vê. Não há recepção de herói que possa vir das pessoas à sua volta. Estão todos mortos. Você está, na realidade, de pé em uma câmara fria, o chão coberto de cadáveres e esqueletos com armaduras - a saída para a vitória era apenas uma ilusão! Só os restos dos aventureiros do passado são reais. Você corre de volta para o túnel, mas colide com uma barreira invisível. Você caiu na armadilha e está condenado a terminar seus dias na câmara dos mortos."
+    return "\nVocê consegue mergulhar para o lado, por pouco, antes que o rochedo despenque sobre o chão do túnel, rachando a pedra. Enquanto se limpa, nota que há luz do sol no fim do túnel. Você corre para lá, alegre com a bela visão do céu azul e das árvores verdes. Ao correr para fora do túnel, você espera ser cumprimentado por multidões vibrantes, mas fica horrorizado com o que vê. Não há recepção de herói que possa vir das pessoas à sua volta. Estão todos mortos. Você está, na realidade, de pé em uma câmara fria, o chão coberto de cadáveres e esqueletos com armaduras - a saída para a vitória era apenas uma ilusão! Só os restos dos aventureiros do passado são reais. Você corre de volta para o túnel, mas colide com uma barreira invisível. Você caiu na armadilha e está condenado a terminar seus dias na câmara dos mortos."
 
 
 def T71() :
@@ -418,7 +419,9 @@ def T77() :
 
 
 def T78() :
-    return "Há um cano com cerca de um metro de diâmetro aberto na parede da direita. Está escuro demais para se ver muito abaixo nele. Você grita dentro do cano de ferro e ouve sua voz ecoar por alguns instantes até desaparecer. Se você quiser engatinhar pelo cano, vá para 301. Se preferir continuar para o norte, vá para 142."
+    return """\nHá um cano com cerca de um metro de diâmetro aberto na parede da direita. Está escuro demais para se ver muito abaixo nele. Você grita dentro do cano de ferro e ouve sua voz ecoar por alguns instantes até desaparecer.
+
+    \nVocê vai: \n(1)Engatinhar pelo cano\n(2)Continuar para o norte"""
 
 
 def T79() :
@@ -444,7 +447,7 @@ def T83() :
 
 
 def T84() :
-    return "Jogue dois dados. Se o total for maior que 8, vá para 152. Se for 8 ou menos, vá para 121."
+    return "\nDescubra."
 
 
 def T85() :
@@ -609,7 +612,7 @@ def T117() :
 
 
 def T118() :
-    return "\nApesar das estalactites que caem por toda parte, você consegue passar ileso pelo arco.Você olha ao redor e vê Throm disparando na sua direção, um braço por cima da cabeça para protegê-la. Ele corre para o túnel e se encosta na parede fria, a respiração ofegante. Desculpa-se por ter iniciado o desabamento das rochas e lhe oferece a mão. Você diz a Throm que talvez fosse melhor ele usar a linguagem dos sinais no futuro, mesmo para rir! Os dois sorriem e partem para o leste mais uma vez. Volte para 60."
+    return "\nApesar das estalactites que caem por toda parte, você consegue passar ileso pelo arco.Você olha ao redor e vê Throm disparando na sua direção, um braço por cima da cabeça para protegê-la. Ele corre para o túnel e se encosta na parede fria, a respiração ofegante. Desculpa-se por ter iniciado o desabamento das rochas e lhe oferece a mão. Você diz a Throm que talvez fosse melhor ele usar a linguagem dos sinais no futuro, mesmo para rir! Os dois sorriem e partem para o leste mais uma vez."
 
 
 def T119() :
@@ -624,9 +627,9 @@ Se preferir ignorar os objetos e continuar para o norte, vá para 292."""
 
 
 def T121() :
-    return """O Anão olha para os dados. “Você não é muito bom nesse jogo, é?”, graceja. “Lamento, mas você terá que sofrer uma penalidade antes de continuar.”
-Ele retira duas pílulas do bolso. Uma está marcada com a letra S e a outra com a letra L. Pede que você escolha uma e engula.
-Se você escolher a pílula marcada com a letra S, volte para 26. Se quiser engolir a outra, vá para 354."""
+    return """\nO Anão olha para os dados. “Você não é muito bom nesse jogo, é?”, graceja. “Lamento, mas você terá que sofrer uma penalidade antes de continuar.” Ele retira duas pílulas do bolso. Uma está marcada com a letra S e a outra com a letra L. Pede que você escolha uma e engula.
+
+    \nQual você engolhe? \n(1)A marcada com S\n(2)A marcada com L"""
 
 
 def T122() :
@@ -717,7 +720,9 @@ def T135() :
 
 
 def T136() :
-    return """A porta abre para um outro túnel, que se inclina numa subida ao longe. Depois de percorrer essa subida por algum tempo, você chega a uma parte plana, onde numa porta na parede da direita encontra-se pregada uma mão já decomposta. Se você quiser abrir a porta, vá para 210. Se preferir continuar para o norte, volte para 78."""
+    return """\nA porta abre para um outro túnel, que se inclina numa subida ao longe. Depois de percorrer essa subida por algum tempo, você chega a uma parte plana, onde numa porta na parede da direita encontra-se pregada uma mão já decomposta.
+
+    \nVocê: \n(1)Abre a porta\n(2)Continua para o norte"""
 
 
 def T137() :
@@ -750,7 +755,7 @@ def T141() :
 
 
 def T142() :
-    return """Há uma nova ramificação no túnel à sua esquerda, e, à frente, você vê dois corpos estendidos no chão. Você pára e dá uma espiada no novo túnel, mas, não vendo nem portas nem criaturas, resolve seguir por ele. Com a espada na mão, você caminha na direção dos corpos estendidos. Vá para 338."""
+    return "\nHá uma nova ramificação no túnel à sua esquerda, e, à frente, você vê dois corpos estendidos no chão. Você pára e dá uma espiada no novo túnel, mas, não vendo nem portas nem criaturas, resolve seguir por ele. Com a espada na mão, você caminha na direção dos corpos estendidos."
 
 
 def T143() :
@@ -791,7 +796,7 @@ Se você vencer, vá para 175. Você pode Fugir depois de matar o primeiro Cão 
 
 
 def T149() :
-    return """Você solta a corda e ouve ela cair no fundo do poço. O Bárbaro o amaldiçoa, prometendo matá-lo se seus caminhos se cruzarem outra vez. Você recua, toma distância e salta. Cai em segurança do outro lado do poço e continua para o oeste. Mais adiante no túnel, você pisa em uma parte do chão de pedra que se inclina para frente, disparando uma armadilha que solta um rochedo preso frouxamente no teto. Você olha para cima bem no momento em que o rochedo está prestes a cair sobre você. Teste sua Sorte. Se você tiver sorte,volte para 70. Se não tiver sorte, vá para 353."""
+    return "\nocê solta a corda e ouve ela cair no fundo do poço. O Bárbaro o amaldiçoa, prometendo matá-lo se seus caminhos se cruzarem outra vez. Você recua, toma distância e salta. Cai em segurança do outro lado do poço e continua para o oeste. Mais adiante no túnel, você pisa em uma parte do chão de pedra que se inclina para frente, disparando uma armadilha que solta um rochedo preso frouxamente no teto. Você olha para cima bem no momento em que o rochedo está prestes a cair sobre você."
 
 
 def T150() :
@@ -803,7 +808,7 @@ def T151() :
 
 
 def T152() :
-    return """O Anão o cumprimenta por ter adivinhado corretamente. Ele diz que agora você deverá seguir para a segunda fase do teste. Apanhando uma cesta de vime, ele lhe diz que há uma cobra dentro dela. Vira a cesta e a cobra cai ao chão; é uma naja, que se ergue no ar, pronta para o bote. O Anão diz que quer testar suas reações. De mãos vazias, você deverá segurar a naja pelo pescoço, evitando-lhe os dentes mortais. Você se agacha, tensionando os músculos para o momento decisivo. Jogue dois dados. Se o total for igual ou menor que a sua HABILIDADE, volte para 55. Se o total for maior que a sua HABILIDADE, vá para 202."""
+    return "\nO Anão o cumprimenta por ter adivinhado corretamente. Ele diz que agora você deverá seguir para a segunda fase do teste. Apanhando uma cesta de vime, ele lhe diz que há uma cobra dentro dela. Vira a cesta e a cobra cai ao chão; é uma naja, que se ergue no ar, pronta para o bote. O Anão diz que quer testar suas reações. De mãos vazias, você deverá segurar a naja pelo pescoço, evitando-lhe os dentes mortais. Você se agacha, tensionando os músculos para o momento decisivo."
 
 
 def T153() :
@@ -813,7 +818,7 @@ def T153() :
 
 
 def T154() :
-    return """Correndo pelo túnel, você logo alcança o Bárbaro e diz a ele que a passagem do leste conduz a um beco sem saída. Ele faz um aceno com a cabeça, num entendimento silencioso, e ambos partem para o oeste. Volte para 22."""
+    return "\nCorrendo pelo túnel, você logo alcança o Bárbaro e diz a ele que a passagem do leste conduz a um beco sem saída. Ele faz um aceno com a cabeça, num entendimento silencioso, e ambos partem para o oeste."
 
 
 def T155() :
@@ -847,7 +852,7 @@ def T161() :
 
 
 def T162() :
-    return """Retirando a tampada caixa na luz do túnel, você encontra uma chave de ferro e uma gema grande. É uma safira. Some 1 ponto de SORTE. Colocando as coisas cuidadosamente na mochila, você parte para o norte mais uma vez. Volte para 142."""
+    return "\nRetirando a tampada caixa na luz do túnel, você encontra uma chave de ferro e uma gema grande. É uma safira. Some 1 ponto de SORTE. Colocando as coisas cuidadosamente na mochila, você parte para o norte mais uma vez."
 
 
 def T163() :
@@ -923,7 +928,9 @@ def T178() :
 
 
 def T179() :
-    return """Quando você parte na direção do Anão, ele tira do cinto dois dardos de mão e os atira contra você e Throm, atingindo-os nas pernas. Ambos ficam instantaneamente paralisados pelo veneno existente na ponta dos dardos. Você perde 2 pontos de ENERGIA. Como que pregado ao chão, você vê o Anão se aproximar e retirar-lhe o dardo coxa. Ele pergunta se agora você está disposto a entrar da em seu campeonato. Você se esforça para balançar a cabeça afirmativamente. Aos poucos, os efeitos do veneno se dissipam, e a mobilidade retorna. O Anão ordena que você o siga e que Throm espere o retorno dele. Ele abre uma porta secreta na parede da câmara, e vocês entram em um pequeno aposento circular. Ele fecha a porta atrás de você e lhe dá dois dados de osso, mandando que os jogue no chão. Você tira um seis e um dois, total oito. O Anão ordena um novo lançamento, mas desta vez você tem que adivinhar o total: será igual, maior ou menor que oito? Se você preferir igual a oito, vá para 290. Se optar por maior que oito, volte para 84. Se escolher menor que oito, vá para 191."""
+    return """\nQuando você parte na direção do Anão, ele tira do cinto dois dardos de mão e os atira contra você e Throm, atingindo-os nas pernas. Ambos ficam instantaneamente paralisados pelo veneno existente na ponta dos dardos. Você perde 2 pontos de ENERGIA. Como que pregado ao chão, você vê o Anão se aproximar e retirar-lhe o dardo coxa. Ele pergunta se agora você está disposto a entrar da em seu campeonato. Você se esforça para balançar a cabeça afirmativamente. Aos poucos, os efeitos do veneno se dissipam, e a mobilidade retorna. O Anão ordena que você o siga e que Throm espere o retorno dele. Ele abre uma porta secreta na parede da câmara, e vocês entram em um pequeno aposento circular. Ele fecha a porta atrás de você e lhe dá dois dados de osso, mandando que os jogue no chão. Você tira um seis e um dois, total oito.
+
+    \nO Anão ordena um novo lançamento, mas desta vez você tem que adivinhar o total: será igual, maior ou menor que oito?\n(1)Igual a oito\n(2)Maior que oito\n(3)Menor que oito"""
 
 
 def T180() :
@@ -943,7 +950,9 @@ def T183() :
 
 
 def T184() :
-    return """O Bárbaro, que se diz chamar Throm, amarra a corda em volta da cintura, dando-lhe a outra ponta. Ao acender a tocha, você nota um ar de desconfiança nos olhos do Bárbaro. Lentamente, ele sobe na borda do poço, enquanto você se firma no chão e segura a corda tensa. Ao abaixá-lo aos poucos, você vê os lados lisos do poço iluminados pela tocha de Throm. Ele finalmente chega ao fundo e grita que há um outro túnel rumo ao norte. Manda que você prenda a corda em uma rocha saliente na borda do poço e desça. Se você quiser ficar com o Bárbaro e seguir para o norte pelo túnel inferior, vá para 323. Se desejar abandoná-lo, pulando por cima do poço para se dirigir ao oeste, volte para 149."""
+    return """O Bárbaro, que se diz chamar Throm, amarra a corda em volta da cintura, dando-lhe a outra ponta. Ao acender a tocha, você nota um ar de desconfiança nos olhos do Bárbaro. Lentamente, ele sobe na borda do poço, enquanto você se firma no chão e segura a corda tensa. Ao abaixá-lo aos poucos, você vê os lados lisos do poço iluminados pela tocha de Throm. Ele finalmente chega ao fundo e grita que há um outro túnel rumo ao norte. Manda que você prenda a corda em uma rocha saliente na borda do poço e desça.
+
+    \nVocê vai: \n(1)Ficar com o Bárbaro e seguir para o norte pelo túnel inferior\n(2)Abandoná-lo, pulando por cima do poço para se dirigir ao oeste"""
 
 
 def T185() :
@@ -971,7 +980,7 @@ def T190() :
 
 
 def T191() :
-    return """Jogue dois dados. Se o total for menor que oito, volte para 152. Se o total for igual ou maior que oito, volte para 121."""
+    return "\nDescubra."
 
 
 def T192() :
@@ -1023,7 +1032,7 @@ def T201() :
 
 
 def T202() :
-    return """As reações da naja são mais rápidas do que as suas, e a cabeça estufada do animal se projeta para mordê-lo. Teste sua sorte. Se você tiver sorte, volte para 18. Se não tiver sorte, volte para 42."""
+    return "\nAs reações da naja são mais rápidas do que as suas, e a cabeça estufada do animal se projeta para mordê-lo."
 
 
 def T203() :
@@ -1043,7 +1052,7 @@ def T205() :
 
 
 def T206() :
-    return """\nAs estalactites continuam a cair ao redor, mas você não tem força suficiente para fazer mais do que se arrastar na direção do arco. De repente, sente um braço em volta da cintura e se dá conta, em estado de semi-inconsciência, de que Throm o está carregando. Ele o põe na segurança do túnel e cuida dos seus ferimentos. Você resolve comer parte das Provisões para ajudar a recuperar as forças, e dá também uma parte para Throm, como agradecimento por ele tê-lo salvado. Ele se desculpa por ter iniciado o desabamento das rochas e lhe oferece a mão. Apesar da dor, você consegue sorrir e apertar a mão dele. Quando você finalmente se recupera, levanta-se e segue para o leste, com Throm caminhando à sua frente. Volte para 60."""
+    return "\nAs estalactites continuam a cair ao redor, mas você não tem força suficiente para fazer mais do que se arrastar na direção do arco. De repente, sente um braço em volta da cintura e se dá conta, em estado de semi-inconsciência, de que Throm o está carregando. Ele o põe na segurança do túnel e cuida dos seus ferimentos. Você resolve comer parte das Provisões para ajudar a recuperar as forças, e dá também uma parte para Throm, como agradecimento por ele tê-lo salvado. Ele se desculpa por ter iniciado o desabamento das rochas e lhe oferece a mão. Apesar da dor, você consegue sorrir e apertar a mão dele. Quando você finalmente se recupera, levanta-se e segue para o leste, com Throm caminhando à sua frente."
 
 
 def T207() :
@@ -1058,8 +1067,10 @@ def T209():
     return """Você fica desolado ao descobrir que não apenas todas as suas Provisões restantes estão encharcadas e imprestáveis para comer, mas também que um dos seus tesouros desapareceu. Risque um item da sua Lista de Equipamentos ou uma de suas jóias ou poções. Você guarda cuidadosamente na mochila as posses que lhe restam e parte para o norte outra vez."""
 
 
-def T210():
-    return """Você entra em um aposento no qual há um homem maltrapilho, de pé, acorrentado, à parede pelo braço esquerdo. Vendo que ele não tem a mão direita, você se dá conta de que a mão pregada na porta deve ser dele. Implorando piedade, ele se encolhe para longe de você, tanto quanto as correntes permitem. """
+def T210() :
+    return """\nVocê entra em um aposento no qual há um homem maltrapilho, de pé, acorrentado, à parede pelo braço esquerdo. Vendo que ele não tem a mão direita, você se dá conta de que a mão pregada na porta deve ser dele. Implorando piedade, ele se encolhe para longe de você, tanto quanto as correntes permitem.
+
+    \nO que você vai fazer? \n(1)Libertá-lo das cadeias\n(2)Sair do aposento e se dirigir oara o norte"""
 
 
 def T211() :
@@ -1422,8 +1433,10 @@ def T288() :
 def T289():
     return """A cobertura de pano sobe para o topo da gaiola, e nela, para seu horror, você vê o rosto de uma mulher velha, cujo cabelo é uma massa de serpentes que silvam. É a terrível MEDUSA! Teste sua Sorte. Se você tiver sorte, volte para 216. Se não tiver sorte, volte para 19."""
 
-def T290():
-    return """Jogue dois dados. Se o total for oito, volte para 152. Se o total for qualquer número diferente de oito, volte para 121."""
+
+def T290() :
+    return "\nDescubra."
+
 
 def T291():
     return """O túnel continua para o norte por uma longa distância, antes de fazer uma curva fechada para a direita. Ao virá-la, você chega a um beco sem saída. Somente a entrada de um escorrega de madeira na parede oferece alguma esperança de continuidade no caminho. Você resolve se arriscar e sobe no escorrega. Desliza suavemente e aterrissa sobre as costas num aposento. Volte para 90."""
@@ -1468,7 +1481,9 @@ def T300() :
 
 
 def T301() :
-    return """\nO cano está úmido e cheio de limo, mas você segue engatinhando na escuridão abafada, escorregando e deslizando no caminho. Subitamente, sua mão toca em algo duro e quadrado; parece ser de madeira. Ao sacudi-la, a coisa chacoalha, e você conclui que deve estar segurando uma caixa. Se quiser engatinhar de volta e sair do cano para examinar o achado, volte para 162. Se preferir seguir em frente pelo cano, levando a caixa para examinar mais tarde, volte para 4.\n"""
+    return """\nO cano está úmido e cheio de limo, mas você segue engatinhando na escuridão abafada, escorregando e deslizando no caminho. Subitamente, sua mão toca em algo duro e quadrado; parece ser de madeira. Ao sacudi-la, a coisa chacoalha, e você conclui que deve estar segurando uma caixa.
+
+    \nVocê vai: \n(1)Engatinhar de volta e sair do cano para examinar o achado\n(2)Seguir em frente pelo cano, levando a caixa para examinar mais tarde"""
 
 
 def T302():
@@ -1494,21 +1509,24 @@ def T307() :
     \n(1)A porta do oeste\n(2)A porta do norte"""
 
 
-def T308():
+def T308() :
     return """\nA Medusa berra quando você entra na gaiola, mantendo os olhos firmemente fechados e desferindo golpes furiosos de um lado para o outro com a espada. Você sente a lâmina penetrar profundamente na fera e ouve um baque alto quando ela desaba pesadamente no chão. Você abre os olhos de novo e se arrepia com a visão da Medusa prostrada. O manto dela está preso por um grande broche constituído por uma única gema grande; é uma granada. Você a arranca, põe no bolso e sai do aposento, rumo ao norte. Vá para 316.\n"""
 
 def T309() :
     return "\nVocê cambaleia desnorteado em busca de uma poça de água, mas não encontra. O ácido queima com uma dor lancinante bem fundo na sua garganta. Você perde 3 pontos de ENERGIA."
 
 
-def T310():
+def T310() :
     return """\nVocê chega à parede do outro lado da câmara e vê duas portas. Se quiser abrir a portada esquerda, vá para 339. Se quiser abrir a porta da direita, volte para 262.\n"""
 
-def T311():
-    return """\nDepois de muito relutar, o Bárbaro concorda com sua alternativa. Vocês dois tomam distância e saltam por sobre o poço. Aterrissando em segurança do outro lado, você continua descendo pelo túnel. O Bárbaro, que vai na frente, subitamente tropeça em uma pedra, que se inclina para frente e dispara o mecanismo de um rochedo preso precariamente ao teto. O rochedo despenca sobre ele, derrubando-o e esmagando-lhe o crânio. Você terá que continuar sua jornada sozinho. Vá para 325.\n"""
 
-def T312():
+def T311() :
+    return "\nDepois de muito relutar, o Bárbaro concorda com sua alternativa. Vocês dois tomam distância e saltam por sobre o poço. Aterrissando em segurança do outro lado, você continua descendo pelo túnel. O Bárbaro, que vai na frente, subitamente tropeça em uma pedra, que se inclina para frente e dispara o mecanismo de um rochedo preso precariamente ao teto. O rochedo despenca sobre ele, derrubando-o e esmagando-lhe o crânio. Você terá que continuar sua jornada sozinho."
+
+
+def T312() :
     return """\nO disco, afiado como uma navalha, passa assobiando pela sua cabeça e crava-se profundamente em um dos pilares. Você se vira e põe-se em guarda para enfrentar o assassino, que avança com a espada longa desembainhada.\n\nNINJA	HABILIDADE 11	ENERGIA 9\n\nSe você vencer, volte para 232.\n"""
+
 
 def T313() :
     return "\nO túnel termina em uma encruzilhada. As pegadas que você vem seguindo viram para o norte, e você resolve manter-se na trilha delas."
@@ -1532,23 +1550,30 @@ def T318():
 def T319():
     return "\nA armadura e a espada pesam mais do que você pensa. No ar, você toma consciência, com horror, de que não vai conseguir chegar ao outro lado do poço. Você se choca contra o lado do poço, uns dois metros abaixo da borda, e despenca de cabeça para o fundo."
 
+
 def T320():
     return """\nVocê resolve revistar o Ninja e, em meio às vestes dele, encontra um saco de pano. Dentro, há um frasco de água, um pouco de arroz enrolado em folha de palmeira, um vidro de unguento e um lindo diamante. Você:\n\nComerá o arroz e beberá a água?	Vá para 330\nEsfregará um pouco do unguento nos seus ferimentos?	Volte para 269\nPegará apenas o diamante e sairá do salão?	Volte para 127\n"""
+
 
 def T321():
     return """\nVocê puxa o cordão e o pano sobe pelos lados da gaiola. A voz da mulher insiste para que você seja rápido, dizendo que o aposento está preparado para uma cilada, de forma que o piso desabará em um minuto por causa do seu peso extra. Se você ainda quiser ajudá-la, volte para 289. Se preferir sair do aposento e se dirigir para o norte pelo túnel, Volte para 316.\n"""
 
+
 def T322():
     return """\nVocê passa pela cadeira de madeira e logo retorna ao cruzamento, virando à direita para o oeste. Volte para 43.\n"""
 
-def T323():
-    return """\nDepois de amarrar a corda em torno da rocha, você desce devagar para o fundo do poço. Throm recupera a corda dele, soltando-a da rocha com uma sacudidela, e vocês partem juntos pelo novo túnel. Volte para 194.\n"""
+
+def T323() :
+    return "\nDepois de amarrar a corda em torno da rocha, você desce devagar para o fundo do poço. Throm recupera a corda dele, soltando-a da rocha com uma sacudidela, e vocês partem juntos pelo novo túnel."
+
 
 def T324():
     return """\nVocê falou com o servo aleijado dos Juízes da Prova? Se falou, volte para 256. Se não, volte para 79.\n"""
 
-def T325():
-    return """\nVocê se levanta e segue túnel abaixo. De repente, vê a luz do dia no fim do túnel. Enquanto corre na direção da visão mais bela que teve diante de si desde muito tempo, um céu claro e azul, árvores verdes, você sonha com o alegre cenário de pessoas vibrando. Mas não há recepção de herói da parte das pessoas à sua volta. Estão todas mortas. Você está dentro de uma câmara fria repleta de cadáveres e esqueletos com armaduras. A saída para a vitória era apenas uma ilusão. Somente os despojos de aventureiros do passado são reais. Profundamente deprimido, você caminha de volta para o túnel, mas se choca com uma barreira invisível. Você está aprisionado neste sinistro local, fadado a terminar seus dias na câmara dos mortos.\n"""
+
+def T325() :
+    return "\nVocê se levanta e segue túnel abaixo. De repente, vê a luz do dia no fim do túnel. Enquanto corre na direção da visão mais bela que teve diante de si desde muito tempo, um céu claro e azul, árvores verdes, você sonha com o alegre cenário de pessoas vibrando. Mas não há recepção de herói da parte das pessoas à sua volta. Estão todas mortas. Você está dentro de uma câmara fria repleta de cadáveres e esqueletos com armaduras. A saída para a vitória era apenas uma ilusão. Somente os despojos de aventureiros do passado são reais. Profundamente deprimido, você caminha de volta para o túnel, mas se choca com uma barreira invisível. Você está aprisionado neste sinistro local, fadado a terminar seus dias na câmara dos mortos."
+
 
 def T326():
     return "\nAdiante, o túnel faz uma curva fechada para a esquerda. Ao dobra-la, você quase bate de frente em dois ORCAS de aspecto feroz, armados de maças com pontas de ferro e usando armaduras de couro. Você está totalmente despreparado, e, enquanto desembainha a espada, um deles desfere-lhe um golpe de maça."
@@ -1649,11 +1674,13 @@ def T352() :
     \nVocê vai: \n(1)Lutar contra o Verme da Rocha\n(2)Correr de volta pelo túnel para o cruzamento, se dirigindo para o leste"""
 
 
-def T353():
-    return "\nAntes que você possa sair do caminho, o rochedo se choca contra seu ombro. Você perde 1 ponto de HABILIDADE e 4 pontos de ENERGIA. Se ainda estiver vivo, volte para 325.\n"
+def T353() :
+    return "\nAntes que você possa sair do caminho, o rochedo se choca contra seu ombro. Você perde 1 ponto de HABILIDADE e 4 pontos de ENERGIA."
 
-def T354():
-    return "\nA pílula faz com que você se sinta como se o mundo inteiro estivesse contra você. E perde 2 pontos de SORTE. O Anão lhe diz que agora você pode passar à segunda fase do teste. Ele apanha uma cesta de vime e lhe diz que ela contém uma serpente. Vira a cesta e a serpente cai no chão. É uma naja, e se ergue no ar, pronta para dar o bote. O Anão lhe diz que pretende testar suas reações. Você deverá agarrar a naja com as mãos nuas, pelo pescoço, evitando as presas mortais. Você se agacha, tensionando os músculos para o momento decisivo. Jogue dois dados. Se o total for igual ou menor que a sua HABILIDADE, volte para 55. Se o total for maior que a sua HABILIDADE, volte para 202.\n"
+
+def T354() :
+    return "\nA pílula faz com que você se sinta como se o mundo inteiro estivesse contra você. E perde 2 pontos de SORTE. O Anão lhe diz que agora você pode passar à segunda fase do teste. Ele apanha uma cesta de vime e lhe diz que ela contém uma serpente. Vira a cesta e a serpente cai no chão. É uma naja, e se ergue no ar, pronta para dar o bote. O Anão lhe diz que pretende testar suas reações. Você deverá agarrar a naja com as mãos nuas, pelo pescoço, evitando as presas mortais. Você se agacha, tensionando os músculos para o momento decisivo."
+
 
 def T355():
     return "\nVocê se aproxima silenciosamente por trás dos Hobglobins que lutam e, saltando das sombras, empurra-os contra a parede e foge correndo. Você olha para trás e os vê esparramados no chão. Rindo, você segue depressa para o norte."
@@ -1687,8 +1714,12 @@ def T363():
 def T364():
     return "\nEnquanto remove o sangue do Mantécora de sua espada, você leva um susto ao ver um homenzinho com um nariz grande saltar detrás de um dos pilares de mármore. Ele veste uma túnica justa, verde, e parece inofensivo, embora você fique desconfiado do modo como ele segura uma bola de vidro opaco com uma luz verde cintilante. 'Meus cumprimentos!', ele diz animadamente. 'Meu nome é Igbut, o Gnomo, e sou o Juiz da Prova para seu teste final. Não é preciso dizer que meus poderes mágicos são grandes, por isso você não deve tentar me atacar. Talvez você tenha sabido, durante a sua jornada, que as gemas desempenham um papel essencial na Prova dos Campeões. A porta de ferro à sua frente é a saída para a vitória, mas só há uma maneira de abri-la. É preciso pôr três gemas no mecanismo da fechadura, numa ordem específica. Cada gema irradia uma energia que acionará o mecanismo – se você as colocar corretamente, é claro. Eu o ajudarei de certa forma, mas primeiro precisamos das gemas certas. Você tem uma esmeralda?'. Se você tiver uma esmeralda, volte para 31. Se não tiver, volte para 3.\n"
 
-def T365():
-    return "\nVocê diz a Throm que matar o Anão não vai adiantar nada, pois vocês jamais acharão a saída da câmara sozinhos. Você argumenta que talvez surja uma chance de enganar o Anão mais tarde, quando tiverem descoberto a saída da câmara, por isso você pretende ir adiante com o teste do Anão. Você diz ao Anão que está pronto, e ele acena para que o siga. Throm deve aguardar a volta dele. Uma porta secreta abre-se na parede da câmara, e você segue o Anão até um pequeno aposento circular. Ele fecha a porta atrás de você e lhe entrega dois dados de osso, mandando que os jogue no chão. Você tira um seis e um dois: total, oito. O Anão pede que você os jogue mais uma vez, mas, agora, deve adivinhar se o total será igual, menor ou maior que oito. Se seu palpite for que será igual, volte para 290. Se achar que será menor que oito, volte para 191. Se optar por maior que oito, volte para 84.\n"
+
+def T365() :
+    return """\nVocê diz a Throm que matar o Anão não vai adiantar nada, pois vocês jamais acharão a saída da câmara sozinhos. Você argumenta que talvez surja uma chance de enganar o Anão mais tarde, quando tiverem descoberto a saída da câmara, por isso você pretende ir adiante com o teste do Anão. Você diz ao Anão que está pronto, e ele acena para que o siga. Throm deve aguardar a volta dele. Uma porta secreta abre-se na parede da câmara, e você segue o Anão até um pequeno aposento circular. Ele fecha a porta atrás de você e lhe entrega dois dados de osso, mandando que os jogue no chão. Você tira um seis e um dois: total, oito. O Anão pede que você os jogue mais uma vez, mas, agora, deve adivinhar se o total será igual, menor ou maior que oito.
+
+    \nQual o seu palpite? \n(1)Igual a oito\n(2)Maior que oito\n(2)Menor que oito"""
+
 
 def T366():
     return "\nA temperatura continua a subir, muito além dos limites de tolerância humanos. Estendido no chão quase derretido do túnel, você não consegue recuperar a consciência. Sua aventura termina aqui."
@@ -1757,8 +1788,10 @@ def T382() :
 def T383():
     return "\nPara sua grande surpresa, nada de extraordinário lhe acontece enquanto está sentado na cadeira. Nada há a fazer senão continuar para o norte pelo túnel. Volte para 188.\n"
 
-def T384():
-    return "\nO quarto degrau cede sob seu peso. Sua perna afunda num buraco e, antes que você tenha tempo de tirá-la, sente uma terrível dor no pé quando dentes que não pode ver cravam-se nele. Os guinchos agudos que você ouve lá embaixo são produzidos por ratazanas. Elas estão famintas e arrancam-lhe pedaços do pé, ansiosas pela sua carne. Você perde 2 pontos de ENERGIA. Você recupera o equilíbrio e consegue tirar a perna do buraco. Três ratazanas ainda se penduram pelos dentes no seu pé. Chutando freneticamente, você bate com as cabeças delas contra o corrimão até que se soltem. Você então enrola bandagens improvisadas com sua camisa rasgada em torno do pé que sangra e sobe os degraus para partir para o norte de novo. Volte para 277.\n"
+
+def T384() :
+    return "\nO quarto degrau cede sob seu peso. Sua perna afunda num buraco e, antes que você tenha tempo de tirá-la, sente uma terrível dor no pé quando dentes que não pode ver cravam-se nele. Os guinchos agudos que você ouve lá embaixo são produzidos por ratazanas. Elas estão famintas e arrancam-lhe pedaços do pé, ansiosas pela sua carne. Você perde 2 pontos de ENERGIA. Você recupera o equilíbrio e consegue tirar a perna do buraco. Três ratazanas ainda se penduram pelos dentes no seu pé. Chutando freneticamente, você bate com as cabeças delas contra o corrimão até que se soltem. Você então enrola bandagens improvisadas com sua camisa rasgada em torno do pé que sangra e sobe os degraus para partir para o norte de novo."
+
 
 def T385():
     return "\nVocê derrama o conteúdo do frasco de vidro na boca e engole o líquido claro. Embora não sinta qualquer mudança imediata, você espera que a poção crie a ilusão de que você é um TROGLODITA igual aos outros diante de você. Respirando fundo, penetra decididamente na caverna. Os Trogloditas continuam com sua dança tribal, acreditando que você é um deles. Você passa por eles andando naturalmente e segue para o norte. Infelizmente, os efeitos da poção são de curta duração, e você ouve um berro atrás de si, quando um dos Trogloditas repara em você, que é forçado a correr, atravessando a caverna. Adiante, você vê um rio subterrâneo que corre de leste para oeste, cruzando a caverna, e uma ponte que liga uma margem à outra. Se você quiser correr pela ponte, volte para 318. Se preferir mergulhar no rio, volte para 47.\n"
@@ -1771,8 +1804,10 @@ def T387():
     return "\nDa sua frente vem o baque de passos pesados que se aproximam. Da penumbra surge um ser grande e primitivo, vestido com uma pele de animal e carregando uma clava de madeira. Ao vê-lo, ele grunhe e cospe no chão, em seguida ergue a clava e avança na sua direção, com um ar nada amigável. Você desembainha a espada e se prepara para enfrentar o HOMEM DA CAVERNA."
 
 
-def T388():
-    return "\nO túnel logo chega a um beco sem saída. Um pedaço de papel, escurecido e enrugado de tão velho, está pregado na parede do fundo. Se você quiser pegá-lo para ver se contém alguma mensagem, volte para 23. Se preferir apressar-se a voltar pelo túnel para reunir-se ao Bárbaro, volte para 154.\n"
+def T388() :
+    return """\nO túnel logo chega a um beco sem saída. Um pedaço de papel, escurecido e enrugado de tão velho, está pregado na parede do fundo.
+
+    \nVocê vai: \n(1)Pegá-lo para ver se contém alguma mensagem\n(2)Voltar pelo túnel para reunir-se ao Bárbaro"""
 
 
 def T389():
