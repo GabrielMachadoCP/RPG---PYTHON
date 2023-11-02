@@ -3,8 +3,9 @@
 # Gabriel Pimentel  RM 99880
 # Hellen Assis      RM 98284
 
-#LINHA QUE ESTOU TRABALHANDO NO MOMENTO: 2730
+#LINHA QUE ESTOU TRABALHANDO NO MOMENTO: 3100
 #O CÓDIGO COMEÇA NA LINHA: 40
+#Fazer 3030 e 3043!!!
 
 #Imports
 import random
@@ -31,6 +32,7 @@ espigoes_ferro = 0
 bola_madeira = 0
 topazio = 0
 cranio = 0
+
 
 #Variáveis adicionadas para auxiliar mais para frente
 beber = ""
@@ -2763,6 +2765,16 @@ while energia > 0 or venceu == False :
                     energia -= 2
                     print(f"\nSua energia atual é {energia}")
     
+    print("\nParabéns você sobreviveu!")
+    
+    if energiaFixa - energia >= 4 :
+        print(f"\nVocê tem {energia} pontos de energia, gostaria de usar uma provisão para recuperar 4 pontos?")
+        resposta = input("\nSim ou Não?").lower()
+        
+        if resposta == "sim" :
+            energia += 4
+            provisoes -=1
+    
     print(textos.T81())
     escolha = int(input("Escolha: "))
     
@@ -3025,8 +3037,16 @@ while energia > 0 or venceu == False :
                                     print(f"\nSua energia atual é {energia}")
                         
                         print("\nParabéns você sobreviveu!")
+    
+                        if energiaFixa - energia >= 4 :
+                            print(f"\nVocê tem {energia} pontos de energia, gostaria de usar uma provisão para recuperar 4 pontos?")
+                            resposta = input("\nSim ou Não?").lower()
+
+                        if resposta == "sim" :
+                            energia += 4
+                            provisoes -=1
             
-            #Atacando o demônio com a espada
+            #Atacando o demônio com a espada > NÃO TA FEITOOO, FAZER ESSA BOSTA DESSA BATALHA QUANDO VOLTAR PARA CASA
             elif resposta == 3 :
                 print(textos.T327())
         
@@ -3039,12 +3059,254 @@ while energia > 0 or venceu == False :
             if resposta == 1 :
                 print(textos.T300())
             
-            #Atacando o demônio com a espada
+            #Atacando o demônio com a espada > NÃO TA FEITOOO, FAZER ESSA BOSTA DESSA BATALHA QUANDO VOLTAR PARA CASA
             elif resposta == 2 :
                 print(textos.T327())
         
         #Depois de desejar que o demônio vá embora ou de vencer a luta
         print(textos.T122())
+        resposta = int(input("Escolha: "))
+        
+        #Subindo lance da esquerda
+        if resposta == 1 :
+            print(textos.T176())
+            print(textos.T277())
+            print(textos.T338())
+            escolha = int(input("Escolha: "))
+            
+            #Pegando o colar
+            if escolha == 1 :
+                print(textos.T123())
+                habilidade += 1
+                energia += 1
+            
+            #Não pegando o colocar/continuando viagem
+            print(textos.T282())
+            resposta = int(input("Escolha: "))
+            
+            #Aceitando a oferta e viajando com o bárbaro para o oeste
+            if resposta == 1 :
+                print(textos.T22())
+                escolha = int(input("Escolha: "))
+                
+                #Aceitando a oferta e descendo a corda
+                if escolha == 1 :
+                    print(textos.T63())
+                    print(textos.T194())
+                    resposta = int(input("Escolha: "))
+                    
+                    #Abrindo o livro vermelho
+                    if resposta == 1 :
+                        print(textos.T52())
+                        escolha = int(input("Escolha: "))
+                        
+                        #Abrindo o livro preto
+                        if escolha == 1 :
+                            print(textos.T138_2())
+                            resposta = int(input("Escolha: "))
+                            
+                            #Bebendo o líquido
+                            if resposta == 1 :
+                                print(textos.T397())
+                                sorte += 2
+                                detectar_armadilhas = True
+                            
+                            #Passando o líquido nos ferimentos
+                            elif resposta == 2 :
+                                print(textos.T75_2())
+                    
+                    #Abrindo o livro preto
+                    elif resposta == 2 :
+                        print(textos.T138())
+                        escolha = int(input("Escolha: "))
+                        
+                        #Bebendo o líquido
+                        if escolha == 1 :
+                            print(textos.T397())
+                            sorte += 2
+                            detectar_armadilhas = True
+                            resposta = int(input("Escolha: "))
+                            
+                            #Abrindo o livro vermelho depois de beber
+                            if resposta == 1 :
+                                print(textos.T52_3())
+                        
+                        #Passando o líquido nos ferimentos
+                        elif escolha == 2 :
+                            print(textos.T75())
+                            resposta = int(input("Escolha: "))
+                            
+                            #Abrindo o livro vermelho depois de espalhar o líquido em seus ferimentos
+                            if resposta == 1 :
+                                print(textos.T52_3())
+                        
+                        #Abrindo o livro vemelho
+                        elif escolha == 3 :
+                            print(textos.T52_2())
+                            resposta = int(input("Escolha: "))
+                            
+                            #Bebendo o líquido
+                            if resposta == 1 :
+                                print(textos.T397_2())
+                                sorte += 2
+                                detectar_armadilhas = True
+                            
+                            #Passando nos ferimentos
+                            elif resposta == 2 :
+                                print(textos.T75_2())
+                    
+                    #Continuando pelo norte
+                    print(textos.T369())
+                    
+                    #Inicializando as variáveis para a batalha
+                    troll_caverna = inimigos.inimigos["troll_caverna"]
+
+                    #Matando o Guerreiro Esqueleto
+                    print("Briga com o Guerreiro Esqueleto...\n")
+
+                    while troll_caverna["Energia"] > 0 :
+                        ataqueInimigo = troll_caverna["Habilidade"] + random.randint(1,6) + random.randint(1,6)
+                        meuAtaque = habilidade + random.randint(1,6) + random.randint(1,6)
+
+                        print(f"O ataque do inimigo foi de: {ataqueInimigo}")
+                        input("Jogue os dados...🎲")
+                        print(f"O seu ataque foi de: {meuAtaque}\n")
+
+                        #Causando dano
+                        if meuAtaque > ataqueInimigo :
+                            print("Quer testar sua sorte para causar mais dano?")
+                            testarSorte = input().lower()
+
+                            if testarSorte == "sim" :
+                                if sorte > 0 :
+                                    input("Jogue os dados para testar sua sorte...\n")
+                                    teste_da_sorte = random.randint(1,6) + random.randint(1,6)
+
+                                    if teste_da_sorte <= sorte :
+                                        print("\nVocê teve sorte! Causou o dobro de dano")
+                                        troll_caverna["Energia"] -= 4
+                                        sorte -= 1
+                                        print("A energia atual do inimigo é: ", troll_caverna["Energia"])
+                                        print(f"Sua sorte agora é {sorte}")
+
+                                    else :
+                                        print("\nVocê não teve sorte, causou menos dano!")
+                                        troll_caverna["Energia"] -= 1
+                                        sorte -= 1
+                                        print("A energia atual do inimigo é:", troll_caverna["Energia"])
+                                        print(f"Sua sorte agora é {sorte}")
+                                        
+                                else :
+                                    print("Você infelizmente não tem mais sorte")
+                                    troll_caverna["Energia"] -= 2
+                                    print("\nA energia atual do inimigo é: ", troll_caverna["Energia"])
+
+                            else :
+                                troll_caverna["Energia"] -= 2
+                                print("\nA energia atual do inimigo é: ", troll_caverna["Energia"])
+
+                        #Tomando dano
+                        else :
+                            print("Quer testar sua sorte para receber menos dano?")
+                            testarSorte = input().lower()
+
+                            if testarSorte == "sim" :
+                                if sorte > 0 :
+                                    input("Jogue os dados para testar sua sorte...\n")
+                                    teste_da_sorte = random.randint(1,6) + random.randint(1,6)
+
+                                    if teste_da_sorte <= sorte :
+                                        print("\nVocê teve sorte! Recebeu menos dano!")
+                                        energia -= 1
+                                        sorte -= 1
+                                        print(f"Sua energia atual é {energia}")
+                                        print(f"Sua sorte agora é {sorte}")
+
+                                    else :
+                                        print("\nVocê não teve sorte, recebeu mais dano!")
+                                        energia -= 3
+                                        sorte -= 1
+                                        print(f"Sua energia atual é {energia}")
+                                        print(f"Sua sorte agora é {sorte}")
+
+                                else :
+                                    print("Você infelizmente não tem mais sorte")
+                                    energia -= 2
+                                    print(f"\nSua energia atual é {energia}")
+
+                            else :
+                                energia -= 2
+                                print(f"\nSua energia atual é {energia}")
+                    
+                    print("\nParabéns você sobreviveu!")
+    
+                    if energiaFixa - energia >= 4 :
+                        print(f"\nVocê tem {energia} pontos de energia, gostaria de usar uma provisão para recuperar 4 pontos?")
+                        resposta = input("\nSim ou Não?").lower()
+                        
+                        if resposta == "sim" :
+                            energia += 4
+                            provisoes -=1
+                    
+                    print(textos.T288())
+                    resposta = int(input("Escolha: "))
+                    
+                    #Colocando o anel
+                    if resposta == 1 :
+                        print(textos.T64())
+                        input("Jogue os dados...🎲")
+                        teste_da_habilidade = random.randint(1,6) + random.randint(1,6)
+                        
+                        #Passando no teste
+                        if teste_da_habilidade <= habilidade :
+                            print(textos.T115())
+                            energia += 3
+                        
+                        #Não passando no teste
+                        else :
+                            print(textos.T190())
+                            energia -= 3
+                            print(textos.T50())
+                    
+                    #Continuando sem ou anel ou depois de colocar o anel
+                    print(textos.T221())
+                    resposta = int(input("Escolha: "))
+                    
+                    #Examinando a caverna
+                    if resposta == 1 :
+                        print(textos.T374())
+                        input("\nTeste sua sorte...")
+                        teste_da_sorte = random.randint(1,6) + random.randint(1,6)
+                        
+                        #Tendo sorte
+                        if teste_da_sorte <= sorte :
+                            print(textos.T118())
+                        
+                        #Não tendo sorte
+                        else :
+                            print(textos.T295())
+                            energia -= 5
+                            print(textos.T206())
+                            provisoes -= 1
+                            energia += 4
+                    
+                    #Continuando depois de explorar a caverna ou não explorando
+                
+                #Oferece ajudar com a descida dele
+                elif escolha == 2 :
+                    print(textos.T184())
+                
+                #Fala para os dois pularem
+                elif escolha == 3 :
+                    print(textos.T311())
+            
+            #Não aceitando a oferta e indo para o leste sozinho
+            elif resposta == 2 :
+                print(textos.T388())
+        
+        #Subindo lance da direita
+        elif resposta == 2 :
+            print(textos.T384())
     
     #Abrindo a porta para o norte
     elif escolha == 3 or respostaT307 == 2 :
